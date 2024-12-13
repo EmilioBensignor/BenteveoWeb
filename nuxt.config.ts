@@ -3,7 +3,18 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ["~/assets/main.css"],
-  modules: ["@primevue/nuxt-module", "@nuxt/image", "@nuxt/icon", "@nuxtjs/seo", "nuxt-vitalizer", 'nuxt-booster', '@nuxtjs/fontaine', 'nuxt-anchorscroll', '@nuxt/scripts'],
+  modules: [
+    "@primevue/nuxt-module",
+    "@nuxt/image",
+    "@nuxt/icon",
+    "@nuxtjs/seo",
+    "nuxt-vitalizer",
+    'nuxt-booster',
+    '@nuxtjs/fontaine',
+    'nuxt-anchorscroll',
+    '@nuxt/scripts',
+    '@nuxt/fonts',
+  ],
   icon: {
     size: '1rem',
     serverBundle: {
@@ -16,18 +27,6 @@ export default defineNuxtConfig({
         {
           rel: 'stylesheet',
           href: 'https://unpkg.com/primeflex@latest/primeflex.css'
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.googleapis.com'
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com'
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap'
         },
       ],
     }
