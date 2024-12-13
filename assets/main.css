@@ -102,12 +102,11 @@ footer>div,
 
 /* Benteveo */
 
-.logo {
-  width: 5.625rem;
-}
-
 section {
   width: 100%;
+}
+
+section > div {
   padding: 1.25rem 1rem;
 }
 
@@ -125,17 +124,28 @@ a {
   font-size: 0.75rem;
 }
 
-.productosContainer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+.logo {
+  width: 5.625rem;
 }
-
 
 /* Buttons */
 
+.primaryButton {
+  width: max-content;
+  background: transparent;
+  border: 2px solid var(--color-white);
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 0.625rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  padding: 1rem 2rem;
+}
 
+.primaryButton:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
 
 /* Backgrounds & Typography */
 
@@ -144,7 +154,7 @@ a {
 }
 
 .text-white {
-  color: var(--color-blanco);
+  color: var(--color-white);
 }
 
 .text-dark-gray {

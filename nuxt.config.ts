@@ -15,6 +15,11 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/fonts',
   ],
+  fonts: {
+    defaults: {
+      weights: [400, 500, 700, 900],
+    }
+  },
   icon: {
     size: '1rem',
     serverBundle: {
