@@ -36,7 +36,7 @@ export default {
 <style scoped>
 
 .clientsContainer {
-    max-width: 1200px;
+    max-width: 100vw;
     overflow: hidden;
 }
 
