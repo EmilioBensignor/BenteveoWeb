@@ -149,6 +149,12 @@ a {
 
 /* Backgrounds & Typography */
 
+.bgCover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .bg-dark-black {
   background-color: var(--color-dark-black);
 }
