@@ -155,12 +155,20 @@ a {
   background-repeat: no-repeat;
 }
 
+.bg-white {
+  background-color: var(--color-white);
+}
+
 .bg-dark-black {
   background-color: var(--color-dark-black);
 }
 
 .text-white {
   color: var(--color-white);
+}
+
+.text-black {
+  color: var(--color-black);
 }
 
 .text-dark-gray {
