@@ -132,14 +132,18 @@ a {
 
 .primaryButton {
   width: max-content;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   border: 2px solid var(--color-white);
   text-decoration: none;
   color: var(--color-white);
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-weight: 500;
   transition: all 0.3s;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
 }
 
 .primaryButton:hover {
@@ -157,6 +161,7 @@ a {
 
 .bg-white {
   background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .bg-dark-black {

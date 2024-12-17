@@ -4,9 +4,8 @@
             <ClientOnly>
                 <swiper-container class="swiperLogos" ref="containerRef" :init="false">
                     <swiper-slide v-for="(logo, index) in slides" :key="index">
-                        <div class="allCenter">
+                        <div class="clientItem allCenter">
                             <img :src="`/images/clients/${logo.img}`" :alt="logo.alt">
-                            <p>{{ logo.name }}</p>
                         </div>
                     </swiper-slide>
                 </swiper-container>
@@ -28,6 +27,7 @@ const swiper = useSwiper(containerRef, {
         disableOnInteraction: false,
     },
     spaceBetween: 16,
+    allowTouchMove: false,
     breakpoints: {
         480: {
             slidesPerView: 4,
@@ -65,27 +65,5 @@ const swiper = useSwiper(containerRef, {
 .swiperLogos img {
     height: 3rem;
     object-fit: contain;
-}
-
-.swiperLogos .swiper-slide:hover img {
-    opacity: 0;
-    transform: scale(1.1);
-}
-
-.swiperLogos p {
-    width: 100%;
-    height: 20px;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    line-height: 20px;
-    font-size: 1rem;
-    font-weight: 600;
-    opacity: 0;
-}
-
-.swiperLogos .swiper-slide:hover p {
-    opacity: 1;
-    margin-top: -10px;
 }
 </style>
