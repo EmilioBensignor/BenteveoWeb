@@ -1,7 +1,7 @@
 <template>
   <main>
     <HomeHero />
-    <HomeProjects />
+    <!-- <HomeProjects /> -->
     <HomeClients />
   </main>
 </template>

@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  css: ["~/assets/main.css"],
+  css: ["~/assets/main.css", 'swiper/css',
+    'swiper/css/effect-creative',],
   modules: [
     "@primevue/nuxt-module",
     "@nuxt/image",
@@ -14,6 +15,7 @@ export default defineNuxtConfig({
     'nuxt-anchorscroll',
     '@nuxt/scripts',
     '@nuxt/fonts',
+    'nuxt-swiper',
   ],
   fonts: {
     defaults: {
