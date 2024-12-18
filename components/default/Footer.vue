@@ -106,4 +106,33 @@ footer>div {
     font-size: 0.75rem;
   }
 }
+
+@media (width >= 850px) {
+  footer > div {
+    padding: 4rem 2.5rem;
+  }
+}
+
+@media (width >= 992px) {
+  footer > div {
+    gap: 2rem;
+    padding: 5rem 3.75rem;
+  }
+
+  .footerUpper {
+    gap: 1rem;
+  }
+
+  .emailUs p, .emailUs a {
+    font-size: 1rem;
+  }
+
+  .addressFooter {
+    padding-bottom: 2rem;
+  }
+
+  .addressFooter div p {
+    font-size: 0.875rem;
+  }
+}
 </style>

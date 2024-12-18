@@ -1,11 +1,13 @@
 <template>
   <section>
     <div class="hero column">
-      <h1>
+      <div class="column">
+        <h1>
         Somos creadores de ideas
       </h1>
       <p>Las hacemos volar, con los pies en la tierra</p>
       <NuxtLink :to="routes.SOMOS" class="primaryButton">CONOCÉ MÁS</NuxtLink>
+      </div>
       <DefaultSocialMedia />
     </div>
   </section>
@@ -30,9 +32,18 @@ export default {
   gap: 1.25rem;
 }
 
+.hero > div {
+  justify-content: center;
+  gap: 1.25rem;
+}
+
 @media (width >=660px) {
   .hero {
     height: 55vh;
+    gap: 1.875rem;
+  }
+
+  .hero > div {
     gap: 1.875rem;
   }
 
@@ -48,6 +59,20 @@ export default {
 
   .hero p {
     font-size: 1.25rem;
+  }
+}
+
+@media (width >= 992px) {
+  .hero {
+    height: 85vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .socialMedia {
+    flex-direction: column;
   }
 }
 </style>

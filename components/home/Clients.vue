@@ -67,7 +67,7 @@ const swiper = useSwiper(containerRef, {
     object-fit: contain;
 }
 
-@media (width >= 660px) {
+@media (width >=660px) {
     .clientsContainer {
         padding: 2.5rem 1.875rem;
     }
@@ -84,6 +84,12 @@ const swiper = useSwiper(containerRef, {
 
     .swiperLogos img {
         height: 5rem;
+    }
+}
+
+@media (width >=992px) {
+    .clientsContainer {
+        padding: 4rem 3.75rem;
     }
 }
 </style>

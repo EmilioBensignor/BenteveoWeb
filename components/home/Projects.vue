@@ -163,4 +163,15 @@ export default {
     top: 30%;
   }
 }
+
+@media (width >= 992px) {
+  section .projectsContainer .tiltProject {
+    width: 28%;
+  }
+
+  .projectsContainer .tiltProject:nth-child(1n), .projectsContainer .tiltProject:nth-child(2n) {
+    margin-top: 0;
+  }
+  
+}
 </style>

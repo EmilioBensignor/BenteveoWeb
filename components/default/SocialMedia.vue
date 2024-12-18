@@ -49,4 +49,14 @@ export default {
     font-size: 1.25rem !important;
   }
 }
+
+@media (width >= 992px) {
+  .socialMedia {
+    gap: 1.25rem;
+  }
+
+  .socialMedia a span {
+    font-size: 1.5rem !important;
+  }
+}
 </style>

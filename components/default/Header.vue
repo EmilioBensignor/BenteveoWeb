@@ -97,4 +97,15 @@ header {
     gap: 0.875rem;
   }
 }
+
+@media (width >= 992px) {
+  header {
+    padding: 1.75rem 3.75rem;
+  }
+
+  .sandwichNav button {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
 </style>

@@ -91,5 +91,23 @@
     .gifContainer {
         left: 22.5%;
     }
+
+    .hacemosContent div p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (width >=992px) {
+    .hacemosContent {
+        padding: 4rem 4rem 4rem 6rem;
+    }
+
+    .hacemosContent div p {
+        font-size: 1.5rem;
+    }
+
+    .gifContainer {
+        width: 15rem;
+    }
 }
 </style>

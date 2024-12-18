@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white">
         <div class="column">
-            <div class="column">
+            <div class="ideas column">
                 <h2 class="column">
                     IDEAS QUE VUELAN,<span>QUE CONECTAN CON LA GENTE</span>
                 </h2>
@@ -12,19 +12,15 @@
                 </p>
             </div>
             <div class="servicesContainer column">
-                <div
-                    v-for="(service, index) in services"
-                    :key="index"
-                    class="service column"
-                >
-                    <div class="rowCenter">
-                        <img
-                            :src="`/images/services/${service.img}-Benteveo.svg`"
-                            :alt="`${service.alt} Benteveo`"
-                        />
-                        <h3>{{ service.title }}:</h3>
+                <div v-for="(service, index) in services" :key="index" class="service column">
+                    <div class="column">
+                        <div class="serviceHeader rowCenter">
+                            <img :src="`/images/services/${service.img}-Benteveo.svg`"
+                                :alt="`${service.alt} Benteveo`" />
+                            <h3>{{ service.title }}:</h3>
+                        </div>
+                        <p class="text-dark-gray">{{ service.description }}</p>
                     </div>
-                    <p class="text-dark-gray">{{ service.description }}</p>
                     <NuxtLink to="#">CONOCÉ MÁS</NuxtLink>
                 </div>
             </div>
@@ -44,11 +40,11 @@ export default {
 </script>
 
 <style scoped>
-section > div {
+section>div {
     gap: 2rem;
 }
 
-section > div > div:first-of-type {
+.ideas {
     gap: 0.25rem;
 }
 
@@ -57,7 +53,8 @@ section > div > div:first-of-type {
 }
 
 .service,
-.service > div:first-of-type {
+.service>div,
+.serviceHeader {
     gap: 0.625rem;
 }
 
@@ -98,11 +95,11 @@ section > div > div:first-of-type {
 }
 
 @media (width >=660px) {
-    section > div {
+    section>div {
         gap: 2.5rem;
     }
 
-    section > div > div:first-of-type {
+    section>div>div:first-of-type {
         gap: 0.5rem;
     }
 
@@ -115,7 +112,37 @@ section > div > div:first-of-type {
 
     .service {
         width: 48%;
+        justify-content: space-between;
         gap: 0.75rem;
+    }
+}
+
+@media (width >=992px) {
+    section>div {
+        gap: 3rem;
+    }
+
+    section>div>div:first-of-type {
+        gap: 0.75rem;
+    }
+
+    .servicesContainer {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    .service {
+        width: 30%;
+        gap: 1rem;
+    }
+
+    .serviceHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .serviceHeader img {
+        width: 3.5rem;
     }
 }
 </style>
