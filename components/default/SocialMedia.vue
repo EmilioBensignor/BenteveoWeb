@@ -2,7 +2,7 @@
   <ul class="socialMedia rowCenter">
     <li v-for="(media, index) in socialMedia" :key="index">
       <a :href="media.link" target="_blank">
-        <Icon :name="`mdi:${media.icon}`" class="text-white" />
+        <Icon :name="`mdi:${media.icon}`" />
       </a>
     </li>
   </ul>
@@ -38,6 +38,15 @@ export default {
 <style scoped>
 .socialMedia {
   gap: 0.625rem;
+}
+
+.socialMedia a span {
+  color: var(--color-white);
+  transition: 0.25s ease-in-out;
+}
+
+.socialMedia a span:hover {
+  color: var(--color-primary);
 }
 
 @media (width >=660px) {

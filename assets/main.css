@@ -6,6 +6,7 @@
   --color-white: #FFFFFF;
   --color-primary: #FCB716;
   --color-dark-gray: #808080;
+  --color-gray: #CDCED0;
 }
 
 * {
@@ -121,7 +122,8 @@ h3 {
 
 p,
 .primaryButton,
-a {
+a,
+li {
   font-size: 0.75rem;
 }
 
@@ -185,6 +187,10 @@ a {
   color: var(--color-dark-gray);
 }
 
+.text-gray {
+  color: var(--color-gray);
+}
+
 @media (width >=660px) {
   section>div {
     padding: 2.5rem 1.875rem;
@@ -204,7 +210,8 @@ a {
 
   p,
   .primaryButton,
-  a {
+  a,
+  li {
     font-size: 0.875rem;
   }
 
@@ -240,7 +247,7 @@ a {
   }
 }
 
-@media (width >= 992px) {
+@media (width >=992px) {
   section>div {
     padding: 5rem 3.75rem;
   }
@@ -259,7 +266,8 @@ a {
 
   p,
   .primaryButton,
-  a {
+  a,
+  li {
     font-size: 1rem;
   }
 
@@ -276,7 +284,7 @@ a {
   }
 }
 
-@media (width >= 1280px) {
+@media (width >=1280px) {
   h1 {
     font-size: 3.5rem;
   }
@@ -286,7 +294,7 @@ a {
   }
 }
 
-@media (width >= 1440px) {
+@media (width >=1440px) {
   section>div {
     padding: 6rem 5.625rem;
   }

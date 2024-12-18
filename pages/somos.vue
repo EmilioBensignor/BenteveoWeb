@@ -1,5 +1,8 @@
 <template>
   <main>
-    <h1>Somos</h1>
+    <SomosHero />
+    <SomosModelo />
+    <SomosPremiosSectores />
+    <SomosCapacidades />
   </main>
 </template>
