@@ -9,7 +9,7 @@
                     <p class="font-bold">SI LO PENSAMOS,</p>
                     <h2>LO HACEMOS</h2>
                 </div>
-                <p>
+                <p class="maxParagraph">
                     La creatividad es el origen de todo lo que hacemos. Pero no nos detenemos en las ideas; las hacemos
                     realidad. Las convertimos en acciones innovadoras, útiles e inteligentes orientadas a lograr
                     resultados.
@@ -108,6 +108,42 @@
 
     .gifContainer {
         width: 15rem;
+    }
+}
+
+@media (width >= 1280px) {
+    .hacemosContent {
+        gap: 2rem;
+        padding: 5rem 5rem 5rem 9rem;
+    }
+
+    .gifContainer {
+        width: 19rem;
+        left: 24%;
+    }
+}
+
+@media (width >=1440px) {
+    .hacemosContent {
+        padding: 6rem 6rem 6rem 11rem;
+    }
+
+    .hacemosContent div p {
+        font-size: 1.625rem;
+    }
+
+    .gifContainer {
+        width: 22rem;
+    }
+}
+
+@media (width >= 1920px) {
+    .hacemosContent {
+        padding: 8rem 6rem 8rem 11rem;
+    }
+
+    .gifContainer {
+        left: 27%;
     }
 }
 </style>

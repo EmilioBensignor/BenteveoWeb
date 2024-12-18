@@ -108,4 +108,10 @@ header {
     height: 2.75rem;
   }
 }
+
+@media (width >= 1440px) {
+  header {
+    padding: 2rem 5.625rem;
+  }
+}
 </style>

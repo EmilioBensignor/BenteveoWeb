@@ -5,7 +5,7 @@
                 <h2 class="column">
                     IDEAS QUE VUELAN,<span>QUE CONECTAN CON LA GENTE</span>
                 </h2>
-                <p class="text-dark-gray">
+                <p class="maxParagraph text-dark-gray">
                     Creamos beneficios para nuestros clientes. Estrategias
                     transformadoras que generen experiencias memorables,
                     conectando a las marcas con los deseos de sus consumidores.
@@ -143,6 +143,24 @@ section>div {
 
     .serviceHeader img {
         width: 3.5rem;
+    }
+}
+
+@media (width >= 1080px) {
+    .service {
+        width: 31%;
+    }
+}
+
+@media (width >= 1280px) {
+    .service {
+        width: 31.45%;
+    }
+}
+
+@media (width >= 1440px) {
+    .service {
+        width: 31.625%;
     }
 }
 </style>

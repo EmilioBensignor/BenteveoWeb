@@ -92,4 +92,14 @@ const swiper = useSwiper(containerRef, {
         padding: 4rem 3.75rem;
     }
 }
+
+@media (width >=1440px) {
+    .clientsContainer {
+        padding: 5rem 5.625rem;
+    }
+
+    .swiperLogos img {
+        height: 6rem;
+    }
+}
 </style>

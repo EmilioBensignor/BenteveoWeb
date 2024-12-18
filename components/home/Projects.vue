@@ -7,8 +7,8 @@
           :aria-label="`See more about ${project.title}`" -->
           <img :src="`/images/projects/${project.brand}-proyecto-Benteveo.webp`" :alt="`${project.altBrand}`"
             class="brandImg" />
-          <img :src="`/images/projects/${project.img}-proyecto-Benteveo.webp`" :alt="`${project.altImg} Proyecto Benteveo`"
-            class="w-full h-full projectImg" />
+          <img :src="`/images/projects/${project.img}-proyecto-Benteveo.webp`"
+            :alt="`${project.altImg} Proyecto Benteveo`" class="w-full h-full projectImg" />
           <div class="projectInfo">
             <h3 class="text-center text-white">{{ project.title }}</h3>
             <p class="text-center text-white">{{ project.text }}</p>
@@ -126,7 +126,8 @@ export default {
   transition: all 0.3s;
 }
 
-.tiltProject:hover .seeMore, .tiltProject:hover .brandImg {
+.tiltProject:hover .seeMore,
+.tiltProject:hover .brandImg {
   opacity: 1;
 }
 
@@ -134,7 +135,7 @@ export default {
   text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.85);
 }
 
-@media (width >= 660px) {
+@media (width >=660px) {
   .projectsContainer {
     justify-content: center;
     flex-direction: row;
@@ -164,14 +165,29 @@ export default {
   }
 }
 
-@media (width >= 992px) {
+@media (width >=992px) {
+  .projectsContainer {
+    justify-content: space-between;
+  }
+
   section .projectsContainer .tiltProject {
     width: 28%;
   }
 
-  .projectsContainer .tiltProject:nth-child(1n), .projectsContainer .tiltProject:nth-child(2n) {
+  .projectsContainer .tiltProject:nth-child(1n),
+  .projectsContainer .tiltProject:nth-child(2n) {
     margin-top: 0;
   }
-  
+
+}
+
+@media (width >=1440px) {
+  .projectsContainer {
+    padding-bottom: 8rem;
+  }
+
+  .tiltProject h3 {
+    font-size: 2rem;
+  }
 }
 </style>

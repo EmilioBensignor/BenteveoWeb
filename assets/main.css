@@ -129,6 +129,10 @@ a {
   width: 5.625rem;
 }
 
+.maxParagraph {
+  max-width: 450px;
+}
+
 /* Buttons */
 
 .primaryButton {
@@ -212,6 +216,10 @@ a {
   .logo {
     width: 7.5rem;
   }
+
+  .maxParagraph {
+    max-width: 650px;
+  }
 }
 
 @media (width >=850px) {
@@ -261,5 +269,33 @@ a {
 
   .logo {
     width: 9.375rem;
+  }
+
+  .maxParagraph {
+    max-width: 730px;
+  }
+}
+
+@media (width >= 1280px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+  }
+}
+
+@media (width >= 1440px) {
+  section>div {
+    padding: 6rem 5.625rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .primaryButton {
+    font-size: 1.125rem;
   }
 }

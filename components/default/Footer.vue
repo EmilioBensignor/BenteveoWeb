@@ -135,4 +135,27 @@ footer>div {
     font-size: 0.875rem;
   }
 }
+
+@media (width >=1280px) {
+  .addressFooter div {
+    width: 20%;
+  }
+}
+
+@media (width >=1440px) {
+
+  .addressFooter div {
+    width: 18%;
+  }
+
+  .addressFooter div p {
+    font-size: 1rem;
+  }
+}
+
+@media (width >=1920px) {
+  .addressFooter div {
+    width: 14%;
+  }
+}
 </style>

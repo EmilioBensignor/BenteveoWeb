@@ -75,4 +75,20 @@ export default {
     flex-direction: column;
   }
 }
+
+@media (width >= 1280px) {
+  .hero p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero > div {
+    gap: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.75rem;
+  }
+}
 </style>
