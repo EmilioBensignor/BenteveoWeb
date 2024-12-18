@@ -133,4 +133,34 @@ export default {
 .tiltProject:hover h3 {
   text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.85);
 }
+
+@media (width >= 660px) {
+  .projectsContainer {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 6rem;
+    padding-bottom: 5rem;
+  }
+
+  .tiltProject {
+    width: 45%;
+  }
+
+  .projectsContainer .tiltProject:nth-child(1n) {
+    margin-top: 6rem;
+  }
+
+  .projectsContainer .tiltProject:nth-child(2n) {
+    margin-top: -8rem;
+  }
+
+  .projectsContainer .tiltProject:last-of-type {
+    margin-top: 0;
+  }
+
+  .projectInfo {
+    top: 30%;
+  }
+}
 </style>

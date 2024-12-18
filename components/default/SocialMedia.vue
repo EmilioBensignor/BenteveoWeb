@@ -39,4 +39,14 @@ export default {
 .socialMedia {
   gap: 0.625rem;
 }
+
+@media (width >=660px) {
+  .socialMedia {
+    gap: 1rem;
+  }
+
+  .socialMedia a span {
+    font-size: 1.25rem !important;
+  }
+}
 </style>

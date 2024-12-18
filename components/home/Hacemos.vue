@@ -46,4 +46,32 @@
     .hacemosContent div p {
         font-size: 1rem;
     }
+
+    @media (width >= 660px) {
+        .pensamosHacemos {
+            align-items: flex-end;
+            position: relative;
+        }
+
+        .hacemosContent {
+            width: 60%;
+            gap: 1.25rem;
+            padding: 3rem 3rem 3rem 5rem;
+        }
+
+        .gifContainer {
+            width: 12.5rem;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 16%;
+            border: 10px solid var(--color-white);
+            transform: translateY(-50%);
+        }
+
+        .gifContainer img {
+            width: 100%;
+            height: auto;
+        }
+    }
 </style>

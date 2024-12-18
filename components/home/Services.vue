@@ -2,17 +2,27 @@
     <section class="bg-white">
         <div class="column">
             <div class="column">
-                <h2 class="column">IDEAS QUE VUELAN,<span>QUE CONECTAN CON LA GENTE</span></h2>
-                <p>
-                    Creamos beneficios para nuestros clientes. Estrategias transformadoras que generen experiencias
-                    memorables, conectando a las marcas con los deseos de sus consumidores.
+                <h2 class="column">
+                    IDEAS QUE VUELAN,<span>QUE CONECTAN CON LA GENTE</span>
+                </h2>
+                <p class="text-dark-gray">
+                    Creamos beneficios para nuestros clientes. Estrategias
+                    transformadoras que generen experiencias memorables,
+                    conectando a las marcas con los deseos de sus consumidores.
                 </p>
             </div>
             <div class="servicesContainer column">
-                <div v-for="(service, index) in services" :key="index" class="service column">
+                <div
+                    v-for="(service, index) in services"
+                    :key="index"
+                    class="service column"
+                >
                     <div class="rowCenter">
-                        <img :src="`/images/services/${service.img}-Benteveo.svg`" :alt="`${service.alt} Benteveo`">
-                        <h3>{{ service.title }}</h3>
+                        <img
+                            :src="`/images/services/${service.img}-Benteveo.svg`"
+                            :alt="`${service.alt} Benteveo`"
+                        />
+                        <h3>{{ service.title }}:</h3>
                     </div>
                     <p class="text-dark-gray">{{ service.description }}</p>
                     <NuxtLink to="#">CONOCÉ MÁS</NuxtLink>
@@ -23,14 +33,14 @@
 </template>
 
 <script>
-import { services } from '~/shared/services';
+import { services } from "~/shared/services";
 export default {
     data() {
         return {
             services: services,
-        }
-    }
-}
+        };
+    },
+};
 </script>
 
 <style scoped>
@@ -46,7 +56,8 @@ section > div > div:first-of-type {
     gap: 1.25rem;
 }
 
-.service, .service > div:first-of-type {
+.service,
+.service > div:first-of-type {
     gap: 0.625rem;
 }
 
@@ -68,7 +79,7 @@ section > div > div:first-of-type {
 }
 
 .service a::before {
-    content: '';
+    content: "";
     width: 0;
     height: 2px;
     background: var(--color-primary);
@@ -84,5 +95,27 @@ section > div > div:first-of-type {
 
 .service a:hover:before {
     width: 100%;
+}
+
+@media (width >=660px) {
+    section > div {
+        gap: 2.5rem;
+    }
+
+    section > div > div:first-of-type {
+        gap: 0.5rem;
+    }
+
+    .servicesContainer {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .service {
+        width: 48%;
+        gap: 0.75rem;
+    }
 }
 </style>

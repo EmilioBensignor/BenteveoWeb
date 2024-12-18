@@ -66,12 +66,44 @@ footer>div {
   width: 40%;
 }
 
-.addressFooter div p {
+.addressFooter div p, .rights p {
   text-align: center;
   font-size: 0.5rem;
 }
 
-.rights p {
-  font-size: 0.5rem;
+@media (width >=660px) {
+  footer>div {
+    gap: 1.5rem;
+    padding: 2.5rem 1.875rem;
+  }
+
+  .emailUs p,
+  .emailUs a {
+    font-size: 0.875rem;
+  }
+
+  .addressFooter {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .addressFooter div {
+    width: 23%;
+  }
+
+  .addressFooter div p, .rights p {
+    font-size: 0.625rem;
+  }
+}
+
+@media (width >=800px) {
+  .addressFooter {
+    justify-content: center;
+  }
+
+  .addressFooter div p, .rights p {
+    font-size: 0.75rem;
+  }
 }
 </style>

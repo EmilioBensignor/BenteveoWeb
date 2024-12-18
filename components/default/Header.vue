@@ -3,7 +3,11 @@
     <div class="logoEmailUs rowCenter">
       <div>
         <NuxtLink :to="routes.HOME">
-          <NuxtImg class="logo" src="/images/headerFooter/Logo-Benteveo.webp" alt="Logo Benteveo" />
+          <NuxtImg
+            class="logo"
+            src="/images/headerFooter/Logo-Benteveo.webp"
+            alt="Logo Benteveo"
+          />
         </NuxtLink>
       </div>
       <div class="emailUs rowCenter">
@@ -20,15 +24,15 @@
 </template>
 
 <script>
-import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
+import { ROUTE_NAMES } from "~/constants/ROUTE_NAMES";
 
 export default {
   data() {
     return {
-      routes: ROUTE_NAMES
-    }
-  }
-}
+      routes: ROUTE_NAMES,
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -63,5 +67,20 @@ header {
 
 .sandwichNav button span {
   font-size: 1.25rem !important;
+}
+
+@media (width >= 660px) {
+  header {
+    padding: 1.5rem 1.875rem;
+  }
+
+  .emailUs {
+    display: flex;
+  }
+
+  .sandwichNav button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 </style>

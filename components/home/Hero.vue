@@ -29,4 +29,14 @@ export default {
   justify-content: center;
   gap: 1.25rem;
 }
+
+@media (width >=660px) {
+  .hero {
+    gap: 1.875rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
 </style>
