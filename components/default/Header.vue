@@ -83,4 +83,18 @@ header {
     height: 2.5rem;
   }
 }
+
+@media (width >=850px) {
+  header {
+    padding: 1.75rem 2.5rem;
+  }
+
+  .logoEmailUs {
+    gap: 2rem;
+  }
+
+  .sandwichNav {
+    gap: 0.875rem;
+  }
+}
 </style>

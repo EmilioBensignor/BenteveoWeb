@@ -32,11 +32,22 @@ export default {
 
 @media (width >=660px) {
   .hero {
+    height: 55vh;
     gap: 1.875rem;
   }
 
   .hero p {
     font-size: 1rem;
+  }
+}
+
+@media (width >=850px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
   }
 }
 </style>
