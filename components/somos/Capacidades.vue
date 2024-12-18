@@ -26,38 +26,38 @@ export default {
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "COMUNICACIÓN",
+                    text: "Creación de ideas transformadoras que impulsan ventas y construyen marcas cercanas a sus consumidores.",
                 },
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "CONVERSIÓN",
+                    text: "Conectamos con mensajes precisos y relevantes, transformando el interés en acciones efectivas.",
                 },
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "ENTRETENIMIENTO",
+                    text: "Fusionamos la marca con el entretenimiento para generar contenido atractivo que capture la atención y el interés.",
                 },
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "EXPERIENCIA",
+                    text: "Diseñamos experiencias singulares que despiertan la imaginación y el interés, tanto en el mundo digital como en el real.",
                 },
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "SERVICIO",
+                    text: "Implementamos estrategias de CRM basadas en datos sólidos para fomentar relaciones duraderas y significativas.",
                 },
                 {
                     img: "",
                     alt: "",
-                    title: "",
-                    text: "",
+                    title: "TRANSFORMACIÓN",
+                    text: "Elaboramos acciones innovadoras para acelerar el crecimiento y garantizar la evolución continua de los negocios.",
                 },
             ],
         }
@@ -66,7 +66,7 @@ export default {
 </script>
 
 <style scoped>
-section > div > div:first-of-type {
+section>div>div:first-of-type {
     gap: 0.5rem;
 }
 </style>
