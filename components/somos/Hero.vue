@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="hero column">
+        <div class="hero column bgCover">
             <div class="column">
                 <h1>
                     UN EQUIPO, UNA VISIÓN
@@ -17,6 +17,7 @@
     height: 60vh;
     justify-content: center;
     gap: 1.25rem;
+    background-image: url("/images/somos/Equipo-Benteveo.webp");
 }
 
 .hero>div {

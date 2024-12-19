@@ -4,5 +4,6 @@
     <SomosModelo />
     <SomosPremiosSectores />
     <SomosCapacidades />
+    <SomosEquipo />
   </main>
 </template>
