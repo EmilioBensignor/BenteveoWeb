@@ -66,7 +66,7 @@ export default {
 </script>
 
 <style scoped>
-section > div {
+section>div {
     gap: 2rem;
 }
 
@@ -84,5 +84,42 @@ section>div>div:first-of-type {
 
 .capacidad h3 {
     font-weight: 500;
+}
+
+.capacidad p {
+    max-width: 410px;
+}
+
+@media (width >=660px) {
+    .capacidadesContainer {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .capacidad {
+        width: 40%;
+        height: 13rem;
+    }
+
+    .capacidad p {
+        max-width: 100%;
+    }
+}
+
+@media (width >=992px) {
+    .capacidad {
+        width: 30%;
+        height: 16rem;
+        gap: 1rem;
+    }
+
+    .capacidad h3 {
+        font-weight: 400;
+    }
+
+    .capacidad p {
+        max-width: 100%;
+    }
 }
 </style>

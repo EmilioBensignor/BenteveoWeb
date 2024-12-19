@@ -40,4 +40,46 @@ export default {
 .premiosSectores>div>ul {
     gap: 0.5rem;
 }
+
+@media (width >=480px) {
+    .premiosSectores {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .premiosSectores > div {
+        width: 45%;
+    }
+}
+
+@media (width >=850px) {
+    .premiosSectores > div {
+        width: 47.5%;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+@media (width >=1080px) {
+    .premiosSectores {
+        justify-content: flex-start;
+        gap: 5rem;
+    }
+
+    .premiosSectores > div {
+        width: max-content;
+    }
+}
+
+@media (width >=1280px) {
+    .premiosSectores {
+        gap: 8rem;
+    }
+}
+
+@media (width >=1440px) {
+    .premiosSectores {
+        gap: 12rem;
+    }
+}
 </style>

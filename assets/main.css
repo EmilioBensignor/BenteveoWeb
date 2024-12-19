@@ -204,6 +204,10 @@ li {
     font-size: 1.75rem;
   }
 
+  .modelo h2 {
+    font-size: 1.5rem;
+  }
+
   h3 {
     font-size: 1.25rem;
   }
@@ -238,7 +242,8 @@ li {
     font-size: 2.4rem;
   }
 
-  h2 {
+  h2,
+  .modelo h2 {
     font-size: 2rem;
   }
 
@@ -256,7 +261,8 @@ li {
     font-size: 3rem;
   }
 
-  h2 {
+  h2,
+  .modelo h2 {
     font-size: 2.5rem;
   }
 
@@ -289,7 +295,8 @@ li {
     font-size: 3.5rem;
   }
 
-  h2 {
+  h2,
+  .modelo h2 {
     font-size: 2.75rem;
   }
 }

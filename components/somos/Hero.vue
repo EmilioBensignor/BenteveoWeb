@@ -28,11 +28,11 @@
 @media (width >=660px) {
     .hero {
         height: 55vh;
-        gap: 1.875rem;
+        gap: 1.5rem;
     }
 
     .hero>div {
-        gap: 1.875rem;
+        gap: 1.5rem;
     }
 
     .hero p {

@@ -56,4 +56,52 @@
 .adnContainer {
     gap: 0.25rem;
 }
+
+.adnContainer>div>p {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+@media (width >=660px) {
+    .equipo {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .equipoContent {
+        width: 60%;
+        padding: 2.5rem 1.875rem;
+    }
+
+    .adnContainer>div>p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+@media (width >=992px) {
+    .equipoContent {
+        gap: 2rem;
+        padding: 5rem 3.75rem;
+    }
+
+    .adnContainer {
+        gap: 0.5rem;
+    }
+
+    .adnContainer > p {
+        max-width: 580px;
+    }
+}
+
+@media (width >=1440px) {
+    .equipoContent {
+        gap: 2.25rem;
+        padding: 6rem 5.625rem;
+    }
+
+    .adnContainer {
+        gap: 0.75rem;
+    }
+}
 </style>
