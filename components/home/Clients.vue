@@ -1,6 +1,6 @@
 <template>
     <section class="w-full bg-white">
-        <div class="clientsContainer">
+        <div class="clientsContainer wow animate__animated animate__fadeInUp">
             <ClientOnly>
                 <swiper-container class="swiperLogos" ref="containerRef" :init="false">
                     <swiper-slide v-for="(logo, index) in slides" :key="index">

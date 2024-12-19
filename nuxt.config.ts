@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ["~/assets/main.css", 'swiper/css',
-    'swiper/css/effect-creative',],
+    'swiper/css/effect-creative', 'animate.css'],
   modules: [
     "@primevue/nuxt-module",
     "@nuxt/image",
@@ -38,6 +38,9 @@ export default defineNuxtConfig({
       ],
     }
   },
+  plugins: [
+    { src: '~/plugins/wow.client.js', mode: 'client' }
+  ],
   site: {
     url: 'https://benteveo.com',
     name: 'Benteveo',

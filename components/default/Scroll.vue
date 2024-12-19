@@ -3,9 +3,9 @@
 </template>
 
 <style scoped>
-/* .scrollDown {
+.scrollDown {
     display: none;
-} */
+}
 
 .scrollDown {
     width: 1px;
