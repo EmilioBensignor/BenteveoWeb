@@ -26,7 +26,7 @@ export default {
         }
     }
 }
-</script>
+</script>≈
 
 <style scoped>
 .premiosSectores {

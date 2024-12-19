@@ -9,6 +9,7 @@
       <NuxtLink :to="routes.SOMOS" class="primaryButton">CONOCÉ MÁS</NuxtLink>
       </div>
       <DefaultSocialMedia />
+      <DefaultScroll />
     </div>
   </section>
 </template>

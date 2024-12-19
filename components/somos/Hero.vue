@@ -8,6 +8,7 @@
                 <p>La creatividad como herramienta para construir conexiones potentes.</p>
             </div>
             <DefaultSocialMedia />
+            <DefaultScroll />
         </div>
     </section>
 </template>
