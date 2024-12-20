@@ -50,28 +50,38 @@
     content: "";
 }
 
+@keyframes elasticus {
+    0% {
+        transform-origin: 0% 0%;
+        transform: scale(1, 0);
+    }
+
+    50% {
+        transform-origin: 0% 0%;
+        transform: scale(1, 1);
+    }
+
+    50.1% {
+        transform-origin: 0% 100%;
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform-origin: 0% 100%;
+        transform: scale(1, 0);
+    }
+}
+
 @media (width >=992px) {
     .scrollDown {
         display: block;
     }
 }
 
-@keyframes elasticus {
-    0% {
-        transform-origin: 0% 0%;
-        transform: scale(1, 0);
-    }
-    50% {
-        transform-origin: 0% 0%;
-        transform: scale(1, 1);
-    }
-    50.1% {
-        transform-origin: 0% 100%;
-        transform: scale(1, 1);
-    }
-    100% {
-        transform-origin: 0% 100%;
-        transform: scale(1, 0);
+@media (width >=1440px) {
+    .scrollDown {
+        right: 5.625rem;
+        bottom: 3rem;
     }
 }
 </style>
