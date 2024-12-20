@@ -5,3 +5,9 @@
     <DefaultFooter />
   </div>
 </template>
+
+<style>
+.overflow {
+  overflow: hidden;
+}
+</style>

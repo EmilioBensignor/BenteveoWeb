@@ -31,6 +31,7 @@ export default {
   height: 60vh;
   justify-content: center;
   gap: 1.25rem;
+  position: relative;
 }
 
 .hero > div {

@@ -1,7 +1,8 @@
 <template>
   <section>
     <div class="w-full projectsContainer columnAlignCenter">
-      <article v-for="(project, index) in projects" :key="index" :ref="'tiltProject' + index" class="tiltProject wow animate__animated animate__fadeInUp">
+      <article v-for="(project, index) in projects" :key="index" :ref="'tiltProject' + index"
+        class="tiltProject wow animate__animated animate__fadeInUp">
         <div class="w-full h-full flex">
           <!-- :to="`/projects/${project.slug}`"
           :aria-label="`See more about ${project.title}`" -->

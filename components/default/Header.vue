@@ -3,11 +3,7 @@
     <div class="logoEmailUs rowCenter">
       <div>
         <NuxtLink :to="routes.HOME">
-          <NuxtImg
-            class="logo"
-            src="/images/headerFooter/Logo-Benteveo.webp"
-            alt="Logo Benteveo"
-          />
+          <NuxtImg class="logo" src="/images/headerFooter/Logo-Benteveo.webp" alt="Logo Benteveo" />
         </NuxtLink>
       </div>
       <div class="emailUs rowCenter">
@@ -16,10 +12,12 @@
     </div>
     <div class="sandwichNav rowCenter">
       <p>MENU</p>
-      <button class="allCenter">
-        <Icon name="mingcute:menu-line" class="text-white" />
+      <button class="allCenter" :class="{ 'open': isMenuOpen }" @click="toggleMenu">
+        <Icon :name="isMenuOpen ? 'mingcute:close-fill' : 'mingcute:menu-line'"
+          :class="isMenuOpen ? 'text-black' : 'text-white'" />
       </button>
     </div>
+    <DefaultNav ref="nav" />
   </header>
 </template>
 
@@ -30,13 +28,40 @@ export default {
   data() {
     return {
       routes: ROUTE_NAMES,
+      isMenuOpen: false,
     };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+      document.body.classList.toggle('overflow', this.isMenuOpen);
+
+      if (this.$refs.nav) {
+        this.$refs.nav.setOpen(this.isMenuOpen, {
+          blackDelay: this.isMenuOpen ? '0.4s' : '0.4s',
+          yellowDelay: this.isMenuOpen ? '0s' : '0.8s'
+        });
+      }
+    },
+  },
+  watch: {
+    '$route'() {
+      this.isMenuOpen = false;
+      document.body.classList.remove('overflow');
+      if (this.$refs.nav) {
+        this.$refs.nav.setOpen(false);
+      }
+    }
   },
 };
 </script>
 
 <style scoped>
 header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   padding: 1.25rem 1rem;
 }
 
@@ -69,7 +94,12 @@ header {
   font-size: 1.25rem !important;
 }
 
-@media (width >= 660px) {
+.sandwichNav button.open {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+@media (width >=660px) {
   header {
     padding: 1.5rem 1.875rem;
   }
@@ -98,7 +128,7 @@ header {
   }
 }
 
-@media (width >= 992px) {
+@media (width >=992px) {
   header {
     padding: 1.75rem 3.75rem;
   }
@@ -109,7 +139,7 @@ header {
   }
 }
 
-@media (width >= 1440px) {
+@media (width >=1440px) {
   header {
     padding: 2rem 5.625rem;
   }

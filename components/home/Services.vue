@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white">
         <div class="column">
-            <div class="ideas column">
+            <div class="ideas column wow animate__animated animate__fadeInLeft">
                 <h2 class="column">
                     IDEAS QUE VUELAN,<span>QUE CONECTAN CON LA GENTE</span>
                 </h2>
@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div class="servicesContainer column">
-                <div v-for="(service, index) in services" :key="index" class="service column">
+                <div v-for="(service, index) in services" :key="index" class="service column wow animate__animated animate__fadeInUp">
                     <div class="column">
                         <div class="serviceHeader rowCenter">
                             <img :src="`/images/services/${service.img}-Benteveo.svg`"
@@ -79,10 +79,10 @@ section>div {
     content: "";
     width: 0;
     height: 2px;
-    background: var(--color-primary);
     position: absolute;
     left: 0;
     bottom: 0;
+    background: var(--color-primary);
     transition: 0.25s ease-in-out;
 }
 

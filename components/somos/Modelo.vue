@@ -48,7 +48,8 @@ const swiper = useSwiper(swiperEquipo, {
     slidesPerView: 2,
     slidesPerGroup: 1,
     loop: true,
-    loopAdditionalSlides: 1,
+    loopFix: true,
+    loopedSlides: slides.value.length,
     autoplay: {
         delay: 2000,
         disableOnInteraction: false,
@@ -56,13 +57,13 @@ const swiper = useSwiper(swiperEquipo, {
     spaceBetween: 8,
     breakpoints: {
         600: {
-            slidesPerView: 3,
+            slidesPerView: Math.min(3, slides.value.length),
         },
         800: {
-            slidesPerView: 4,
+            slidesPerView: Math.min(4, slides.value.length),
         },
         992: {
-            slidesPerView: 5,
+            slidesPerView: Math.min(5, slides.value.length),
         },
     },
 });
@@ -71,6 +72,7 @@ const swiper = useSwiper(swiperEquipo, {
 <style scoped>
 .modeloContainer {
     gap: 3rem;
+    padding-bottom: 0;
 }
 
 .modelo {
