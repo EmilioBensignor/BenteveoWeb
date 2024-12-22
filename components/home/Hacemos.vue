@@ -22,6 +22,7 @@
 
 <style scoped>
 .pensamosHacemos {
+    max-width: 100%;
     background-image: url('/images/home/Grupo-Creativo-Benteveo.webp');
     padding: 0;
 }
@@ -29,12 +30,13 @@
 .gifContainer {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    display: none;
 }
 
 .gifContainer img {
     width: 100%;
     height: 19rem;
+    object-fit: cover;
 }
 
 .hacemosContent {
@@ -42,7 +44,7 @@
     height: 100%;
     gap: 0.75rem;
     background: rgba(0, 0, 0, 0.7);
-    padding: 1.25rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .hacemosContent div p {
@@ -64,6 +66,7 @@
     .gifContainer {
         width: 12.5rem;
         height: auto;
+        display: block;
         position: absolute;
         top: 50%;
         left: 16%;

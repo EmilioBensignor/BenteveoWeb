@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="modeloContainer column bg-white">
+    <section class="bg-white">
+        <div class="modeloContainer column">
             <div class="modelo column">
                 <div>
                     <h2 class="column">Modelo <span>AGENCIA - PRODUCTORA</span></h2>
@@ -24,10 +24,10 @@
                 <ClientOnly>
                     <swiper-container class="swiperEquipo" ref="swiperEquipo" :init="false">
                         <swiper-slide v-for="(person, index) in equipo" :key="index">
-                            <figure class="personItem">
+                            <figure class="personItem columnAlignCenter">
                                 <img :src="`/images/somos/${person.img}-Benteveo.webp`" :alt="person.alt">
                                 <figcaption>
-                                    <p class="text-white">{{ person.name }}</p>
+                                    <p class="text-primary">{{ person.name }}</p>
                                     <p class="text-white">{{ person.role }}</p>
                                 </figcaption>
                             </figure>
@@ -116,9 +116,6 @@ const swiper = useSwiper(swiperEquipo, {
 
 .personItem {
     height: 12rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .personItem>* {

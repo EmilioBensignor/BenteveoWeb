@@ -84,4 +84,10 @@
         bottom: 3rem;
     }
 }
+
+@media (width >=2100px) {
+    .scrollDown {
+        right: 0;
+    }
+}
 </style>

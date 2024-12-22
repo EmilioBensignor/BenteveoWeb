@@ -25,6 +25,7 @@
 <style scoped>
 .equipo {
     width: 100%;
+    max-width: 100%;
     position: relative;
     overflow: hidden;
     padding: 0;

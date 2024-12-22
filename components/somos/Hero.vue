@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="hero column bgCover">
+    <section class="heroSomos bgCover">
+        <div class="hero column">
             <div class="column">
                 <h1 data-text="UN EQUIPO, UNA VISIÓN">
                     UN EQUIPO, UNA VISIÓN
@@ -14,12 +14,15 @@
 </template>
 
 <style scoped>
+.heroSomos {
+    background-image: url("/images/somos/Equipo-Benteveo.webp");
+}
+
 .hero {
     height: 60vh;
     justify-content: center;
     gap: 1.25rem;
     position: relative;
-    background-image: url("/images/somos/Equipo-Benteveo.webp");
 }
 
 .hero>div {

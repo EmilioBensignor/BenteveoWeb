@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="column bg-white">
+    <section class="bg-white">
+        <div class="column">
             <div class="columnAlignCenter">
                 <h2 class="text-center">NUESTRAS CAPACIDADES</h2>
                 <p class="text-center">
