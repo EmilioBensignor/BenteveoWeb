@@ -42,7 +42,9 @@ header>div {
 }
 
 main {
+  width: 100%;
   grid-area: main;
+  position: relative;
 }
 
 footer {
@@ -136,6 +138,7 @@ li {
 /* Hero */
 
 .hero {
+  width: 100%;
   height: 60vh;
   justify-content: center;
   gap: 1.25rem;
@@ -383,6 +386,10 @@ li {
   color: var(--color-black);
 }
 
+.bg-black {
+  background-color: var(--color-black);
+}
+
 .bg-dark-black {
   background-color: var(--color-dark-black);
 }
@@ -526,6 +533,13 @@ li {
     max-width: 730px;
   }
 
+  .heroContainer {
+    position: sticky;
+    top: 100px;
+    left: 0;
+    z-index: 1;
+  }
+
   .hero {
     height: 90vh;
     flex-direction: row;
@@ -534,8 +548,14 @@ li {
     gap: 2rem;
   }
 
-  .socialMedia {
+  .hero .socialMedia {
     flex-direction: column;
+  }
+
+  .parallaxContent,
+  .parallaxContent>section:first-of-type {
+    position: relative;
+    z-index: 2;
   }
 }
 

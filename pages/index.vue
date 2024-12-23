@@ -1,9 +1,11 @@
 <template>
   <main>
     <HomeHero />
-    <HomeProjects />
-    <HomeClients />
-    <HomeHacemos />
-    <HomeServices />
+    <div class="parallaxContent">
+      <HomeProjects />
+      <HomeClients />
+      <HomeHacemos />
+      <HomeServices />
+    </div>
   </main>
 </template>

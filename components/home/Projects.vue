@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="bg-black">
     <div class="w-full projectsContainer columnAlignCenter">
       <article v-for="(project, index) in projects" :key="index" :ref="'tiltProject' + index"
         class="tiltProject wow animate__animated animate__fadeInUp">

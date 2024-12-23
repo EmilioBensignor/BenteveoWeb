@@ -1,5 +1,5 @@
 <template>
-    <section class="heroPages heroSomos bgCover">
+    <section class="heroContainer heroSomos bgCover">
         <div class="hero column">
             <div class="column">
                 <h1 data-text="UN EQUIPO, UNA VISIÓN">

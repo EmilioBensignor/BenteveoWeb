@@ -1,9 +1,11 @@
 <template>
   <main>
     <SomosHero />
-    <SomosModelo />
-    <SomosPremiosSectores />
-    <SomosCapacidades />
-    <SomosEquipo />
+    <div class="parallaxContent">
+      <SomosModelo />
+      <SomosPremiosSectores />
+      <SomosCapacidades />
+      <SomosEquipo />
+    </div>
   </main>
 </template>

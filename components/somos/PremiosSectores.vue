@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="bg-black">
         <div class="premiosSectores column">
             <div class="column">
                 <h3>Premios</h3>
