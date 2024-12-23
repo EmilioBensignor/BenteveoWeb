@@ -1,13 +1,7 @@
 <template>
-  <div>
+  <div class="layout">
     <DefaultHeader />
     <slot />
     <DefaultFooter />
   </div>
 </template>
-
-<style>
-.overflow {
-  overflow: hidden;
-}
-</style>
