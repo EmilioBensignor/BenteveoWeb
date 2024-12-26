@@ -31,11 +31,7 @@ export default {
                 },
                 {
                     title: "Servicios",
-                    url: "/",
-                },
-                {
-                    title: "Clientes",
-                    url: "/",
+                    url: "/servicios",
                 },
                 {
                     title: "Novedades",

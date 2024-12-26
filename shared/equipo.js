@@ -1,36 +1,36 @@
 export const equipo = [
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",
     },
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",
     },
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",
     },
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",
     },
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",
     },
     {
-        img: "persona",
+        img: "Persona",
         alt: "",
         name: "Maria Shevcensko",
         role: "Front-End Ninja",

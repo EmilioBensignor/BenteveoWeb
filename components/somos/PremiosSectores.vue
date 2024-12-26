@@ -21,7 +21,7 @@
 export default {
     data() {
         return {
-            premios: ["2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards", "2019 Hunger Boss - Awwwwards"],
+            premios: ["2022 - Premios FePI", "2020 - Premios Lápiz de Platino", "2020 - Campañas Social Media - Premios Eikon", "2017 - Campaña digital - Premio Promax", "2016 - Premios Buenos Anuncios", "2015 - Campaña bien público - Premios Consejo Publicitario Argentino", "2014 - Premios Diente"],
             sectores: ["Consumo masivo: Alimentos y Bebidas", "Construcción y Herramientas", "Entretenimiento y Medios", "Tecnología", "Retail y Comercio", "Turismo", "Farmacéutica", "E-commerce y ventas en línea"],
         }
     }
