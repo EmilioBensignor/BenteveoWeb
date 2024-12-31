@@ -35,7 +35,7 @@ export default {
                 },
                 {
                     title: "Novedades",
-                    url: "/",
+                    url: "/novedades",
                 },
                 {
                     title: "Conversemos",

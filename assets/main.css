@@ -107,7 +107,8 @@ section {
   width: 100%;
 }
 
-section>div {
+section>div,
+.blogsContainer {
   padding: 1.25rem 1rem;
 }
 
@@ -415,7 +416,9 @@ li {
 }
 
 @media (width >=660px) {
-  section>div {
+
+  section>div,
+  .blogsContainer {
     padding: 2.5rem 1.875rem;
   }
 
@@ -470,7 +473,9 @@ li {
 }
 
 @media (width >=850px) {
-  section>div {
+
+  section>div,
+  .blogsContainer {
     padding: 4rem 2.5rem;
   }
 
@@ -497,7 +502,9 @@ li {
 }
 
 @media (width >=992px) {
-  section>div {
+
+  section>div,
+  .blogsContainer {
     padding: 5rem 3.75rem;
   }
 
@@ -575,7 +582,9 @@ li {
 }
 
 @media (width >=1440px) {
-  section>div {
+
+  section>div,
+  .blogsContainer {
     padding: 6rem 5.625rem;
   }
 
