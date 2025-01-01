@@ -83,6 +83,12 @@ footer>div,
   align-items: center;
 }
 
+.wrapCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -112,6 +118,12 @@ section>div,
   padding: 1.25rem 1rem;
 }
 
+.parallaxContent,
+.parallaxContent>section:first-of-type {
+  position: relative;
+  z-index: 2;
+}
+
 h1,
 h2 {
   font-size: 1.375rem;
@@ -137,6 +149,15 @@ li {
 }
 
 /* Hero */
+
+.heroContainer {
+  width: 100%;
+  position: sticky;
+  top: 4.875rem;
+  left: 0;
+  z-index: 1;
+  transition: opacity 0.2s ease;
+}
 
 .hero {
   width: 100%;
@@ -458,6 +479,10 @@ li {
     max-width: 650px;
   }
 
+  .heroContainer {
+    top: 5.5rem;
+  }
+
   .hero {
     height: 55vh;
     gap: 1.5rem;
@@ -490,6 +515,10 @@ li {
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  .heroContainer {
+    top: 6rem;
   }
 
   .hero {
@@ -541,10 +570,7 @@ li {
   }
 
   .heroContainer {
-    position: sticky;
-    top: 100px;
-    left: 0;
-    z-index: 1;
+    top: 6.25rem;
   }
 
   .hero {
@@ -557,12 +583,6 @@ li {
 
   .hero .socialMedia {
     flex-direction: column;
-  }
-
-  .parallaxContent,
-  .parallaxContent>section:first-of-type {
-    position: relative;
-    z-index: 2;
   }
 }
 
@@ -594,6 +614,10 @@ li {
 
   .primaryButton {
     font-size: 1.125rem;
+  }
+
+  .heroContainer {
+    top: 6.75rem;
   }
 
   .hero>div {

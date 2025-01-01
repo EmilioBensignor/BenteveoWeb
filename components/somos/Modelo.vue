@@ -1,5 +1,5 @@
 <template>
-    <section class="secondSetion bg-white">
+    <section class="bg-white">
         <div class="modeloContainer column">
             <div class="modelo column">
                 <div>

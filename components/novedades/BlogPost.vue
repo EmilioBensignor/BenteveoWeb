@@ -1,13 +1,13 @@
 <template>
     <article class="column wow animate__animated animate__fadeInUp">
-        <NuxtImg :src="`/images/blogs/${post.img}.png`" :alt="post.alt" />
-        <div class="rowCenter">
+        <NuxtImg :src="`/images/blogs/${post.img}.png`" :alt="post.alt" class="w-full" />
+        <div class="author rowCenter">
             <NuxtImg :src="`/images/blogs/${post.authorImg}.png`" :alt="post.author" />
-            <p>by <span>{{ post.author }}</span></p>
+            <p class="text-dark-gray">by <span class="font-medium">{{ post.author }}</span></p>
         </div>
         <h2>{{ post.title }}</h2>
-        <time>{{ post.date }}</time>
-        <p>{{ post.summary }}</p>
+        <p class="font-semibold">{{ post.date }}</p>
+        <p class="text-dark-gray">{{ post.summary }}</p>
         <NuxtLink :to="`/novedad/${post.slug}`">LEER MÁS</NuxtLink>
     </article>
 </template>
@@ -26,7 +26,7 @@ export default {
 <style scoped>
 article {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     gap: 1.25rem;
 }
 
@@ -57,5 +57,15 @@ article a:hover {
 
 article a:hover::before {
     width: 100%;
+}
+
+.author {
+    gap: 0.5rem;
+}
+
+.author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
 }
 </style>
