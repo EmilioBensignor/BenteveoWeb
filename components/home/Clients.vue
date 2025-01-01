@@ -48,10 +48,8 @@ const swiper = useSwiper(containerRef, {
 
 <style scoped>
 .clientsContainer {
-    max-width: 100vw;
     overflow: hidden;
     position: relative;
-    padding: 1.25rem 1rem;
 }
 
 .swiperLogos .swiper-slide {
@@ -68,36 +66,18 @@ const swiper = useSwiper(containerRef, {
 }
 
 @media (width >=660px) {
-    .clientsContainer {
-        padding: 2.5rem 1.875rem;
-    }
-
     .swiperLogos img {
         height: 4rem;
     }
 }
 
 @media (width >=850px) {
-    .clientsContainer {
-        padding: 4rem 2.5rem;
-    }
-
     .swiperLogos img {
         height: 5rem;
     }
 }
 
-@media (width >=992px) {
-    .clientsContainer {
-        padding: 4rem 3.75rem;
-    }
-}
-
 @media (width >=1440px) {
-    .clientsContainer {
-        padding: 5rem 5.625rem;
-    }
-
     .swiperLogos img {
         height: 6rem;
     }

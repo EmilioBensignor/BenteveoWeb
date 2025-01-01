@@ -1,8 +1,8 @@
 <template>
     <article class="column wow animate__animated animate__fadeInUp">
-        <NuxtImg :src="`/images/blogs/${post.img}.png`" :alt="post.alt" class="w-full" />
+        <NuxtImg :src="`/images/blogs/${post.img}.webp`" :alt="post.alt" class="w-full" />
         <div class="author rowCenter">
-            <NuxtImg :src="`/images/blogs/${post.authorImg}.png`" :alt="post.author" />
+            <NuxtImg :src="`/images/blogs/${post.authorImg}.webp`" :alt="post.author" />
             <p class="text-dark-gray">by <span class="font-medium">{{ post.author }}</span></p>
         </div>
         <h2>{{ post.title }}</h2>

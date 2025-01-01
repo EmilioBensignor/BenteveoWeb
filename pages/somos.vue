@@ -3,7 +3,7 @@
     <PagesHero 
       title="UN EQUIPO, UNA VISIÓN"
       description="La creatividad como herramienta para construir conexiones potentes."
-      backgroundClass="heroSomos"
+      heroImage="somos/Equipo-Benteveo"
     />
     <div class="parallaxContent">
       <SomosModelo />
@@ -11,9 +11,3 @@
     </div>
   </main>
 </template>
-
-<style scoped>
-.heroSomos {
-  background-image: url("/images/somos/Equipo-Benteveo.webp");
-}
-</style>

@@ -3,15 +3,25 @@
         <PagesHero title="NEWS"
             description="We work in an integral manner and address projects in the following dimensions." />
         <div class="parallaxContent">
-            <section class="blogsContainer wrapCenter bg-white">
-                <NovedadesBlogPost v-for="(post, index) in blogs" :key="index" :post="post" />
+            <section class="bg-white">
+                <div class="blogsContainer wrapSpaceBetween">
+                    <NovedadesBlogPost v-for="(post, index) in blogs" :key="index" :post="post" />
+                </div>
             </section>
         </div>
     </main>
 </template>
 
-<script setup>
+<script>
 import { blogs } from '~/shared/blogs';
+
+export default {
+    data() {
+        return {
+            blogs: blogs
+        }
+    }
+}
 </script>
 
 <style scoped>

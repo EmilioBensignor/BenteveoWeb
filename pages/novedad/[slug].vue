@@ -1,53 +1,55 @@
 <template>
     <main>
-        <PagesHero :title="blog.title"
-            description="We work in an integral manner and address projects in the following dimensions." />
+        <PagesHero :title="blog.title" :heroImage="`blogs/${blog.imgGradient}`" />
         <div class="parallaxContent">
-            <article v-if="blog" class="blogContent columnAlignCenter">
-                <h1>{{ blog.title }}</h1>
-                <div class="authorInfo rowCenter">
-                    <NuxtImg :src="`/images/blogs/${blog.authorImg}.png`" :alt="blog.author" />
-                    <p>by <span>{{ blog.author }}</span></p>
-                    <time>{{ blog.date }}</time>
-                </div>
-                <NuxtImg :src="`/images/blogs/${blog.img}.png`" :alt="blog.alt" class="mainImage" />
-                <div class="content">{{ blog.summary }}</div>
-            </article>
+            <section class="bg-white">
+                <article v-if="blog" class="blogContent columnAlignCenter">
+                    <div class="w-full author column">
+                        <div class="rowCenter">
+                            <NuxtImg :src="`/images/blogs/${blog.authorImg}.webp`" :alt="blog.author" />
+                            <p>by <span>{{ blog.author }}</span></p>
+                        </div>
+                        <time>{{ blog.date }}</time>
+                    </div>
+                    <div class="content">{{ blog.content }}</div>
+                </article>
+            </section>
         </div>
     </main>
 </template>
 
-<script setup>
+<script>
 import { blogs } from '~/shared/blogs';
 
-const route = useRoute();
-const blog = ref(blogs.find(b => b.slug === route.params.slug));
-
-onMounted(() => {
-    if (!blog.value) {
-        navigateTo('/novedades');
+export default {
+    data() {
+        return {
+            blog: null
+        }
+    },
+    created() {
+        this.blog = blogs.find(b => b.slug === this.$route.params.slug);
+    },
+    mounted() {
+        if (!this.blog) {
+            this.$router.push('/novedades');
+        }
     }
-});
+}
 </script>
 
 <style scoped>
 .blogContent {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
     gap: 2rem;
 }
 
-.authorInfo {
-    gap: 1rem;
+.author, .author div {
+    gap: 0.5rem;
 }
 
-.mainImage {
-    width: 100%;
-    height: auto;
-}
-
-.content {
-    line-height: 1.6;
+.author img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
 }
 </style>

@@ -22,7 +22,6 @@
 
 <style scoped>
 .pensamosHacemos {
-    max-width: 100%;
     background-image: url('/images/home/Grupo-Creativo-Benteveo.webp');
     padding: 0;
 }
