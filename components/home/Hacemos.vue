@@ -1,6 +1,6 @@
 <template>
-    <section class="w-full">
-        <div class="pensamosHacemos column bgCover">
+    <section class="w-full pensamosHacemos bgCover">
+        <div class="column">
             <div class="gifContainer column">
                 <img src="/images/home/gif-creatividad.gif" alt="Creatividad Benteveo">
             </div>
@@ -23,6 +23,11 @@
 <style scoped>
 .pensamosHacemos {
     background-image: url('/images/home/Grupo-Creativo-Benteveo.webp');
+}
+
+.pensamosHacemos>div {
+    max-width: 100%;
+    align-items: flex-end;
     padding: 0;
 }
 
@@ -113,7 +118,7 @@
     }
 }
 
-@media (width >= 1280px) {
+@media (width >=1280px) {
     .hacemosContent {
         gap: 2rem;
         padding: 5rem 5rem 5rem 9rem;
@@ -139,13 +144,24 @@
     }
 }
 
-@media (width >= 1920px) {
+@media (width >=1920px) {
+    .pensamosHacemos {
+        padding: 0;
+    }
+
+    .pensamosHacemos>div {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
     .hacemosContent {
         padding: 8rem 6rem 8rem 11rem;
     }
 
     .gifContainer {
-        left: 27%;
+        position: static;
+        transform: translateY(-28%);
+        margin-right: -6rem;
     }
 }
 </style>

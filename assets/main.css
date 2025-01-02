@@ -640,15 +640,21 @@ li {
 }
 
 @media (width >=1920px) {
+  section>div {
+    padding: 6rem 5.625rem;
+  }
+
+  .parallaxContent {
+    max-width: 100%;
+  }
+}
+
+@media (width >=2100px) {
   section {
     padding: 0 5.625rem;
   }
 
   section>div {
     padding: 6rem 0;
-  }
-
-  .parallaxContent {
-    max-width: 100%;
   }
 }
