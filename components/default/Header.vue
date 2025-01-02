@@ -19,7 +19,7 @@
         </button>
       </div>
     </div>
-    <DefaultNav ref="nav" />
+    <DefaultNav ref="nav" @closeMenu="toggleMenu" />
   </header>
 </template>
 
@@ -45,15 +45,6 @@ export default {
         });
       }
     },
-  },
-  watch: {
-    '$route'() {
-      this.isMenuOpen = false;
-      document.body.classList.remove('overflow');
-      if (this.$refs.nav) {
-        this.$refs.nav.setOpen(false);
-      }
-    }
   },
 };
 </script>

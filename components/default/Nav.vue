@@ -56,20 +56,13 @@ export default {
                 this.delays = delays;
             }
         },
-        handleClick(e) {
-            e.preventDefault();
-            const href = e.target.getAttribute('href');
-            
+        handleClick() {
+            this.$emit('closeMenu');
+
             this.setOpen(false, {
                 blackDelay: '0.4s',
                 yellowDelay: '0.8s'
             });
-            
-            document.body.classList.remove('overflow');
-
-            setTimeout(() => {
-                this.$router.push(href);
-            }, 1200);
         }
     }
 }
