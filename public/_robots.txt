@@ -1,4 +1,3 @@
-
 User-agent: *
 Disallow:
 sitemap: www.benteveo.com/sitemap.xml
