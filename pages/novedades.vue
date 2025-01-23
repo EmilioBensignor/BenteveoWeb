@@ -26,6 +26,7 @@ export default {
 
 <style scoped>
 .blogsContainer {
+    justify-content: center;
     gap: 4.5rem;
 }
 
