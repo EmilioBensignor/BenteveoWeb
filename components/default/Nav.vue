@@ -13,17 +13,19 @@
 </template>
 
 <script>
+import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
+
 export default {
     data() {
         return {
             menu: [
                 {
                     title: "Inicio",
-                    url: "/",
+                    url: ROUTE_NAMES.HOME,
                 },
                 {
                     title: "Somos",
-                    url: "/somos",
+                    url: ROUTE_NAMES.SOMOS,
                 },
                 {
                     title: "Trabajos",
@@ -31,11 +33,11 @@ export default {
                 },
                 {
                     title: "Servicios",
-                    url: "/servicios",
+                    url: ROUTE_NAMES.SERVICIOS,
                 },
                 {
                     title: "Novedades",
-                    url: "/novedades",
+                    url: ROUTE_NAMES.NOVEDADES,
                 },
                 {
                     title: "Conversemos",
