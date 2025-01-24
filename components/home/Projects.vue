@@ -11,7 +11,7 @@
           <img :src="`/images/projects/${project.img}-proyecto-Benteveo.webp`"
             :alt="`${project.altImg} Proyecto Benteveo`" class="w-full h-full projectImg" />
           <div class="projectInfo">
-            <h3 class="text-center text-white">{{ project.title }}</h3>
+            <p class="text-center text-white">{{ project.title }}</p>
             <p class="text-center text-white">{{ project.text }}</p>
             <NuxtLink to="#" class="seeMore text-white">CONOCÉ MÁS</NuxtLink>
           </div>
@@ -103,7 +103,7 @@ export default {
   padding: 0 1rem 1rem 1rem;
 }
 
-.projectInfo h3 {
+.projectInfo p:first-of-type {
   max-width: 100%;
   position: relative;
   z-index: 2;
