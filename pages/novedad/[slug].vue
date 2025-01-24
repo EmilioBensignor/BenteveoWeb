@@ -98,6 +98,10 @@ export default {
 </style>
 
 <style scoped>
+.hero {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 h1 {
     max-width: 900px;
 }
