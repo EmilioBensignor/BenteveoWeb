@@ -1,7 +1,7 @@
 <template>
   <ul class="socialMedia rowCenter">
     <li v-for="(media, index) in socialMedia" :key="index">
-      <a :href="media.link" target="_blank">
+      <a :href="media.link" :aria-label="`Ir a ${media.icon}`" target="_blank">
         <Icon :name="`mdi:${media.icon}`" />
       </a>
     </li>

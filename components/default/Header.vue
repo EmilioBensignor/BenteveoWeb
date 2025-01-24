@@ -13,7 +13,7 @@
       </div>
       <div class="sandwichNav rowCenter">
         <p>MENU</p>
-        <button class="allCenter" :class="{ 'open': isMenuOpen }" @click="toggleMenu">
+        <button aria-label="Open Menu" class="allCenter" :class="{ 'open': isMenuOpen }" @click="toggleMenu">
           <Icon :name="isMenuOpen ? 'mingcute:close-fill' : 'mingcute:menu-line'"
             :class="isMenuOpen ? 'text-black' : 'text-white'" />
         </button>
