@@ -1,6 +1,6 @@
 <template>
     <main class="novedad">
-        <section class="heroContainer bgCover" :style="{ backgroundImage: `url('/images/blogs/${blog.img}.webp')` }">
+        <section class="heroContainer bgCover" :style="{ backgroundImage: `url('/images/blogs/${blog.slug}.webp')` }">
             <div class="hero column">
                 <div class="column">
                     <h1>

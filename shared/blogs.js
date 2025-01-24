@@ -2,9 +2,6 @@ export const blogs = [
     {
         slug: "las-5-principales-tendencias-de-marketing-en-2025",
         title: "Las 5 principales tendencias de marketing en 2025",
-        img: "blogEjemplo",
-        imgGradient: "blogEjemplo",
-        alt: "Property Brothers Blog Post",
         author: "Jack Daniels",
         authorImg: "author",
         date: "18 de Enero, 2025",
@@ -14,9 +11,6 @@ export const blogs = [
     {
         slug: "la-revolucion-de-la-inteligencia-artificial-en-el-marketing",
         title: "La revolución de la inteligencia artificial en el marketing",
-        img: "blogEjemplo",
-        imgGradient: "blogEjemplo",
-        alt: "",
         author: "Jack Daniels",
         authorImg: "author",
         date: "5 de Enero, 2025",
@@ -26,9 +20,6 @@ export const blogs = [
     {
         slug: "que-es-el-growth-marketing-y-por-que-deberias-implementarlo",
         title: "¿Qué es el growth marketing y por qué deberías implementarlo?",
-        img: "blogEjemplo",
-        imgGradient: "blogEjemplo",
-        alt: "",
         author: "Jack Daniels",
         authorImg: "author",
         date: "21 de Diciembre, 2024",
@@ -38,9 +29,6 @@ export const blogs = [
     {
         slug: "de-influencers-a-ugc-la-evolucion-del-marketing-digital",
         title: "De influencers a UGC: la evolución del marketing digital",
-        img: "blogEjemplo",
-        imgGradient: "blogEjemplo",
-        alt: "",
         author: "Jack Daniels",
         authorImg: "author",
         date: "13 de Diciembre, 2024",

@@ -604,6 +604,7 @@ li {
   h2,
   .modelo h2 {
     font-size: 2.75rem;
+    line-height: 1.2;
   }
 
   .hero p {
