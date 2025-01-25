@@ -14,7 +14,7 @@
         </section>
         <div class="parallaxContent">
             <section class="column bg-white">
-                <div class="column">
+                <div class="w-full column">
                     <h2 class="column">¡Queremos construir juntos! <span>Dejanos tus datos de contacto.</span></h2>
                     <div class="datosContacto column">
                         <div>
@@ -23,7 +23,7 @@
                                 hola@benteveo.com
                             </a>
                         </div>
-                        <address class="addressFooter column">
+                        <div class="addressFooter column">
                             <div v-for="(location, index) in locations" :key="index" class="flex">
                                 <Icon name="mingcute:location-line" class="text-primary" />
                                 <div>
@@ -32,7 +32,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </address>
+                        </div>
                     </div>
 
                 </div>
@@ -202,15 +202,20 @@ export default {
 }
 
 .p-dialog {
-    width: 85%;
+    width: 100%;
+    max-width: 264px;
+    position: relative;
     background: var(--color-white) !important;
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-primary) !important;
     color: var(--color-black) !important;
     padding: 1.25rem;
 }
 
 .p-dialog-header {
     justify-content: flex-end !important;
+    position: absolute;
+    top: 0.875rem;
+    right: 0.875rem;
 }
 
 .p-dialog-header .p-icon {
@@ -233,6 +238,56 @@ export default {
 
 .closeButton:hover {
     opacity: 0.9;
+}
+
+@media (width >=660px) {
+    .p-dialog {
+        max-width: 484px;
+        padding: 1.75rem;
+    }
+
+    .p-dialog-header {
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .p-dialog-header .p-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .dialogContent {
+        gap: 1rem;
+    }
+
+    .dialogContent p {
+        font-size: 1rem;
+    }
+}
+
+@media (width >=1080px) {
+    .p-dialog {
+        max-width: 615px;
+        padding: 2.25rem;
+    }
+
+    .p-dialog-header {
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+
+    .p-dialog-header .p-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .dialogContent {
+        gap: 1.5rem;
+    }
+
+    .dialogContent p {
+        font-size: 1.25rem;
+    }
 }
 </style>
 
@@ -309,5 +364,49 @@ label {
 .error span {
     width: 5%;
     font-size: 0.75rem !important;
+}
+
+@media (width >=660px) {
+    section {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    section>div,
+    section>div>div,
+    .addressFooter {
+        gap: 2rem;
+    }
+
+    .formConversemos button {
+        font-size: 0.875rem;
+    }
+}
+
+@media (width >=1080px) {
+
+    section>div,
+    section>div>div {
+        gap: 2.75rem;
+    }
+
+    section > div {
+        width: 52% !important;
+    }
+
+    section > form {
+        width: 48% !important;
+    }
+
+    .addressFooter {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2.5rem;
+    }
+
+    .addressFooter > div {
+        width: 45%;
+    }
 }
 </style>

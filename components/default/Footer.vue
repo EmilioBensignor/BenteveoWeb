@@ -8,7 +8,7 @@
           <p>Decí <a href="#" class="text-white">hola@benteveo.com</a></p>
         </div>
       </div>
-      <address class="addressFooter">
+      <div class="addressFooter">
         <div>
           <p>Guatemala 5582 Piso 2</p>
           <p>Buenos Aires, Argentina</p>
@@ -27,7 +27,7 @@
           <p>Int. Suarez 161</p>
           <p>Colonia, Uruguay</p>
         </div>
-      </address>
+      </div>
       <DefaultSocialMedia />
       <div class="rights">
         <p class="text-center">© {{ new Date().getFullYear() }} Benteveo | Todos los derechos reservados</p>
@@ -64,6 +64,10 @@ footer>div {
 
 .addressFooter div {
   width: 40%;
+}
+
+.addressFooter div p {
+  font-family: "Fjalla One", sans-serif;
 }
 
 .addressFooter div p, .rights p {
