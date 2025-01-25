@@ -7,6 +7,7 @@
   --color-primary: #FCB716;
   --color-dark-gray: #808080;
   --color-gray: #CDCED0;
+  --color-red: #E71316;
 }
 
 * {
@@ -53,6 +54,7 @@ footer {
 
 header>div,
 main section>div,
+.formConversemos,
 footer>div,
 .rights>div,
 .clientsContainer {
@@ -120,7 +122,8 @@ section {
 }
 
 section>div,
-.blogsContainer {
+.blogsContainer,
+.formConversemos {
   padding: 1.25rem 1rem;
 }
 
@@ -450,7 +453,8 @@ li {
 @media (width >=660px) {
 
   section>div,
-  .blogsContainer {
+  .blogsContainer,
+  .formConversemos {
     padding: 2.5rem 1.875rem;
   }
 
@@ -512,7 +516,8 @@ li {
 @media (width >=850px) {
 
   section>div,
-  .blogsContainer {
+  .blogsContainer,
+  .formConversemos {
     padding: 4rem 2.5rem;
   }
 
@@ -546,7 +551,8 @@ li {
 @media (width >=992px) {
 
   section>div,
-  .blogsContainer {
+  .blogsContainer,
+  .formConversemos {
     padding: 5rem 3.75rem;
   }
 
@@ -619,7 +625,8 @@ li {
 @media (width >=1440px) {
 
   section>div,
-  .blogsContainer {
+  .blogsContainer,
+  .formConversemos {
     padding: 6rem 5.625rem;
   }
 
@@ -645,7 +652,9 @@ li {
 }
 
 @media (width >=1920px) {
-  section>div {
+
+  section>div,
+  .formConversemos {
     padding: 6rem 5.625rem;
   }
 
@@ -659,7 +668,8 @@ li {
     padding: 0 5.625rem;
   }
 
-  section>div {
+  section>div,
+  .formConversemos {
     padding: 6rem 0;
   }
 }

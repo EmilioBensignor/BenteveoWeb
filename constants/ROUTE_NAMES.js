@@ -3,4 +3,5 @@ export const ROUTE_NAMES = {
   SOMOS: "/somos",
   SERVICIOS: "/servicios",
   NOVEDADES: "/novedades",
+  CONVERSEMOS: "/conversemos",
 };

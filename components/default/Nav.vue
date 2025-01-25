@@ -41,7 +41,7 @@ export default {
                 },
                 {
                     title: "Conversemos",
-                    url: "/",
+                    url: ROUTE_NAMES.CONVERSEMOS,
                 },
             ],
             isOpen: false,
