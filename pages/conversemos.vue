@@ -1,17 +1,8 @@
 <template>
     <main>
-        <section class="heroContainer bgCover">
-            <div class="hero heroPages column">
-                <div class="column">
-                    <h1>
-                        HABLEMOS DE TU PRÓXIMO GRÁN PROYECTO
-                    </h1>
-                    <p>Trabajemos para hacerlo único, relevante y memorable.</p>
-                </div>
-                <DefaultSocialMedia />
-                <DefaultScroll />
-            </div>
-        </section>
+        <PagesHero title="HABLEMOS DE TU PRÓXIMO GRÁN PROYECTO"
+            description="Trabajemos para hacerlo único, relevante y memorable."
+            backgroundClass="heroSomos" />
         <div class="parallaxContent">
             <section class="column bg-white">
                 <div class="w-full column">
@@ -390,11 +381,11 @@ label {
         gap: 2.75rem;
     }
 
-    section > div {
+    .parallaxContent section>div {
         width: 52% !important;
     }
 
-    section > form {
+    section>form {
         width: 48% !important;
     }
 
@@ -405,7 +396,7 @@ label {
         gap: 2.5rem;
     }
 
-    .addressFooter > div {
+    .addressFooter>div {
         width: 45%;
     }
 }

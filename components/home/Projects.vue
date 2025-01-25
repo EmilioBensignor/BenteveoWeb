@@ -1,11 +1,8 @@
 <template>
   <section class="bg-black">
     <div class="w-full projectsContainer columnAlignCenter">
-      <article v-for="(project, index) in projects" :key="index" :ref="'tiltProject' + index"
-        class="tiltProject wow animate__animated animate__fadeInUp">
-        <div class="w-full h-full flex">
-          <!-- :to="`/projects/${project.slug}`"
-          :aria-label="`See more about ${project.title}`" -->
+      <article v-for="(project, index) in projects" :key="index" class="tiltProject wow animate__animated animate__fadeInUp">
+        <div class="w-full h-full flex js-tilt" :ref="'tiltElement' + index">
           <img :src="`/images/projects/${project.brand}-proyecto-Benteveo.webp`" :alt="`${project.altBrand}`"
             class="brandImg" />
           <img :src="`/images/projects/${project.img}-proyecto-Benteveo.webp`"
@@ -34,13 +31,15 @@ export default {
   mounted() {
     this.$nextTick(() => {
       this.projects.forEach((_, index) => {
-        const tiltElement = this.$refs[`tiltProject${index}`][0];
-        if (tiltElement) {
-          VanillaTilt.init(tiltElement, {
+        const element = this.$refs[`tiltElement${index}`]?.[0];
+        if (element) {
+          VanillaTilt.init(element, {
             max: 20,
             speed: 600,
+            scale: 1.05,
             glare: true,
             "max-glare": 0.2,
+            gyroscope: true
           });
         }
       });
@@ -48,9 +47,9 @@ export default {
   },
   beforeDestroy() {
     this.projects.forEach((_, index) => {
-      const tiltElement = this.$refs[`tiltProject${index}`][0];
-      if (tiltElement && tiltElement.vanillaTilt) {
-        tiltElement.vanillaTilt.destroy();
+      const element = this.$refs[`tiltElement${index}`]?.[0];
+      if (element && element.vanillaTilt) {
+        element.vanillaTilt.destroy();
       }
     });
   },
@@ -66,12 +65,14 @@ export default {
   width: 15rem;
   height: 100%;
   position: relative;
+  overflow: visible;
+  transition: all 0.3s;
+}
+
+.js-tilt {
   transform-style: preserve-3d;
   transform: perspective(1000px);
   will-change: transform;
-  overflow: visible;
-  transition: all 0.3s;
-  /* cursor: pointer; */
 }
 
 .tiltProject .projectImg {
@@ -109,11 +110,13 @@ export default {
   z-index: 2;
   text-align: start !important;
   font-size: 1.75rem;
+  font-weight: bold;
   margin-left: -2.5rem;
   transition: all 0.3s;
 }
 
 .projectInfo p {
+  font-weight: 500;
   text-align: start !important;
 }
 
