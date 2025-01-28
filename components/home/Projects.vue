@@ -1,7 +1,7 @@
 <template>
   <section class="bg-black">
     <div class="w-full projectsContainer columnAlignCenter">
-      <article v-for="(project, index) in projects" :key="index" class="tiltProject wow animate__animated animate__fadeInUp">
+      <article v-for="(project, index) in filteredProjects" :key="index" class="tiltProject wow animate__animated animate__fadeInUp">
         <div class="w-full h-full flex js-tilt" :ref="'tiltElement' + index">
           <img :src="`/images/projects/${project.brand}-proyecto-Benteveo.webp`" :alt="`${project.altBrand}`"
             class="brandImg" />
@@ -9,7 +9,7 @@
             :alt="`${project.altImg} Proyecto Benteveo`" class="w-full h-full projectImg" />
           <div class="projectInfo">
             <p class="text-center text-white">{{ project.title }}</p>
-            <p class="text-center text-white">{{ project.description }}</p>
+            <p class="text-center text-white">{{ project.text }}</p>
             <NuxtLink to="#" class="seeMore text-white">CONOCÉ MÁS</NuxtLink>
           </div>
         </div>
@@ -28,9 +28,14 @@ export default {
       projects: projects,
     };
   },
+  computed: {
+    filteredProjects() {
+      return this.projects.filter(project => project.feature);
+    }
+  },
   mounted() {
     this.$nextTick(() => {
-      this.projects.forEach((_, index) => {
+      this.filteredProjects.forEach((_, index) => {
         const element = this.$refs[`tiltElement${index}`]?.[0];
         if (element) {
           VanillaTilt.init(element, {
@@ -46,7 +51,7 @@ export default {
     });
   },
   beforeDestroy() {
-    this.projects.forEach((_, index) => {
+    this.filteredProjects.forEach((_, index) => {
       const element = this.$refs[`tiltElement${index}`]?.[0];
       if (element && element.vanillaTilt) {
         element.vanillaTilt.destroy();
