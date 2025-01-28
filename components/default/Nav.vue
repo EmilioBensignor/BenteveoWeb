@@ -29,7 +29,7 @@ export default {
                 },
                 {
                     title: "Trabajos",
-                    url: "/",
+                    url: ROUTE_NAMES.TRABAJOS,
                 },
                 {
                     title: "Servicios",
