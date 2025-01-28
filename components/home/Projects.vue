@@ -9,7 +9,7 @@
             :alt="`${project.altImg} Proyecto Benteveo`" class="w-full h-full projectImg" />
           <div class="projectInfo">
             <p class="text-center text-white">{{ project.title }}</p>
-            <p class="text-center text-white">{{ project.text }}</p>
+            <p class="text-center text-white">{{ project.description }}</p>
             <NuxtLink to="#" class="seeMore text-white">CONOCÉ MÁS</NuxtLink>
           </div>
         </div>
