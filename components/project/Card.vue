@@ -151,7 +151,7 @@ export default {
 
 @media (width >=992px) {
     .projectsContainer .tiltProject {
-        width: 28%;
+        width: 26%;
     }
 
     .projectsContainer .tiltProject:nth-child(1n),
@@ -161,6 +161,10 @@ export default {
 }
 
 @media (width >=1440px) {
+    .projectsContainer .tiltProject {
+        width: 23%;
+    }
+
     .tiltProject h3 {
         font-size: 2rem;
     }
