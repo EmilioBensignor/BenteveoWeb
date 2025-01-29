@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 import { blogs } from '~/shared/blogs';
 
 export default {
@@ -44,7 +45,7 @@ export default {
     },
     mounted() {
         if (!this.blog) {
-            this.$router.push('/novedades');
+            this.$router.push(ROUTE_NAMES.NOVEDADES);
         }
     }
 }
