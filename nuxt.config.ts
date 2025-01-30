@@ -36,6 +36,12 @@ export default defineNuxtConfig({
           href: 'https://unpkg.com/primeflex@latest/primeflex.css'
         },
       ],
+      script: [
+        {
+          src: 'https://player.vimeo.com/api/player.js',
+          defer: true
+        }
+      ]
     }
   },
   plugins: [
