@@ -1,10 +1,10 @@
 <template>
     <article class="tiltProject wow animate__animated animate__fadeInUp">
         <div class="w-full h-full flex tiltElement" :ref="'tiltElement'">
-            <!-- <img :src="`/images/projects/${project.brand}-proyecto-Benteveo.webp`" :alt="`${project.altBrand}`"
-                class="brandImg" /> -->
+            <img :src="`/images/brands/${project.brand}_logo.webp`" :alt="`${project.altBrand}`"
+                class="brandImg" />
             <img :src="`/images/projects/${project.img}-campana-benteveo.webp`"
-                :alt="`${project.altImg} creada por Benteveo`" class="w-full h-full projectImg" />
+                :alt="`Campaña ${project.altImg} creada por Benteveo`" class="w-full h-full projectImg" />
             <div class="projectInfo">
                 <p class="text-center text-white">{{ project.title }}</p>
                 <p class="text-center text-white">{{ project.description }}</p>
