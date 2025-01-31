@@ -177,7 +177,6 @@ export const projects = [
     },
     feature: true,
   },
-  // NUEVOS
   {
     slug: "paty-mercado-pago-AmigosConCodigo",
     title: "Paty + Mercado Pago - #AmigosConCódigo",

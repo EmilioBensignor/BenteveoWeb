@@ -3,7 +3,7 @@
         <section class="heroContainer bgCover">
             <!-- :style="{ backgroundImage: `url('/images/projects/${project.slug}.webp')` }" -->
             <div class="hero column">
-                <!-- <NuxtImg :src="`/images/projects/${project.brand}.webp`" :alt="project.altBrand" /> -->
+                <NuxtImg :src="`/images/brands/${project.brand}_logo.webp`" :alt="project.altBrand" />
                 <div class="column">
                     <h1>{{ project.title.toUpperCase() }}</h1>
                     <p>{{ project.subtitle }}</p>
