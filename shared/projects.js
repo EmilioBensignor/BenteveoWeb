@@ -239,35 +239,6 @@ export const projects = [
     },
   },
   {
-    slug: "moto-wheel",
-    title: "Moto Wheel",
-    description: "Branding, Print Design",
-    brand: "logo-brand3",
-    altBrand: "Image",
-    img: "works09",
-    altImg: "Image",
-    subtitle: "",
-    objective: "",
-    campain: ["", ""],
-    results: {
-      texts: ["", ""],
-      videos: ["", ""],
-    },
-    awards: {
-      texts: ["", ""],
-      press: [
-        {
-          name: "",
-          link: "",
-        },
-        {
-          name: "",
-          link: "",
-        },
-      ],
-    },
-  },
-  {
     slug: "sodimac-la-jugueteria-de-papa",
     title: "Sodimac - La juguetería de papá",
     description: "¿No sabés qué regalarle a tu papá para su día? Bienvenido a la Juguetería de Papá.",
