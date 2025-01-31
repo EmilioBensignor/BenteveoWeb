@@ -3,8 +3,8 @@
         <section class="heroContainer bgCover">
             <!-- :style="{ backgroundImage: `url('/images/projects/${project.slug}.webp')` }" -->
             <div class="hero column">
-                <NuxtImg :src="`/images/brands/${project.brand}_logo.webp`" :alt="project.altBrand" />
                 <div class="column">
+                    <NuxtImg :src="`/images/brands/${project.brand}_logo.webp`" :alt="project.altBrand" class="brand" />
                     <h1>{{ project.title.toUpperCase() }}</h1>
                     <p>{{ project.subtitle }}</p>
                 </div>
@@ -41,8 +41,10 @@
                     </div>
                     <div id="results" class="w-full column">
                         <h2>Resultados</h2>
-                        <p v-for="(item, index) in project.results.texts" :key="index">{{ item }}</p>
-                        <div class="videos">
+                        <div v-if="project.results.texts" class="columnGap column">
+                            <p v-for="(item, index) in project.results.texts" :key="index">{{ item }}</p>
+                        </div>
+                        <div v-if="project.results.videos" class="videos">
                             <div v-for="(video, index) in project.results.videos" :key="index"
                                 style="padding:56.25% 0 0 0;position:relative;">
                                 <iframe
@@ -56,12 +58,14 @@
                     </div>
                     <div v-if="project.awards" id="awards" class="w-full column">
                         <h2>Premios</h2>
-                        <div>
+                        <div v-if="project.awards.texts">
                             <p v-for="(item, index) in project.awards.texts" :key="index">{{ item }}</p>
                         </div>
-                        <a :href="item.link" v-for="(item, index) in project.awards.press" :key="index" target="_blank"
-                            class="award">{{
-                                item.name }}</a>
+                        <div v-if="project.awards.press" class="columnGap column">
+                            <a :href="item.link" v-for="(item, index) in project.awards.press" :key="index"
+                                target="_blank" class="award">{{
+                                    item.name }}</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -91,6 +95,10 @@ export default {
 </script>
 
 <style scoped>
+.brand {
+    width: 5.313rem;
+}
+
 .projectContent {
     position: relative;
 }
@@ -120,7 +128,8 @@ nav ul li a {
     gap: 3.75rem;
 }
 
-.projectContent>div>div {
+.projectContent>div>div,
+.columnGap {
     gap: 0.75rem;
 }
 
@@ -145,10 +154,15 @@ nav ul li a {
     .projectContent nav {
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
 }
 
 @media (width >=660px) {
+    .brand {
+        width: 8rem;
+    }
+
     .projectContent nav {
         top: 5.5rem;
     }
@@ -157,7 +171,8 @@ nav ul li a {
         font-size: 1rem;
     }
 
-    .projectContent>div>div {
+    .projectContent>div>div,
+    .columnGap {
         gap: 1rem;
     }
 }
@@ -179,6 +194,10 @@ nav ul li a {
 }
 
 @media (width >=1080px) {
+    .brand {
+        width: 10.625rem;
+    }
+
     .projectContent nav {
         top: 6.75rem;
         padding: 2rem;
@@ -186,13 +205,19 @@ nav ul li a {
 
     nav ul li a {
         font-size: 1.25rem;
+        transition: all 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: var(--color-primary);
     }
 
     .projectContent>div {
         gap: 5rem;
     }
 
-    .projectContent>div>div {
+    .projectContent>div>div,
+    .columnGap {
         gap: 1.25rem;
     }
 

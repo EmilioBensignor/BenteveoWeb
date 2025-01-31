@@ -68,13 +68,14 @@ export default {
 }
 
 .brandImg {
-    height: 1.875rem;
+    height: 2rem;
     position: absolute;
-    top: -1rem;
+    top: 1.5rem;
     left: 1rem;
     z-index: 2;
     object-fit: contain;
     opacity: 0;
+    transform: translateZ(20px);
     transition: all 0.3s;
 }
 

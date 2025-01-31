@@ -25,7 +25,7 @@ export default {
 
 <style>
 .projectsContainer {
-  gap: 3.5rem;
+  gap: 5rem;
 }
 
 @media (width >=660px) {
@@ -33,7 +33,8 @@ export default {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 6rem;
+    column-gap: 3.5rem;
+    row-gap: 5rem;
     padding-bottom: 5rem;
   }
 }
