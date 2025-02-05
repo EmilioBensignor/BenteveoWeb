@@ -16,17 +16,8 @@
             <section class="projectContent bg-white">
                 <nav>
                     <ul class="rowCenter">
-                        <li>
-                            <a href="#objective">Objetivo</a>
-                        </li>
-                        <li>
-                            <a href="#campain">Campaña</a>
-                        </li>
-                        <li>
-                            <a href="#results">Resultados</a>
-                        </li>
-                        <li>
-                            <a href="#awards">Premios</a>
+                        <li v-for="section in filteredSections" :key="section.id">
+                            <a @click.prevent="scrollToSection(section.id)" :href="`#${section.id}`">{{ section.name }}</a>
                         </li>
                     </ul>
                 </nav>
@@ -80,7 +71,13 @@ import { projects } from '~/shared/projects';
 export default {
     data() {
         return {
-            project: null
+            project: null,
+            sections: [
+                { id: 'objective', name: 'Objetivo' },
+                { id: 'campain', name: 'Campaña' },
+                { id: 'results', name: 'Resultados' },
+                { id: 'awards', name: 'Premios' }
+            ]
         }
     },
     created() {
@@ -89,6 +86,34 @@ export default {
     mounted() {
         if (!this.project) {
             this.$router.push(ROUTE_NAMES.PROJECTS);
+        }
+    },
+    computed: {
+        filteredSections() {
+            return this.sections.filter(section => 
+                section.id !== 'awards' || this.project?.awards
+            );
+        }
+    },
+    methods: {
+        scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                const headerHeight = 78;
+                const navHeight = 72;
+                let offset = headerHeight + navHeight;
+
+                if (window.innerWidth >= 660) offset = 88 + navHeight;
+                if (window.innerWidth >= 850) offset = 96 + navHeight;
+                if (window.innerWidth >= 992) offset = 96 + navHeight;
+                if (window.innerWidth >= 1080) offset = 96 + 100;
+
+                const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+                window.scrollTo({
+                    top: elementPosition - offset,
+                    behavior: 'smooth'
+                });
+            }
         }
     }
 }
@@ -121,6 +146,7 @@ nav ul li a {
     color: var(--color-black);
     font-weight: 500;
     text-decoration: none;
+    cursor: pointer; /* Agregar cursor pointer */
 }
 
 .projectContent>div {
@@ -199,7 +225,7 @@ nav ul li a {
     }
 
     .projectContent nav {
-        top: 6.75rem;
+        top: 6.25rem;
         padding: 2rem;
     }
 
