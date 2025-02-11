@@ -14,14 +14,14 @@ export const projects = [
       texts: ['La campaña fue un rotundo éxito, alcanzando más de 6 millones de impresiones en Twitter y logrando una cobertura masiva en medios de comunicación, desde portales deportivos hasta los principales canales de noticias, incluyendo diarios internacionales como los de España e Inglaterra. Esto permitió no solo alcanzar un impacto internacional, sino también llevar el mensaje de FUCA a un público amplio y diverso.', 'Lo más importante es que conseguimos transmitir el mensaje de prevención y detección temprana del cáncer de manera efectiva y emocional.'],
       videos: [
         {
-          id: "108678282",
+          id: "2XCsR-OSEqI",
           title: "Campaña BENTEVEO-FUCA con Jonas Gutierrez"
         },
         {
-          id: "111979552",
+          id: "uwjy6QSZYPk",
           title: "#Corro con Jonas"
         }
-      ],
+      ]
     },
     awards: {
       texts: ["Si bien, Jonás no ganó la maratón, se ganó el orgullo y respeto de todo un país.", "Y por nuestra parte, nos enorgullece destacar que la campaña ganó la máxima distinción en los Premios Obrar del Consejo Publicitario Argentino.", "PREMIO OBRAR - 6° Edición (2015) - Categoría: PyMES.", "Así como también un reconocimiento a nivel iberoamericano, tras quedar como finalistas del Caracol de Plata."],

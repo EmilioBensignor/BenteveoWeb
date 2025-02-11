@@ -17,7 +17,8 @@
                 <nav>
                     <ul class="rowCenter">
                         <li v-for="section in filteredSections" :key="section.id">
-                            <a @click.prevent="scrollToSection(section.id)" :href="`#${section.id}`">{{ section.name }}</a>
+                            <a @click.prevent="scrollToSection(section.id)" :href="`#${section.id}`">{{ section.name
+                                }}</a>
                         </li>
                     </ul>
                 </nav>
@@ -38,12 +39,12 @@
                         <div v-if="project.results.videos" class="videos">
                             <div v-for="(video, index) in project.results.videos" :key="index"
                                 style="padding:56.25% 0 0 0;position:relative;">
-                                <iframe
-                                    :src="`https://player.vimeo.com/video/${video.id}?badge=0&autopause=0&player_id=0&app_id=58479`"
+                                <iframe :src="`https://www.youtube.com/embed/${video.id}`"
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;" :title="video.title"
                                     frameborder="0"
-                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                                    :title="video.title"></iframe>
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ export default {
     },
     computed: {
         filteredSections() {
-            return this.sections.filter(section => 
+            return this.sections.filter(section =>
                 section.id !== 'awards' || this.project?.awards
             );
         }
@@ -146,7 +147,8 @@ nav ul li a {
     color: var(--color-black);
     font-weight: 500;
     text-decoration: none;
-    cursor: pointer; /* Agregar cursor pointer */
+    cursor: pointer;
+    /* Agregar cursor pointer */
 }
 
 .projectContent>div {
