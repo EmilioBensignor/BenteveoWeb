@@ -137,4 +137,10 @@ header {
     padding: 2rem 5.625rem;
   }
 }
+
+@media (width >=1920px){
+  .sandwichNav p {
+  font-size: 1.5rem;
+  }
+}
 </style>
