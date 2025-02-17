@@ -1,5 +1,8 @@
 <template>
   <section class="heroContainer">
+    <video autoplay muted loop playsinline class="bgVideo">
+      <source src="/videos/home/Benteveo-Agencia-Publicitaria.mp4" type="video/mp4">
+    </video>
     <div class="hero column">
       <div class="column">
         <h1>
@@ -25,3 +28,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bgVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+</style>
