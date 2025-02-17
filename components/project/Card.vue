@@ -1,17 +1,15 @@
 <template>
-    <article class="tiltProject wow animate__animated animate__fadeInUp">
+    <NuxtLink :to="`/trabajos/${project.slug}`" class="tiltProject wow animate__animated animate__fadeInUp">
         <div class="w-full h-full flex tiltElement" :ref="'tiltElement'">
-            <img :src="`/images/brands/${project.brand}_logo.webp`" :alt="`${project.altBrand}`"
-                class="brandImg" />
             <img :src="`/images/projects/${project.img}-campana-benteveo.webp`"
                 :alt="`Campaña ${project.altImg} creada por Benteveo`" class="w-full h-full projectImg" />
             <div class="projectInfo">
                 <p class="text-center text-white">{{ project.title }}</p>
                 <p class="text-center text-white">{{ project.description }}</p>
-                <NuxtLink :to="`/trabajos/${project.slug}`" class="seeMore text-white">CONOCÉ MÁS</NuxtLink>
+                <p class="seeMore text-white">CONOCÉ MÁS</p>
             </div>
         </div>
-    </article>
+    </NuxtLink>
 </template>
 
 <script>
@@ -67,18 +65,6 @@ export default {
     object-fit: cover;
 }
 
-.brandImg {
-    height: 2rem;
-    position: absolute;
-    top: 1.5rem;
-    left: 1rem;
-    z-index: 2;
-    object-fit: contain;
-    opacity: 0;
-    transform: translateZ(20px);
-    transition: all 0.3s;
-}
-
 .projectInfo {
     display: flex;
     flex-direction: column;
@@ -119,8 +105,7 @@ export default {
     transition: all 0.3s;
 }
 
-.tiltProject:hover .seeMore,
-.tiltProject:hover .brandImg {
+.tiltProject:hover .seeMore {
     opacity: 1;
 }
 

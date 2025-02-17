@@ -18,7 +18,7 @@
                     <ul class="rowCenter">
                         <li v-for="section in filteredSections" :key="section.id">
                             <a @click.prevent="scrollToSection(section.id)" :href="`#${section.id}`">{{ section.name
-                                }}</a>
+                            }}</a>
                         </li>
                     </ul>
                 </nav>
@@ -36,6 +36,11 @@
                         <div v-if="project.results.texts" class="columnGap column">
                             <p v-for="(item, index) in project.results.texts" :key="index">{{ item }}</p>
                         </div>
+                        <div v-if="project.results.webs">
+                            <a :href="item.link" v-for="(item, index) in project.results.webs" :key="index"
+                                target="_blank" class="website">{{
+                                    item.name }}</a>
+                        </div>
                         <div v-if="project.results.videos" class="videos">
                             <div v-for="(video, index) in project.results.videos" :key="index"
                                 style="padding:56.25% 0 0 0;position:relative;">
@@ -47,8 +52,20 @@
                                 </iframe>
                             </div>
                         </div>
+                        <div v-if="project.results.instagram" class="instagram">
+                            <div v-for="(post, index) in project.results.instagram" :key="index"
+                                class="instagramContainer">
+                                <blockquote class="instagram-media"
+                                    :data-instgrm-permalink="`https://www.instagram.com/reel/${post.id}/`"
+                                    data-instgrm-version="14">
+                                    <a :href="`https://www.instagram.com/reel/${post.id}/`" target="_blank">
+                                        Ver esta publicación en Instagram
+                                    </a>
+                                </blockquote>
+                            </div>
+                        </div>
                     </div>
-                    <div v-if="project.awards" id="awards" class="w-full column">
+                    <div v-if="project.instagramMedias" id="awards" class="w-full column">
                         <h2>Premios</h2>
                         <div v-if="project.awards.texts">
                             <p v-for="(item, index) in project.awards.texts" :key="index">{{ item }}</p>
@@ -87,6 +104,15 @@ export default {
     mounted() {
         if (!this.project) {
             this.$router.push(ROUTE_NAMES.PROJECTS);
+        }
+
+        if (!window.instgrm) {
+            const script = document.createElement('script');
+            script.async = true;
+            script.src = '//www.instagram.com/embed.js';
+            document.body.appendChild(script);
+        } else {
+            window.instgrm.Embeds.process();
         }
     },
     computed: {
@@ -148,7 +174,6 @@ nav ul li a {
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
-    /* Agregar cursor pointer */
 }
 
 .projectContent>div {
@@ -162,11 +187,13 @@ nav ul li a {
 }
 
 .projectContent>div>div p,
-.award {
+.award,
+.website {
     color: var(--color-dark-gray);
 }
 
-.videos {
+.videos,
+.instagram {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -176,6 +203,24 @@ nav ul li a {
     width: 100%;
     max-width: 350px;
     padding: 6rem 0 !important;
+}
+
+.instagramContainer {
+    width: 100%;
+    max-width: min-content;
+}
+
+.instagram-media {
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 540px;
+    min-width: 326px;
+    padding: 0;
+    width: 99.375%;
+    width: calc(100% - 2px);
 }
 
 @media (width >=480px) {
@@ -249,7 +294,8 @@ nav ul li a {
         gap: 1.25rem;
     }
 
-    .videos {
+    .videos,
+    .instagram {
         flex-direction: row;
         gap: 2.75rem;
     }

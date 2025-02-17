@@ -57,8 +57,8 @@ export const projects = [
       texts: ["El video institucional fue un gran éxito, logrando una fuerte conexión emocional con el público y destacando en el sector por su enfoque innovador. La campaña no solo reforzó la imagen de Sika como líder en calidad e innovación, sino que también humanizó la marca, mostrando su compromiso con las personas detrás de los productos."],
       videos: [
         {
-        id: "2XCsR-OSEqI",
-        title: "Institucional Sika"
+          id: "2XCsR-OSEqI",
+          title: "Institucional Sika"
         },
       ],
     },
@@ -81,7 +81,7 @@ export const projects = [
         {
           id: "YO6TisZQbLE",
           title: "Experiencia Flashmob Qualy"
-          },
+        },
       ],
     },
     feature: true,
@@ -125,6 +125,11 @@ export const projects = [
     campain: ["La psicología del color es una rama de la psicología que estudia cómo los colores influyen en el comportamiento y las emociones de las personas. Basándonos en esta premisa, desarrollamos una campaña que convertía a uno de los asesores de Sodimac en un psicólogo especializado en colores.", 'Decidimos lanzar una serie de videos humorísticos en los que este "psicólogo del color" ayudaba a los clientes a elegir el color perfecto para sus hogares, demostrando así el valor de la asesoría personalizada. La campaña buscaba comunicar este servicio de una forma original y relajada, utilizando insights con los que el público se pudiera identificar fácilmente.'],
     results: {
       texts: ["La campaña fue recibida con gran entusiasmo por los usuarios, generando un amplio alcance en redes sociales y aumentando significativamente el número de consultas al sector de pinturas en las diferentes tiendas Sodimac del país. Esta estrategia no solo incrementó la visibilidad del servicio, sino que también fortaleció la percepción de la marca como experta en soluciones de pintura personalizadas."],
+      instagram: [
+        { id: 'CyElhRhv5WO' },
+        { id: 'CewnCGZlSFN' },
+        { id: 'CewnCGZlSFN' },
+      ],
     },
     feature: true,
   },
@@ -145,7 +150,7 @@ export const projects = [
         {
           id: "eyXjleu_xBY",
           title: "AJINOMOTO: ¡Llegó la hora de revelar El Secreto del Sabor!"
-          },
+        },
       ],
     },
     feature: true,
@@ -163,11 +168,17 @@ export const projects = [
     campain: ["Para este proyecto, convocamos a un grupo de pacientes que sobrevivieron al cáncer de mama para emprender un viaje al Valle de las Lágrimas en marzo de 2022, junto al Dr. Fernando Petracci y otros médicos del Instituto Alexander Fleming. Este viaje no solo fue una travesía física, sino también una intensa experiencia emocional que los invitó a reflexionar, recordar y rendir homenaje a los sobrevivientes del accidente aéreo.", "Para promocionar el lanzamiento de este emotivo e inspirador documental, creamos una campaña de cobranding con Starbucks Argentina. Esta acción tenía como objetivo seguir concientizando sobre la importancia de realizarse chequeos a tiempo, lanzando el nuevo Ultra Frutilla Creme Frappuccino. Con la compra de cada uno de estos frappuccinos, los clientes participaban en un sorteo para ganar entradas para ver el documental en el cine, y parte del dinero recaudado fue destinado al Instituto Alexander Fleming."],
     results: {
       texts: ['La campaña tuvo un impacto significativo, generando conciencia sobre la importancia de la detección temprana del cáncer de mama. El documental fue bien recibido, logrando una fuerte conexión emocional con la audiencia. La colaboración con Starbucks Argentina no solo aumentó la visibilidad del documental, sino que también incentivó a la comunidad a participar y contribuir a la causa, recaudando fondos importantes para el Instituto Alexander Fleming.'],
+      webs: [
+        {
+          name: "VER DOCUMENTAL | De Vuelta A La Vida",
+          link: "https://www.devueltaalavida.com/ver-documental"
+        },
+      ],
       videos: [
         {
           id: "WaKJ8psipI8",
           title: "DE VUELTA A LA VIDA - Documental Completo"
-          },
+        },
       ],
     },
     feature: true,
@@ -189,7 +200,7 @@ export const projects = [
         {
           id: "yQdqWRu_QYg",
           title: "Corriendo con Jonás - FUCA"
-          },
+        },
       ],
     },
     feature: true,
@@ -549,7 +560,7 @@ export const projects = [
         {
           id: "yQdqWRu_QYg",
           title: "Corriendo con Jonás - FUCA"
-          },
+        },
       ],
     },
   },
@@ -695,7 +706,7 @@ export const projects = [
         {
           id: "yQdqWRu_QYg",
           title: "Corriendo con Jonás - FUCA"
-          },
+        },
       ],
     },
   },
