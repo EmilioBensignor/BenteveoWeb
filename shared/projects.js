@@ -126,9 +126,9 @@ export const projects = [
     results: {
       texts: ["La campaña fue recibida con gran entusiasmo por los usuarios, generando un amplio alcance en redes sociales y aumentando significativamente el número de consultas al sector de pinturas en las diferentes tiendas Sodimac del país. Esta estrategia no solo incrementó la visibilidad del servicio, sino que también fortaleció la percepción de la marca como experta en soluciones de pintura personalizadas."],
       instagram: [
-        { id: 'CyElhRhv5WO' },
-        { id: 'CewnCGZlSFN' },
-        { id: 'CewnCGZlSFN' },
+        { id: 'Cx1ALNAPmcr' },
+        { id: 'Cx85hKcug4P' },
+        { id: 'CxqgA2huCD6' },
       ],
     },
     feature: true,
@@ -151,6 +151,10 @@ export const projects = [
           id: "eyXjleu_xBY",
           title: "AJINOMOTO: ¡Llegó la hora de revelar El Secreto del Sabor!"
         },
+      ],
+      instagram: [
+        { id: 'CyElhRhv5WO' },
+        { id: 'CyhE181s3-Z' },
       ],
     },
     feature: true,
@@ -179,6 +183,10 @@ export const projects = [
           id: "WaKJ8psipI8",
           title: "DE VUELTA A LA VIDA - Documental Completo"
         },
+      ],
+      instagram: [
+        { id: 'Cj6Cy--NL1s' },
+        { id: 'CkO37THsiZ2' },
       ],
     },
     feature: true,
@@ -263,6 +271,12 @@ export const projects = [
     campain: ['Bajo el concepto “Tus amigos tienen código… ¡Nosotros también!”, desarrollamos #AmigosConCódigo, una campaña que resaltaba la unión y colaboración entre Paty y Mercado Pago.', "La dinámica de la promoción era simple: los usuarios debían buscar el código QR dentro del pack de Paty, escanearlo con la app de Mercado Pago y así participar para ganar un 20% de descuento en su próxima compra. Un aspecto destacado de esta promoción fue que el descuento podía aplicarse a cualquier compra, no solo a productos Paty, mostrando la generosidad y amistad entre las marcas.", "Desarrollamos contenidos en formato video para redes sociales, con un humor ácido y moderno que reflejaba el espíritu de “amistad con códigos”. Además, creamos banners animados multi-screen para los principales medios de alcance nacional como Infobae, La Nación, Clarín, Olé y El Cronista. Todo esto fue complementado con una estrategia de paid media y cobertura orgánica."],
     results: {
       texts: ["La campaña recibió una gran aceptación en redes sociales y logró alcanzar los objetivos de venta de la marca Paty, ayudando a consolidar el liderazgo de Mercado Pago como la principal billetera virtual de Argentina. La campaña fue reconocida en distintos medios populares (diarios digitales), aumentando de forma orgánica su alcance a nivel nacional. Además, la campaña ganó el premio Eikon a la mejor campaña digital móvil de 2020."],
+      webs: [
+        {
+          name: "Paty presenta #AmigosConCódigo",
+          link: "https://www.sitemarca.com/paty-presenta-amigosconcodigo-la-primera-campana-en-punto-de-venta-con-codigo-qr/"
+        },
+      ],
     },
     awards: {
       press: [
@@ -296,6 +310,9 @@ export const projects = [
           title: "Cumpleaños Sodimac 14 años"
         },
       ],
+      instagram: [
+        { id: 'ChqBvJcJkri' },
+      ],
     },
   },
   {
@@ -311,6 +328,12 @@ export const projects = [
     campain: ["Cambiar el piso de tu casa no es algo que se haga todos los días. No es una renovación simple como pintar una pared; requiere mucha planificación y a menudo implica obras. Sodimac decidió facilitar este proceso y ayudar a sus clientes.", "Para promocionar el nuevo Showroom, lanzamos una serie de videos que hacían un paralelismo entre las relaciones de pareja y la relación con el piso de tu casa, bajo el concepto: “Renová el amor por tus pisos”. Esta propuesta rompía con el formato tradicional de promoción, utilizando humor e ingenio para conectar de manera original y divertida con nuestro público objetivo."],
     results: {
       texts: ["La campaña tuvo un gran recibimiento por parte de los usuarios, generando un amplio alcance en redes sociales e incrementando el número de visitas a los showrooms de las distintas tiendas Sodimac del país. La estrategia no solo aumentó la visibilidad del nuevo showroom, sino que también reforzó la conexión emocional de los clientes con la marca."],
+      instagram: [
+        { id: 'CtKwXTFO1_E' },
+        { id: 'CtSQI5AA01m' },
+        { id: 'CtcfR_yNy4_' },
+        { id: 'Ctp8O_RMYFf' },
+      ],
     },
   },
   {
@@ -332,6 +355,11 @@ export const projects = [
           title: "La Jugueteria de Papá - Sodimac Homecenter Argentina"
         },
       ],
+      instagram: [
+        { id: 'CewnCGZlSFN' },
+        { id: 'Ceq0rhalcWm' },
+        { id: 'CemBP2Ul1gQ' },
+      ],
     },
   },
   {
@@ -347,6 +375,12 @@ export const projects = [
     campain: ["Sabemos que el Mundial es un momento único para los argentinos, donde nos reunimos en casa con amigos y familiares para ver cada partido. Es aquí donde nuestra casa se convierte en un espacio especial y Sodimac quiere que puedas disfrutarlo al máximo, aprovechando su temporada de descuentos con ofertas especiales en todo tipo de artículos para el hogar, desde muebles hasta televisores, para no perderte de nada.", "Para ello, desarrollamos una campaña que destaca a los verdaderos protagonistas de esta fiesta deportiva... ¿los jugadores? No: LOS HINCHAS.", "Existen muchos tipos de hinchas, y para esta campaña decidimos retratar algunos de ellos de la mano del famoso comediante argentino Pachu Peña. Lanzamos una serie de videos humorísticos donde Pachu encarna a los distintos tipos de hinchas, pero con el diferencial de que todo ocurre dentro de las tiendas de Sodimac, recreando situaciones de nuestros hogares. Porque la realidad es que no todos tuvimos la suerte de viajar a Qatar, pero gracias a Sodimac podemos disfrutarlo al máximo desde la comodidad de nuestras casas."],
     results: {
       texts: ["La colaboración con Pachu Peña permitió potenciar el alcance de la campaña de manera orgánica, logrando cumplir positivamente con los objetivos propuestos por la marca. Además, los videos ayudaron a crear un contenido más humano y divertido para sus redes, fortaleciendo el engagement y la estrategia de pauta permitió promocionar la temporada de descuentos con gran éxito."],
+      instagram: [
+        { id: 'Ckq-0iFpEsw' },
+        { id: 'ClL6C50Do2W' },
+        { id: 'ClHLkiPuhw0' },
+        { id: 'ClCcUhIP-S4' },
+      ],
     },
   },
   {
@@ -723,6 +757,12 @@ export const projects = [
     campain: ["A partir de este concepto creamos LA SEMANA DEL STEELERO. Cinco días llenos de contenidos, capacitaciones, ofertas exclusivas (en productos Barbieri) y eventos para profesionales, a lo largo del país."],
     results: {
       texts: ['Esta campaña tuvo tal éxito que comenzó a replicarse año tras año. Sin embargo, con el paso del tiempo, pasó a llamarse “LA SEMANA DEL STEEL FRAME”. Esto debido a la búsqueda de ampliar la comunicación a arquitectos y distribuidores, con el fin de no solo homenajear a los steeleros, sino también dar a conocer el Steel Frame a todo el mundo, como una solución constructiva más eficiente, práctica y sustentable que la construcción tradicional.'],
+      webs: [
+        {
+          name: "Semana del Steel Frame | BARBIERI",
+          link: "https://semanadelsteelframe.adbarbieri.com/"
+        },
+      ],
       videos: [
         {
           id: "9TysEDM95VA",
@@ -749,6 +789,10 @@ export const projects = [
           title: "LANZAMIENTO Semana del Steel Frame"
         },
       ],
+      instagram: [
+        { id: 'CiA_OQhuQd2' },
+        { id: 'CkMPZfyojQ-' },
+      ],
     },
   },
   {
@@ -763,6 +807,12 @@ export const projects = [
     objective: 'Revear es una marca vanguardista que siempre busca nuevas formas de demostrar su estilo moderno, su diseño innovador y la enorme calidad de sus productos. Elementos que la distinguen del resto de la competencia. En esta oportunidad se nos propuso el desafío de crear una activación que representara esta misma mirada creativa e innovadora, y que a su vez transmitiera a la perfección el concepto de la marca: “Revear le da vida a tus paredes”.',
     campain: ["Para esta campaña decidimos realizar una intervención en vía pública y crear un MURAL INTERACTIVO en el barrio porteño de Palermo.", "Un mural lleno de textura, color y personalidad, en el que se utilizó revestimiento texturado Revear Marble (implementando diferentes técnicas para logar distintos tipos de texturas y tonos de colores). En él se puede apreciar de forma artística la gran diferencia que existe entre la textura y la pintura, siendo la primera una alternativa más atractiva tanto a simple vista como al tacto.", "Además, para hacer de esta una experiencia completamente diferente, aplicamos REALIDAD AUMENTADA para convertirlo en una mural interactivo. Escaneando el código QR que se encuentra en la parte inferior del mural, se puede observar cómo cobra vida.", "Para su lanzamiento, invitamos a un grupo de arquitectos e influencers a redescubrir el barrio en un recorrido interactivo en el que les fuimos preguntando consejos para la renovación de una casa. Hasta que finalmente llegaron al mural y descubrieron toda su magia por ellos mismos."],
     results: {
+      webs: [
+        {
+          name: "Mural Texturas llenas de vida",
+          link: "https://comunidadaplicadores.com.ar/mural-texturas-llenas-de-vida/"
+        },
+      ],
       videos: [
         {
           id: "IpuZHa_o7t4",
