@@ -108,6 +108,10 @@ export const projects = [
           id: "YUxzD-jZiRk",
           title: 'PATY "Entra a la leyenda". LANZAMIENTO'
         },
+        {
+          id: "HAWhuETT2IQ",
+          title: 'Activacion En Cines. PATY "Entra A La Leyenda"'
+        },
       ],
     },
     feature: true,
@@ -206,8 +210,16 @@ export const projects = [
       texts: ["El evento fue un éxito rotundo, logrando una excelente recepción por parte de los invitados y fortaleciendo la presencia de Nobili en Argentina. La alianza con Vasser se consolidó como un referente de calidad y diseño en el mercado. El evento y su toque sorpresa generaron un alto nivel de engagement y reconocimiento entre los participantes."],
       videos: [
         {
-          id: "yQdqWRu_QYg",
-          title: "Corriendo con Jonás - FUCA"
+          id: "9G4wcxcx1r0",
+          title: "Teaser Evento Vasser- Nobili"
+        },
+        {
+          id: "qa8vlw6FfTg",
+          title: "Video Evento Vasser Nobili"
+        },
+        {
+          id: "bO014aB-BVY",
+          title: "Resumen Evento Nobili Vasser"
         },
       ],
     },
@@ -592,8 +604,52 @@ export const projects = [
       texts: ["La campaña alcanzó más de 1 millón de impresiones en Twitter, 140.000 visitas diarias al Facebook oficial de Dánica y más de 100.000 visitas al sitio web de la activación solo en el primer mes. La intervención en el shopping tuvo una amplia aceptación, con 14 millones de impresiones en redes y 280.000 usuarios participando del concurso desde la cabina o la web. Lo más importante es que conseguimos crear una nueva comunidad de usuarios activos en las redes de Dánica."],
       videos: [
         {
-          id: "yQdqWRu_QYg",
-          title: "Corriendo con Jonás - FUCA"
+          id: "XPDKrPzGaqg",
+          title: "¿Quién cocina lo que más te gusta?"
+        },
+        {
+          id: "jne875ZjJjM",
+          title: 'Catherine Fulop presenta "¿Quién cocina lo que más te gusta?", la nueva campaña de Dánica'
+        },
+        {
+          id: "7djHQxF0eDQ",
+          title: "Making Of Spot Dánica"
+        },
+        {
+          id: "YTpErT9Y8_4",
+          title: "Vení a las Cabinas Dánica a participar"
+        },
+        {
+          id: "SoJHBXUdip0",
+          title: "Historia animada: Jorge y María Soledad"
+        },
+        {
+          id: "ROKm-cjPxe4",
+          title: "María Soledad y Jorge comparten su amor por la cocina"
+        },
+        {
+          id: "-YYr0dNlPaY",
+          title: "Historias para compartir: Irene y Lucrecia"
+        },
+        {
+          id: "gV0nwEZhAz8",
+          title: "¡Felicitaciones Sandra! Su historia se ganó una tablet y participa por $100.000"
+        },
+        {
+          id: "dYeNeYCXyiQ",
+          title: "Participá vos también de la Experiencia Dánica"
+        },
+        {
+          id: "7XtSXGfRjXw",
+          title: "Participá de la Experiencia Dánica"
+        },
+        {
+          id: "x3indiBFIWM",
+          title: "Claudia homenajeó a su hermana ¡y tuvo premio!"
+        },
+        {
+          id: "HeWWzjxdznQ",
+          title: "La historia animada de Valeria y Mery"
         },
       ],
     },
@@ -738,8 +794,24 @@ export const projects = [
     results: {
       videos: [
         {
-          id: "yQdqWRu_QYg",
-          title: "Corriendo con Jonás - FUCA"
+          id: "JQ-Q5VOUDxo",
+          title: "LAS FRUTTAMIS: Amigo con Pileta"
+        },
+        {
+          id: "PUwiorHNzMM",
+          title: "LAS FRUTTAMIS: Crucigrama"
+        },
+        {
+          id: "_7CBN56CISY",
+          title: "LAS FRUTTAMIS: Cubetera Vacia"
+        },
+        {
+          id: "z5R2aaGvUq4",
+          title: "LAS FRUTTAMIS: La charla"
+        },
+        {
+          id: "VX28U5eZc4Q",
+          title: "LAS FRUTTAMIS: Vacaciones con chicos"
         },
       ],
     },
