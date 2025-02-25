@@ -29,6 +29,10 @@ export default {
 </script>≈
 
 <style scoped>
+section{
+    background-color: var(--color-dark-black);
+}
+
 .premiosSectores {
     gap: 2rem;
 }

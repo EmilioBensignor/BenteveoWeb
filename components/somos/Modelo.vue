@@ -134,7 +134,7 @@ const swiper = useSwiper(swiperEquipo, {
     bottom: 0;
     opacity: 0;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
     padding-bottom: 0.5rem;
 }
 
