@@ -21,9 +21,9 @@
                         </div>
                         <p class="text-dark-gray">{{ service.description }}</p>
                     </div>
-                    <NuxtLink to="#">CONOCÉ MÁS</NuxtLink>
                 </div>
             </div>
+            <NuxtLink to="#" class="primaryButton btnConoceMas">CONOCÉ MÁS</NuxtLink>
         </div>
     </section>
 </template>
@@ -92,6 +92,16 @@ section>div {
 
 .service a:hover:before {
     width: 100%;
+}
+
+.btnConoceMas{
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btnConoceMas:hover{
+    background-color: var(--color-primary);
+    color: var(--color-black);
 }
 
 @media (width >=660px) {

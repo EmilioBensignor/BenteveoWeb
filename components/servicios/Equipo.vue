@@ -16,11 +16,23 @@
                         hagan realidad. <span class="font-bold">JUNTOS podemos todo.</span>
                     </p>
                 </div>
-                <NuxtLink to="#" class="primaryButton">PENSEMOS EN EQUIPO</NuxtLink>
+                <NuxtLink :to="routes.CONVERSEMOS" class="primaryButton">PENSEMOS EN EQUIPO</NuxtLink>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
+
+export default {
+    data() {
+    return {
+        routes: ROUTE_NAMES
+    };
+    }
+}
+</script>
 
 <style scoped>
 .equipo {
