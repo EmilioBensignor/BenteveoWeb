@@ -1,7 +1,7 @@
 <template>
     <main>
-        <PagesHero title="UN EQUIPO, UNA VISIÓN"
-            description="La creatividad como herramienta para construir conexiones potentes."
+        <PagesHero title="SOLUCIONES QUE TRANSFORMAN"
+            description="Desde la idea hasta la ejecución, ofrecemos estrategias creativas para llevar tu marca más lejos."
             backgroundClass="heroSomos" />
         <div class="parallaxContent">
             <ServiciosCapacidades />

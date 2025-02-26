@@ -1156,7 +1156,7 @@ export const projects = [
     },
   },
   {
-    slug: "fuca-marco-azul-por-mas-momentos-asi",
+    slug: "fuca-marzo-azul-por-mas-momentos-asi",
     title: "Marzo Azul: Por más momentos así",
     description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
     brand: "fuca",

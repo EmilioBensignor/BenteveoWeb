@@ -1,7 +1,7 @@
 <template>
     <main>
-        <PagesHero title="NEWS"
-            description="We work in an integral manner and address projects in the following dimensions." />
+        <PagesHero title="SIEMPRE EN MOVIMIENTO"
+            description="Las últimas noticias, campañas y tendencias que nos inspiran a seguir creando." />
         <div class="parallaxContent">
             <section class="bg-white">
                 <div class="blogsContainer wrapSpaceBetween">

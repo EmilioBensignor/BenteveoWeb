@@ -1,6 +1,6 @@
 <template>
     <main>
-        <PagesHero title="TRABAJOS" description="Completar" backgroundClass="heroSomos" />
+        <PagesHero title="LO QUE HACEMOS HABLA POR NOSOTROS" description="Descubrí las campañas que creamos con pasión, estrategia e innovación." backgroundClass="heroSomos" />
         <div class="parallaxContent">
             <section class="bg-black">
                 <div class="w-full projectsContainer columnAlignCenter">
