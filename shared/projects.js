@@ -87,13 +87,13 @@ export const projects = [
     feature: true,
   },
   {
-    slug: "paty-posicionamiento-regional",
-    title: "Paty, posicionamiento regional",
+    slug: "paty-subete-a-la-leyenda",
+    title: "Paty: Súbete a la leyenda",
     description: 'Un viaje por el tiempo para descubrir el poder de "LA LEYENDA".',
     brand: "paty",
     altBrand: "Logo Paty",
-    img: "posicionamiento_regional",
-    altImg: "Paty, posicionamiento regional",
+    img: "paty_subete_a_la_leyenda",
+    altImg: "Paty: Súbete a la leyenda",
     subtitle: 'Paty, junto al famoso comediante chileno Rodrigo Salinas, te invita a un viaje por el tiempo para descubrir el poder de "LA LEYENDA".',
     objective: "Paty, una marca líder en Argentina, enfrentaba el desafío de lograr un reconocimiento similar en el mercado chileno. En 2016, la empresa decidió lanzar una campaña 360° para incrementar la pregnancia y el engagement de la marca en Chile, abordando así el problema de su baja visibilidad y posicionamiento en este mercado.",
     campain: ["Para alcanzar este nuevo posicionamiento en Chile, lanzamos una campaña protagonizada por el comediante y actor Rodrigo Salinas, una figura reconocida en el país. Su participación dio a Paty una comunicación fresca y divertida, manteniendo su espíritu de TRADICIÓN EN CARNES.", 'La campaña incluyó diferentes activaciones: Un gran evento en las playas de Viña del Mar, Reñaca y La Serena, donde los usuarios podían subirse a un toro mecánico con la forma del logo de Paty; y una serie de videos interactivos en los que las personas podían actuar y aparecer junto al comediante en un "viaje a través del tiempo".', "El lema de la campaña, ¡Anímate a domar tu hambre! #SubetealaLeyenda, invitaba al público a participar activamente y a conocer más sobre la marca."],
@@ -1020,6 +1020,162 @@ export const projects = [
           id: "8riiqFmp9Hg",
           title: "Mi Salud Mi Derecho- II"
         },
+      ],
+    },
+  },
+  {
+    slug: "paty-sabiduria-al-plato",
+    title: "Paty: Sabiduría al plato",
+    description: "Paty es tradición en carnes, incluso en Uruguay. Pero no nos crean a nosotros, mejor escuchen al Sabio.",
+    brand: "paty",
+    altBrand: "Logo PATY",
+    img: "paty-sabiduria-al-plato",
+    altImg: "Paty: Sabiduría al plato",
+    subtitle: "Paty es tradición en carnes, incluso en Uruguay. Pero no nos crean a nosotros, mejor escuchen al Sabio.",
+    objective: "Aunque Paty posee un buen posicionamiento en Uruguay, aún está lejos del prestigio que presenta en Argentina. El desafío planteado por el cliente era claro: aumentar la visibilidad de la marca y convertirla en sinónimo de BUENA CARNE 100% VACUNA en el mercado uruguayo.",
+    campain: ['Desarrollamos una campaña 360° con el objetivo de fortalecer la imagen y pregnancia de la marca en el mercado uruguayo y aumentar su engagement. Para ello, convocamos al famosísimo cantante Rubén "el negro" Rada para transformarlo en “El Sabio”, un personaje que, con su música, brinda sabios consejos a la hora de comer con amigos o en familia.', "La campaña incluyó una serie de piezas audiovisuales para TV y redes sociales, así como activaciones en supermercados que incentivaron la venta de Paty a través de descuentos. Las acciones fueron diseñadas para conectar emocionalmente con el público uruguayo y destacar la calidad de la carne Paty."],
+    results: {
+      texts: ["La campaña permitió que más personas conocieran y disfrutaran del inigualable sabor de Paty. A través de las activaciones en supermercados y los food trucks que recorrieron la ciudad, logramos un alcance de más de 20.000 nuevas personas que probaron Paty por primera vez. Además, los videos promocionales obtuvieron un buen rendimiento, incrementando el engagement de la marca en sus redes sociales."],
+      videos: [
+        {
+          id: "uwjy6QSZYPk",
+          title: 'Ruben Rada "Sabiduría al plato" Paty Uruguay - Spot Redes Sociales'
+        },
+        {
+          id: "Rb80OF-6oac",
+          title: 'Ruben Rada "Sabiduría al plato" Paty Uruguay - Spot 1'
+        },
+        {
+          id: "CiwAa3EUrmI",
+          title: 'Ruben Rada "Sabiduría al plato" Paty Uruguay - Spot 2'
+        },
+        {
+          id: "UsnhACqHlek",
+          title: "Activación Paty en Uruguay"
+        },
+      ],
+    },
+  },
+  {
+    slug: "cuidate-a-tiempo-fuca",
+    title: "Cuidate a tiempo",
+    description: "Una intervención en los baños del Shopping Alto Palermo para el día de la mujer.",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "Cuidate a tiempo",
+    subtitle: "Para nuestra primera campaña con FUCA, en colaboración con IRSA, realizamos una intervención en los baños del Shopping Alto Palermo para el día de la mujer, con el objetivo de generar conciencia sobre la importancia de hacerse la mamografía una vez al año.",
+    objective: "El cáncer de mama es una de las principales causas de muerte en mujeres, y la detección temprana es fundamental para aumentar las probabilidades de tratamiento exitoso. Por eso, el objetivo de la campaña era concientizar sobre la importancia de realizarse una mamografía anual, utilizando un espacio cotidiano para transmitir un mensaje claro y directo.",
+    campain: ["Llevamos a cabo una intervención en los baños del Shopping Alto Palermo, donde se instalaron espejos con mensajes que recordaban a las mujeres la importancia de realizarse una mamografía una vez al año. Además, la campaña incluía un CTA que invitaba a las mujeres a ingresar en www.cuidateatiempo.org, un sitio web donde podían encontrar información detallada sobre la prevención del cáncer de mama.", "En el sitio, las usuarias también podían acceder a un calendario virtual para registrar su última mamografía y recibir un recordatorio anual por correo electrónico. Para reforzar el mensaje, lanzamos un spot promocional protagonizado por Maru Botana, una de las voceras de la fundación."],
+    results: {
+      texts: ["La campaña logró captar la atención del público en un espacio de alto tránsito, generando un aumento significativo en las visitas al sitio web y en los registros del calendario virtual. El spot promocional tuvo una gran repercusión en medios digitales y redes sociales, ampliando el alcance del mensaje de prevención."],
+      videos: [
+        {
+          id: "Ef_r9EJ09mw",
+          title: "Programá Tu Mamografía Para Toda La Vida Como Maru Botana"
+        },
+      ],
+    },
+  },
+  {
+    slug: "modelo-es-la-que-lucha-fuca",
+    title: "Modelo es la que lucha",
+    description: "Participamos de la Argentina Fashion Week para comunicar el trabajo de la fundación en su lucha contra el cáncer.",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "Modelo es la que lucha",
+    subtitle: "FUCA acostumbra participar cada año en Argentina Fashion Week, con el objetivo promocionar y comunicar el trabajo de la fundación en su lucha contra el cáncer.",
+    objective: "El objetivo de la campaña era aprovechar la visibilidad de Argentina Fashion Week para transmitir un mensaje de concientización sobre el cáncer, destacando que las verdaderas modelos son aquellas personas que luchan día a día contra la enfermedad. Nos propusimos crear una campaña que aprovechara la masividad del evento y a los famosos que participaron de él, para realizar en conjunto una activación invitando a las celebridades a tomarse una foto en un stand que replica la portada de una revista de espectáculos… pero con un mensaje diferente: #ModeloEsLaQueLucha",
+    campain: ["Instalamos un stand que replicaba la portada de una revista de espectáculos, donde celebridades y modelos podían tomarse una foto con el mensaje #ModeloEsLaQueLucha. Estas imágenes fueron compartidas en redes sociales para amplificar el mensaje y sumar voces a la causa."],
+    results: {
+      texts: ["La campaña tuvo una gran repercusión en redes sociales, alcanzando más de 2 millones de personas en Twitter en las primeras 24 horas del lanzamiento. La activación logró generar conversaciones en torno a la causa y reforzó el posicionamiento de FUCA en eventos de gran visibilidad."],
+    },
+  },
+  {
+    slug: "foto-del-ano-fuca",
+    title: "FUCA: Foto del año",
+    description: "El éxito de la primera activación en el desfile Argentina Fashion Week, nos abrió las puertas para lanzar una nueva campaña",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "FUCA: Foto del año",
+    subtitle: "El éxito de la primera activación en el desfile Argentina Fashion Week, nos abrió las puertas para redoblar la apuesta y lanzar una nueva campaña, pero esta vez con un enfoque diferente. Muchas campañas promueven el auto examen de mama, pero FUCA sabe bien que tus manos nunca podrán remplazar una mamografía.",
+    objective: 'La campaña tenía como objetivo destacar la importancia de realizarse una mamografía anual como método efectivo de detección temprana del cáncer de mama, utilizando un mensaje simple pero poderoso: la mamografía es "La Foto del Año".',
+    campain: ['Invitamos a las modelos del desfile a sumarse a la campaña y compartir en sus redes sociales su "FOTO DEL AÑO", utilizando una placa que simulaba ser una radiografía de mamas, con el mensaje: "PARA VERSE BIEN POR FUERA, HAY QUE CUIDARSE POR DENTRO".', "Además, instalamos una cabina fotográfica en el evento para que las asistentes pudieran sacarse su propia #LaFotoDelAño y compartirla en redes. Paralelamente, realizamos una convocatoria digital para que mujeres de todo el país participaran, subiendo una selfie con el hashtag como símbolo de su compromiso con la prevención."],
+    results: {
+      texts: ["La campaña generó una gran participación en redes sociales, con miles de mujeres sumándose al movimiento y compartiendo su compromiso con la detección temprana. La activación en el desfile consolidó la presencia de FUCA en eventos de alto perfil y amplificó el mensaje de la campaña."],
+    },
+  },
+  {
+    slug: "spots-institucionales-fuca",
+    title: "FUCA: Spots institucionales",
+    description: "FUCA ha lanzado diversos spots institucionales con el objetivo de concientizar sobre la lucha contra el cáncer.",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "FUCA: Spots institucionales",
+    subtitle: "A lo largo de los años, FUCA ha lanzado diversos spots institucionales con el objetivo de concientizar sobre la importancia de la prevención, la investigación y el acompañamiento en la lucha contra el cáncer.",
+    objective: "Estos spots buscaban reforzar el mensaje de FUCA sobre la detección temprana y la importancia de la investigación oncológica, acercando al público testimonios reales y datos concretos para motivar la prevención.",
+    campain: ["Realizamos una serie de spots audiovisuales que mostraban la importancia de la investigación y la prevención a través de historias reales de pacientes y sobrevivientes. Cada spot tenía un enfoque emotivo y educativo, con un llamado claro a la acción para promover las donaciones y el compromiso con la causa."],
+    results: {
+      texts: ["Los spots tuvieron una alta difusión en medios digitales y tradicionales, logrando aumentar la visibilidad de FUCA y fortalecer su mensaje. Los testimonios reales conectaron emocionalmente con el público y ayudaron a incrementar las donaciones y el apoyo a la fundación."],
+      videos: [
+        {
+          id: "rgS2ysYbdsg",
+          title: 'Video institucional "¿Qué es FUCA?" contado por algunos de sus protagonistas.'
+        },
+        {
+          id: "neV0b8P00qU",
+          title: "FUCA - Video Institucional"
+        },
+        {
+          id: "uzmiSYo6d0k",
+          title: "FUCA 40 años"
+        },
+      ],
+    },
+  },
+  {
+    slug: "una-vida-extra-fuca",
+    title: "Una vida extra",
+    description: "Dicen que la vida es un juego. Entonces tiene que haber una VIDA EXTRA.",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "Una vida extra",
+    subtitle: "Dicen que la vida es un juego. Entonces tiene que haber una VIDA EXTRA.",
+    objective: "El objetivo de esta campaña fue sensibilizar al público joven sobre la importancia de la detección temprana y las donaciones para la investigación oncológica, utilizando un lenguaje y una estética inspirada en el mundo de los videojuegos.",
+    campain: ['En el marco de Argentina Game Show 2022, realizamos una serie de activaciones que incluían una instalación interactiva con un corazón pixelado, donde los asistentes podían dejar su donación a través de un código QR. También se llevaron a cabo charlas en vivo con especialistas y testimonios de pacientes que compartieron cómo el tratamiento les dio una "vida extra".'],
+    results: {
+      texts: ['La campaña tuvo una gran repercusión entre el público joven, logrando una alta participación en el evento y en las plataformas digitales. Las donaciones recibidas superaron las expectativas y el mensaje de "Una Vida Extra" se convirtió en un símbolo de esperanza y solidaridad.'],
+      instagram: [
+        { id: 'CgxNxBMO-lF' },
+        { id: 'CkFO5HwuvVt' },
+      ],
+    },
+  },
+  {
+    slug: "fuca-marco-azul-por-mas-momentos-asi",
+    title: "Marzo Azul: Por más momentos así",
+    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
+    brand: "fuca",
+    altBrand: "Logo FUCA",
+    img: "mas_campanas_con_fuca",
+    altImg: "Marzo Azul: Por más momentos así",
+    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
+    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
+    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    results: {
+      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
+      instagram: [
+        { id: 'Cbcn8DoBaB7' },
+        { id: 'CbhxfiDKDn5' },
+        { id: 'CbqF_RpAx6h' },
+        { id: 'CbsEn6ohd9S' },
+        { id: 'CbupeZ7Lch0' },
+        { id: 'CbxOTNVu31G' },
+        { id: 'Cbn_zgZOE-o' },
       ],
     },
   },
