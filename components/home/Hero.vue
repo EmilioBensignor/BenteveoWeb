@@ -9,7 +9,7 @@
         Somos creadores de ideas
       </h1>
       <p>Las hacemos volar, con los pies en la tierra</p>
-      <NuxtLink :to="routes.SOMOS" class="primaryButton">CONOCÉ MÁS</NuxtLink>
+      <NuxtLink :to="ROUTE_NAMES.CONVERSEMOS" class="primaryButton">CONOCÉ MÁS</NuxtLink>
       </div>
       <DefaultSocialMedia />
       <DefaultScroll />
@@ -17,16 +17,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
-
-export default {
-  data() {
-    return {
-      routes: ROUTE_NAMES
-    };
-  }
-}
 </script>
 
 <style scoped>

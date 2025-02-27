@@ -14,11 +14,17 @@
                     realidad. Las convertimos en acciones innovadoras, útiles e inteligentes orientadas a lograr
                     resultados.
                 </p>
-                <NuxtLink to="#" class="primaryButton wow animate__animated animate__fadeInUp">PASEN Y VEAN</NuxtLink>
+                <NuxtLink :to="ROUTE_NAMES.TRABAJOS" class="primaryButton wow animate__animated animate__fadeInUp">PASEN Y VEAN
+                </NuxtLink>
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
+
+</script>
 
 <style scoped>
 .pensamosHacemos {

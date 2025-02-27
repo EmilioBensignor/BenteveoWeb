@@ -23,20 +23,14 @@
                     </div>
                 </div>
             </div>
-            <NuxtLink to="#" class="primaryButton btnConoceMas">CONOCÉ MÁS</NuxtLink>
+            <NuxtLink :to="ROUTE_NAMES.SERVICIOS" class="primaryButton btnConoceMas">CONOCÉ MÁS</NuxtLink>
         </div>
     </section>
 </template>
 
-<script>
+<script setup>
+import { ROUTE_NAMES } from "~/constants/ROUTE_NAMES";
 import { services } from "~/shared/services";
-export default {
-    data() {
-        return {
-            services: services,
-        };
-    },
-};
 </script>
 
 <style scoped>
