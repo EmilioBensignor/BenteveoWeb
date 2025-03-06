@@ -1,4 +1,6 @@
-# Nuxt Minimal Starter
+# Benteveo
+
+https://web-benteveo.vercel.app/
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
