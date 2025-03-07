@@ -1,6 +1,6 @@
 <template>
     <main>
-        <PagesHero title="HABLEMOS DE TU PRÓXIMO GRÁN PROYECTO"
+        <PagesHero title="HABLEMOS DE TU PRÓXIMO GRAN PROYECTO"
             description="Trabajemos para hacerlo único, relevante y memorable." backgroundClass="heroSomos" />
         <div class="parallaxContent">
             <section class="column bg-white">
