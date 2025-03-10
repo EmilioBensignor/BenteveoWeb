@@ -1282,7 +1282,7 @@ export const projects = [
   },
   {
     slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA TUTORIAL",
+    title: "PRUEBA TUTORIAL 2",
     description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
     brand: "fuca",
     altBrand: "Logo FUCA",
