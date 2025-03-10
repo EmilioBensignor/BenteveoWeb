@@ -42,6 +42,7 @@ export default {
 @media (width >=992px) {
   .projectsContainer {
     justify-content: space-between;
+    row-gap: 0;
   }
 }
 

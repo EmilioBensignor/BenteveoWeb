@@ -144,6 +144,18 @@ export default {
     .projectsContainer .tiltProject:nth-child(2n) {
         margin-top: 0;
     }
+
+    .projectsContainer>.tiltProject:nth-child(3n-2) {
+        margin-top: -10rem;
+    }
+
+    .projectsContainer>.tiltProject:nth-child(3n-1) {
+        margin-top: 16rem;
+    }
+
+    .projectsContainer>.tiltProject:nth-child(3n) {
+        margin-top: -2rem;
+    }
 }
 
 @media (width >=1440px) {
