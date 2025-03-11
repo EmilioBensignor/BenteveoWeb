@@ -17,8 +17,8 @@
                     <article v-if="blog" class="blogContent columnAlignCenter">
                         <div class="w-full author column">
                             <div class="rowCenter">
-                                <NuxtImg :src="`/images/blogs/${blog.authorImg}.webp`" :alt="blog.author" />
-                                <p>by <span>{{ blog.author }}</span></p>
+                                <NuxtImg :src="`/images/blogs/${author.image}.webp`" :alt="author.name" />
+                                <p>by <span>{{ author.name }}</span></p>
                             </div>
                             <time>{{ blog.date }}</time>
                         </div>
@@ -33,11 +33,21 @@
 <script>
 import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 import { blogs } from '~/shared/blogs';
+import { writters } from '~/shared/writters';
 
 export default {
     data() {
         return {
             blog: null
+        }
+    },
+    computed: {
+        author() {
+            if (!this.blog) return { name: 'Autor desconocido', image: 'author' };
+            return writters.find(writer => writer.id === this.blog.authorId) || { 
+                name: 'Autor desconocido', 
+                image: 'author' 
+            };
         }
     },
     created() {
