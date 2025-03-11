@@ -1179,153 +1179,369 @@ export const projects = [
       ],
     },
   },
-  // NUEVO
+  // EVENTOS
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA EVENTO",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "lanzamiento-de-klaukol-potenciado",
+    title: "LANZAMIENTO DE KLAUKOL POTENCIADO",
+    description: "¿Se puede hacer algo más que charlas y exhibiciones de producto?",
+    brand: "klaukol",
+    altBrand: "Logo Klaukol",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "Lanzamiento de Klaukol Potenciado",
+    subtitle: "Muchas marcas de la construcción buscan crear eventos internos orientados mayormente a su target profesional. Estos eventos suelen estar limitados a charlas y exhibiciones de producto, pero... ¿Se puede hacer algo más? La respuesta es SÍ.",
+    objective: "Romper con el formato tradicional de eventos de la industria de la construcción, creando una experiencia innovadora y participativa para presentar el nuevo producto estrella de Klaukol.",
+    campain: [' Para el lanzamiento de "Klaukol Potenciado" ideamos un enfoque integral: no solo desarrollamos un spot promocional impactante, sino que también organizamos un evento dinámico, lúdico y de capacitación.', "El evento combinó actividades interactivas que permitieron a los asistentes experimentar de primera mano las ventajas del producto, junto con espacios de formación técnica. Todo en un entorno distendido que potenció el engagement y la conexión con la marca."],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
-      instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+      videos: [
+        {
+          id: "5Ku2xHrAlV8",
+          title: "Presentación Klaukol Impermeable Potenciado"
+        },
+        {
+          id: "E0fLR2GsPAI",
+          title: "Evento Lanzamiento Klaukol Impermeable Potenciado"
+        },
       ],
     },
     event: true,
   },
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA EVENTO",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "en-busca-del-colocador-klaukol",
+    title: "EN BUSCA DEL COLOCADOR KLAUKOL",
+    description: 'Eventos "competitivos": Un formato inspirado en los torneos televisivos.',
+    brand: "klaukol",
+    altBrand: "Logo Klaukol",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "En busca del colocador Klaukol",
+    subtitle: 'Con el tiempo, nos hemos especializado en el desarrollo de eventos "competitivos", un formato inspirado en los torneos televisivos que combina desafío, diversión y formación profesional. El primero de estos eventos fue "En Busca del Colocador Klaukol".',
+    objective: "Crear un espacio lúdico y desafiante para reconocer y premiar a los mejores colocadores de cerámicos, reforzando el vínculo entre la marca y sus principales actores del sector.",
+    campain: ['En 2016 lanzamos "En Busca del Colocador Klaukol", un evento que pone a prueba las habilidades de los profesionales a través de desafíos prácticos con premisas tan alocadas como entretenidas.'],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
-      instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+      texts: ["El formato se convirtió en un éxito tan grande que la empresa lo ha replicado casi todos los años desde su creación, consolidándolo como una tradición que fortalece la relación con los expertos del rubro."],
+      videos: [
+        {
+          id: "1dj_4YI4MN4",
+          title: "En busca del Colocador Klaukol"
+        },
+        {
+          id: "-CbkekIcK88",
+          title: "En busca del Colocador Klaukol- La historia de Joaquín"
+        },
+        {
+          id: "e9gpWqnW5U4",
+          title: "En Busca del Colocador Klaukol - Episodio 2 Mar del Plata"
+        },
+        {
+          id: "njiZawZRTQ4",
+          title: "Gran Final En Busca del Colocador Klaukol 2016"
+        },
       ],
     },
     event: true,
   },
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA EVENTO",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "experto-revear",
+    title: "EXPERTO REVEAR",
+    description: "Aplicar revestimientos texturados correctamente requiere una expertise que no todos poseen.",
+    brand: "revear",
+    altBrand: "Logo Revear",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "Experto Revear",
+    subtitle: 'Aplicar revestimientos texturados correctamente requiere una expertise que no todos poseen. Por eso, en 2020 Revear lanzó "EXPERTO REVEAR", un innovador programa de capacitación y competencia para profesionales del sector.',
+    objective: "Capacitar y reconocer a los mejores aplicadores de revestimientos texturados, creando una plataforma para reforzar el conocimiento técnico y premiar la excelencia profesional.",
+    campain: ['La iniciativa comenzó con una serie de capacitaciones virtuales donde los participantes adquirieron conocimientos especializados. Los aplicadores con mejor desempeño obtuvieron un pase para competir en el evento "EXPERTO REVEAR", que tuvo una primera edición virtual y, más tarde, una final presencial.', "En este evento, los participantes pusieron a prueba sus habilidades y conocimientos para ganar el codiciado título al EXPERTO del año, fortaleciendo así la conexión con la marca y el reconocimiento profesional."],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
-      instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+      videos: [
+        {
+          id: "_YJeKPEy4Tw",
+          title: "EXPERTO REVEAR 2021 EN 1 MINUTO"
+        },
       ],
     },
     event: true,
   },
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA TUTORIAL",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "desafio-mapei",
+    title: "DESAFÍO MAPEI",
+    description: "Mapei se propuso el desafío de crear nuevas experiencias para sus distribuidores y profesionales.",
+    brand: "mapei",
+    altBrand: "Logo Mapei",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "Desafío Mapei",
+    subtitle: "Mapei se propuso el desafío de crear nuevas experiencias para sus distribuidores y profesionales de la construcción en diferentes provincias de Argentina.",
+    objective: "Desarrollar un evento competitivo y formativo que premie la excelencia profesional, fortaleciendo la relación de Mapei con sus principales actores en el mercado de la construcción.",
+    campain: ['De los dos eventos creados, el dirigido a los profesionales se destacó por su enfoque lúdico y de capacitación. Así nació "LA COPA MAPEI", un torneo repleto de desafíos prácticos y teóricos diseñado para elegir al mejor profesional Mapei de cada provincia.', "El formato combina formación técnica con competencias dinámicas, reforzando el conocimiento del producto y elevando el compromiso de los participantes con la marca."],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
-      instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+      videos: [
+        {
+          id: "_YJeKPEy4Tw",
+          title: "EXPERTO REVEAR 2021 EN 1 MINUTO"
+        },
+      ],
+    },
+    event: true,
+  },
+  {
+    slug: "innovation-lab-red-link",
+    title: "INNOVATION LAB (EVENTO VIRTUAL)",
+    description: "Red Link lanza su primer evento interno 100% virtual, para presentar sus nuevos proyectos de ciberseguridad.",
+    brand: "mapei",
+    altBrand: "Logo Red Link",
+    img: "mas_campanas_con_fuca",
+    altImg: "Innovation Lab - Evento Virtual",
+    subtitle: "Red Link lanza su primer evento interno 100% virtual, para presentar sus nuevos proyectos de ciberseguridad.",
+    objective: "Red Link realiza habitualmente eventos internos, llamados INNOVATION LAB, donde invitan a sus clientes e inversores, con el fin de presentarles sus nuevos proyectos tecnológicos y avances en ciberseguridad. Sin embargo, en 2021 se vieron en la necesidad de crear un evento 100% virtual, lo que representó un verdadero desafío.",
+    campain: ["La mayoría de eventos empresariales se caracterizan por ofrecer un espacio de encuentro, pero no siempre esto ocurre de forma presencial. Este fue el caso de muchos eventos de endomarketing durante la pandemia de 2020-2021.", "Es por este motivo que la marca Red Link optó por reinventar su evento de presentación de proyectos de innovación y transformarlo en una EXPERIENCIA VIRTUAL.", "Para esta campaña desarrollamos una landing interactiva que permitía a los usuarios recorrer un espacio virtual, simulando ser las instalaciones de Red Link. Un recorrido completamente inmersivo, pudiendo contemplar e interactuar con las presentaciones de los proyectos de Red Link de manera 100% interactiva."],
+    results: {
+      videos: [
+        {
+          id: "_YJeKPEy4Tw",
+          title: "EXPERTO REVEAR 2021 EN 1 MINUTO"
+        },
+      ],
+    },
+    event: true,
+  },
+    // TUTORIALES
+  {
+    slug: "nuevos-tutoriales-revear",
+    title: "NUEVOS TUTORIALES REVEAR",
+    description: "Desarrollamos una serie de tutoriales que facilitan la instalación adecuada de sus revestimientos texturados.",
+    brand: "revear",
+    altBrand: "Logo Revear",
+    img: "mas_campanas_con_fuca",
+    altImg: "Nuevos Tutoriales Revear",
+    subtitle: "En el mundo de la construcción, una correcta aplicación de los productos es esencial para garantizar resultados de calidad. Por ello, en colaboración con Revear, desarrollamos una serie de tutoriales claros, didácticos y visualmente atractivos que facilitan la instalación adecuada de sus revestimientos texturados.",
+    objective: "Simplificar y estandarizar los procesos de aplicación de los revestimientos texturados de Revear, proporcionando contenido audiovisual claro y práctico que capacite tanto a profesionales de la construcción como a entusiastas del bricolaje.",
+    campain: ["Creamos una serie de videos tutoriales detallados que explican, paso a paso, cómo aplicar los diversos productos de Revear. Cada tutorial aborda un procedimiento específico, destacando consejos útiles, precauciones y las herramientas necesarias para lograr acabados profesionales. Incorporamos gráficos explicativos, tomas cercanas de cada etapa del proceso y una narrativa ágil que facilita la comprensión, convirtiendo estos videos en una referencia indispensable para cualquier aplicador."],
+    results: {
+      texts: ["La serie de tutoriales ha sido ampliamente reconocida por su claridad y utilidad, contribuyendo al desarrollo profesional de constructores y aficionados al bricolaje. Estos videos refuerzan la posición de Revear como líder en soluciones constructivas innovadoras y facilitan la correcta aplicación de sus productos, asegurando resultados óptimos en cada proyecto."],
+      videos: [
+        {
+          id: "0c90GVeBKXM",
+          title: "Revear Revoque Plastico: Aplicación paso a paso"
+        },
+        {
+          id: "4Gigp5vES4I",
+          title: "Revear Revex: Aplicación paso a paso."
+        },
+        {
+          id: "2PemGp-hk2s",
+          title: "¿Cómo aplicar nuestras Bases Revear?"
+        },
+        {
+          id: "GchuWflvgh8",
+          title: "Revear Natural Stone: Aplicación Paso a paso"
+        },
+        {
+          id: "Ynioehgi-Rc",
+          title: "Revear Marble: aplicación paso a paso"
+        },
+        {
+          id: "_KhhPjGGMww",
+          title: "Revear Stone a Rodillo: aplicación paso a paso."
+        },
       ],
     },
     tutorial: true,
   },
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA TUTORIAL 2",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "tutoriales-barbieri",
+    title: "TUTORIALES BARBIERI",
+    description: "Capacitamos a los profesionales de la construcción, asegurando una instalación eficiente y de alta calidad.",
+    brand: "barbieri",
+    altBrand: "Logo Barbieri",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "Tutoriales Barbieri",
+    subtitle: "Para Barbieri, desarrollamos una serie de tutoriales claros, didácticos y visualmente atractivos que facilitan la correcta instalación de sus productos. Estos videos están diseñados para capacitar a los profesionales de la construcción, asegurando una instalación eficiente y de alta calidad.",
+    objective: "Brindar a los profesionales de la construcción guías prácticas y visuales que simplifiquen la instalación de productos Barbieri, destacando las mejores prácticas y garantizando resultados óptimos en cada proyecto.",
+    campain: ["Creamos una serie de videos tutoriales detallados que abarcan desde el armado de paneles hasta la instalación de elementos específicos. Cada video ofrece una experiencia visual que no solo capacita, sino que también fortalece la relación de Barbieri con su comunidad de profesionales."],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
-      instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+      texts: ["Los videos han sido ampliamente reconocidos por su claridad y utilidad, contribuyendo al desarrollo profesional de los constructores y reforzando la posición de Barbieri como líder en soluciones constructivas innovadoras."],
+      videos: [
+        {
+          id: "CDGw2xYfbTc",
+          title: "Tutorial: Cómo instalar Zócalos de PVC"
+        },
+        {
+          id: "Beds263O2Ng",
+          title: "Tutorial: Cómo instalar Revestimientos de PVC Perfilplas"
+        },
+        {
+          id: "LNhKlzV8Xq0",
+          title: "Revestimientos Decorativos Perfilplas - Colección Bosques - Color Haya"
+        },
+        {
+          id: "5He56vSbaf4",
+          title: "Revestimientos Decorativos Perfilplas - Colección Bosques - Color Cedro"
+        },
+        {
+          id: "V2hBA0j6aZo",
+          title: "Revestimientos Decorativos Perfilplas - Colección Bosques - Color Arrayán"
+        },
       ],
     },
     tutorial: true,
   },
   {
-    slug: "fuca-marzo-azul-por-mas-momentos-asi",
-    title: "PRUEBA ENDOMARKETING",
-    description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
-    brand: "fuca",
-    altBrand: "Logo FUCA",
+    slug: "tutoriales-fruttami",
+    title: "TUTORIALES FRUTTAMI",
+    description: "Desarrollamos una serie de tutoriales que muestran recetas rápidas y originales utilizando los productos Fruttami.",
+    brand: "fruttami",
+    altBrand: "Logo Fruttami",
     img: "mas_campanas_con_fuca",
-    altImg: "Marzo Azul: Por más momentos así",
-    subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
-    objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
+    altImg: "Tutoriales Fruttami",
+    subtitle: "Para conectar con un público joven y dinámico, desarrollamos una serie de tutoriales creativos y visualmente atractivos que muestran recetas rápidas y originales utilizando los productos Fruttami.",
+    objective: "Inspirar y guiar a los consumidores a incorporar los productos Fruttami en recetas divertidas y fáciles de preparar, potenciando su uso cotidiano y aumentando la visibilidad de la marca.",
+    campain: ["Diseñamos una serie de tutoriales ágiles y coloridos que destacan la versatilidad de los productos Fruttami. Cada video presenta una receta simple, con un estilo fresco y visual que invita a replicar las preparaciones en casa.", "La combinación de planos detallados, animaciones y un ritmo dinámico transforma cada tutorial en una experiencia entretenida que conecta con la audiencia y refuerza la identidad joven y vibrante de la marca."],
     results: {
-      texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
       instagram: [
-        { id: 'Cbcn8DoBaB7' },
-        { id: 'CbhxfiDKDn5' },
-        { id: 'CbqF_RpAx6h' },
-        { id: 'CbsEn6ohd9S' },
-        { id: 'CbupeZ7Lch0' },
-        { id: 'CbxOTNVu31G' },
-        { id: 'Cbn_zgZOE-o' },
+        { id: 'CV32KVrF3X0' },
+        { id: 'CXUGaEiLusT' },
+        { id: 'Cc3Ty2wtvz5' },
+      ],
+    },
+    tutorial: true,
+  },
+  {
+    slug: "tutoriales-ajinomoto",
+    title: "TUTORIALES AJINOMOTO",
+    description: "Tutoriales interactivos que muestran cómo transformar las comidas cotidianas en recetas sabrosas y fáciles.",
+    brand: "ajinomoto",
+    altBrand: "Logo Ajinomoto",
+    img: "mas_campanas_con_fuca",
+    altImg: "Tutoriales Ajinomoto",
+    subtitle: "Para Ajinomoto, desarrollamos una serie de tutoriales interactivos que muestran cómo transformar las comidas cotidianas en recetas sabrosas y fáciles utilizando los productos de la marca. Estos videos están pensados para un público que busca soluciones prácticas en su día a día, destacando la versatilidad y la calidad de los productos Ajinomoto en la cocina.",
+    objective: "Demostrar cómo los productos Ajinomoto pueden revolucionar la cocina diaria, ofreciendo recetas rápidas y deliciosas que potencian la creatividad culinaria. El objetivo fue aumentar la visibilidad de la marca y fortalecer su vínculo con consumidores que buscan comodidad sin sacrificar el sabor.",
+    campain: ["Creamos una serie de videos tutoriales dinámicos que presentan recetas fáciles y rápidas, como sopas y fideos instantáneos, utilizando productos Ajinomoto. Cada video mantiene un formato visual atractivo, con tomas detalladas de los ingredientes, pasos sencillos y un ritmo fluido que mantiene al espectador enganchado.", "Incorporamos animaciones modernas y gráficos visuales que explican las ventajas de usar los productos Ajinomoto, haciendo que la experiencia culinaria sea más accesible y divertida. Además de facilitar la replicación de las recetas, los videos refuerzan la conexión emocional con la marca, posicionándola como una opción confiable para soluciones rápidas y sabrosas en la cocina."],
+    results: {
+      texts: ["La campaña fue un éxito rotundo, con un notable aumento en la interacción con la audiencia y el reconocimiento de la marca. Gracias a un estilo visual fresco y dinámico, logramos que los productos Ajinomoto se integraran como parte esencial de las rutinas gastronómicas de los consumidores."],
+      videos: [
+        {
+          id: "-gBGhjgEhE8",
+          title: "Receta con SAZÓN®: ALITAS DE POLLO PICANTES"
+        },
+        {
+          id: "ZicU4qGEzBc",
+          title: "Receta con SAZÓN®: MERIENDA DE POLLO"
+        },
+        {
+          id: "342lYTWsMME",
+          title: "Receta con AJI-NO-MOTO®: GUACAMOLE"
+        },
+        {
+          id: "6SMVXSrjh5E",
+          title: "Receta con SAZÓN®: PAPAS RELLENAS CON ATÚN"
+        },
+      ],
+    },
+    tutorial: true,
+  },
+    // ENDOMARKETING
+  {
+    slug: "club-de-colocadores-klaukol",
+    title: "CLUB DE COLOCADORES KLAUKOL",
+    description: "Creamos una red de colocadores a través de una comunidad digital activa y comprometida.",
+    brand: "klaukol",
+    altBrand: "Logo Klaukol",
+    img: "mas_campanas_con_fuca",
+    altImg: "Club de Colocadores Klaukol",
+    subtitle: "Para Klaukol, diseñamos una estrategia de endomarketing que fortalece el vínculo con su red de colocadores a través de una comunidad digital activa y comprometida. Mediante plataformas de incentivos y contenido exclusivo, logramos que cada colocador se sintiera parte integral de la marca, transformándose en un embajador entusiasta de los productos Klaukol.",
+    objective: "El principal objetivo fue fortalecer la relación de Klaukol con su red de colocadores, motivándolos a comprometerse más con la marca y a mejorar su desempeño. Buscamos incrementar la fidelización, el sentido de pertenencia y fomentar una comunicación interna efectiva, incentivando su participación a través de recompensas y beneficios exclusivos.",
+    campain: ["Desarrollamos una plataforma digital personalizada para los colocadores, donde podían acceder a contenidos exclusivos, recibir incentivos por su desempeño y participar en sorteos y promociones especiales. Utilizamos videos interactivos y tutoriales prácticos que mostraban productos, técnicas de aplicación y consejos específicos para mejorar su desempeño.", "El formato visual de los videos fue clave para captar su atención: incorporamos planos detallados de los productos, testimonios de otros colocadores y gráficos animados que explicaban cómo aprovechar al máximo las herramientas disponibles en la plataforma. Además, promovimos la interacción constante entre la marca y los colocadores mediante notificaciones personalizadas y mensajes directos, lo que incrementó la motivación y el compromiso."],
+    results: {
+      texts: ["La campaña logró un incremento notable en la participación de los colocadores en el Club Klaukol, acompañado de un aumento significativo en las ventas y la fidelización de los participantes. Los videos y las plataformas de incentivos crearon una comunidad más comprometida, fortaleciendo la cultura organizacional y mejorando la percepción de la marca dentro de la red de colocadores."],
+      videos: [
+        {
+          id: "tRY4OJl3ugo",
+          title: "Sumate al Club de Colocadores Klaukol"
+        },
+      ],
+    },
+    endomarketing: true,
+  },
+  {
+    slug: "comunidad-de-vendedores-potenciados-klaukol",
+    title: "COMUNIDAD DE VENDEDORES POTENCIADOS KLAUKOL",
+    description: "Desarrollamos una comunidad digital interactiva para sus vendedores para capacitar y fidelizar a su equipo.",
+    brand: "klaukol",
+    altBrand: "Logo Klaukol",
+    img: "mas_campanas_con_fuca",
+    altImg: "Comunidad de Vendedores Potenciados Klaukol",
+    subtitle: "Para Klaukol, desarrollamos una comunidad digital interactiva y exclusiva para sus vendedores, con el fin de motivar, capacitar y fidelizar a su equipo. A través de contenido personalizado y herramientas interactivas, optimizamos su rendimiento, fortalecimos su relación con la marca y los posicionamos como embajadores activos de los productos Klaukol.",
+    objective: "El objetivo principal fue motivar a los vendedores a mejorar su desempeño, proporcionándoles formación continua, contenido valioso y recompensas exclusivas. Buscamos fortalecer la relación con la marca, incrementar el sentido de pertenencia y crear una comunidad activa que se sintiera parte integral de los logros y el crecimiento de la empresa.",
+    campain: ["Creamos una plataforma de formación interactiva donde los vendedores podían acceder a contenido educativo sobre los productos Klaukol, técnicas de venta y consejos prácticos. Los videos dinámicos mostraban testimonios de otros vendedores, casos de éxito y estrategias para maximizar oportunidades de venta. La gamificación jugó un papel clave, incentivando la participación a través de desafíos, premios y competiciones amigables que promovieron el trabajo en equipo.", "Cada video fue diseñado con un formato visual atractivo y elementos gráficos que explicaban los beneficios de los productos y las estrategias comerciales, manteniendo la atención de los vendedores y mejorando su rendimiento diario."],
+    results: {
+      texts: ["La comunidad creció significativamente, con una notable mejora en la motivación y un aumento en las ventas. Los videos y las herramientas interactivas contribuyeron a una capacitación constante y fomentaron una mayor interacción entre los miembros. Esto generó un ambiente positivo y proactivo dentro de la red de ventas, consolidando el vínculo con la marca y reflejándose en un aumento en la fidelización y el desempeño de los vendedores."],
+      videos: [
+        {
+          id: "DZoLAyO_IpQ",
+          title: "¿Cómo funciona la Comunidad de Vendedores Potenciados ParexKlaukol?"
+        },
+      ],
+    },
+    endomarketing: true,
+  },
+  {
+    slug: "comunidad-aplicadores-revear",
+    title: "COMUNIDAD APLICADORES REVEAR",
+    description: "Contenido formativo, tutoriales prácticos y herramientas especializadas, para aplicadores.",
+    brand: "revear",
+    altBrand: "Logo Revear",
+    img: "mas_campanas_con_fuca",
+    altImg: "Comunidad Aplicadores Revear",
+    subtitle: "Para Revear, diseñamos una comunidad digital interactiva destinada a los aplicadores de sus productos, donde podían acceder a contenido formativo, tutoriales prácticos y herramientas especializadas. A través de esta plataforma, logramos no solo mejorar la técnica de aplicación, sino también fortalecer el vínculo entre la marca y los aplicadores, asegurando un uso eficiente de los productos.",
+    objective: "Capacitar a los aplicadores para optimizar el uso de los productos Revear, generando un entorno de interacción constante que los mantuviera motivados y comprometidos. El objetivo fue proporcionarles las herramientas necesarias para mejorar su técnica, asegurando aplicaciones más eficientes y efectivas, lo que aumentaría la satisfacción de los clientes y la fidelización con la marca.",
+    campain: ["La plataforma ofreció tutoriales visuales y videos instructivos que presentaban consejos de expertos y demostraciones de aplicación, ayudando a los aplicadores a mejorar sus habilidades. Además, se implementaron incentivos atractivos como premios y sorteos, motivando la participación activa. Los contenidos se diseñaron de manera clara y accesible, con un enfoque visual que facilitó la comprensión y la adopción de las mejores prácticas. Esto contribuyó a elevar el rendimiento de los aplicadores mientras mantenían una conexión constante con la marca Revear."],
+    results: {
+      texts: ["La comunidad experimentó un rápido crecimiento, con una alta participación de los aplicadores. La capacitación continua y los incentivos contribuyeron a una mayor fidelización y motivación. Además, los aplicadores comenzaron a mostrar una mejora tangible en la calidad de sus aplicaciones, lo que a su vez fortaleció el vínculo con Revear y potenció la percepción positiva de la marca en el mercado."],
+      webs: [
+        {
+          name: "Comunidad de Aplicadores Revear",
+          link: "https://comunidadaplicadores.com.ar/"
+        },
+      ],
+      videos: [
+        {
+          id: "1sB7AOxMVIE",
+          title: "Sumate a la Comunidad de Aplicadores Revear"
+        },
+      ],
+    },
+    endomarketing: true,
+  },
+  {
+    slug: "comunidad-vietur",
+    title: "COMUNIDAD VIETUR",
+    description: "Una plataforma digital exclusiva dirigida a agentes de viajes para fomentar su capacitación.",
+    brand: "revear",
+    altBrand: "Logo Revear",
+    img: "mas_campanas_con_fuca",
+    altImg: "Comunidad Vietur",
+    subtitle: "Para VIETUR, diseñamos una plataforma digital exclusiva dirigida a agentes de viajes, fomentando su capacitación continua y fortaleciendo su vínculo con la marca. A través de actividades interactivas y recompensas atractivas, buscamos potenciar su compromiso y desempeño profesional.",
+    objective: "Capacitar y motivar a los agentes de viajes, proporcionándoles herramientas y conocimientos que mejoren su rendimiento. Crear un espacio que promueva la interacción, el aprendizaje y el reconocimiento, incrementando su lealtad y satisfacción con VIETUR.",
+    campain: [" La campaña consistió en el desarrollo de una plataforma en línea donde los agentes podían:"," PARTICIPAR EN ACTIVIDADES - Completar trivias y desafíos relacionados con los productos y servicios de VIETUR, demostrando sus conocimientos y obteniendo puntos.", "ACUMULAR PUNTOS - Ganar puntos adicionales al subir fotos, conectar sus redes sociales, compartir contenidos y, especialmente, por cada venta realizada de productos VIETUR.", "CANJEAR PREMIOS - Utilizar los puntos acumulados para obtener premios como televisores LED, hornos eléctricos, multifunción, entre otros.", "Además, la plataforma destacaba un ranking con los agentes con mayor puntuación, incentivando la competencia sana y el reconocimiento. La campaña celebró su cuarto aniversario con más de 4,000 miembros activos, reflejando su éxito y crecimiento continuo."],
+    results: {
+      texts: ["La implementación de la Comunidad Vietur resultó en:", "CRECIMIENTO DE MIEMBROS ACTIVOS - Incremento continuo en la participación de agentes, alcanzando más de 4,000 miembros en su cuarto año.", "MEJORA EN EL DESEMPEÑO - Los agentes demostraron un mayor conocimiento de los productos y servicios, reflejado en un aumento en las ventas.", "FORTALECIMIENTO DE LA LEALTAD - Los incentivos y el reconocimiento incrementaron la satisfacción y fidelización de los agentes con la marca VIETUR."],
+      webs: [
+        {
+          name: "Comunidad Vietur",
+          link: "https://comunidad.vietur.com.ar/cgi-bin/mainvendedores3.pl?r=80114.5799066038"
+        },
+      ],
+      videos: [
+        {
+          id: "sYkpRG2-2ts",
+          title: "Comunidad VIE TUR"
+        },
+      ],
+    },
+    awards: {
+      press: [
+        {
+          name: "La Agencia de Viajes Argentina",
+          link: "https://argentina.ladevi.info/vietur/la-comunidad-vietur-cumple-cuatro-anos-y-sigue-creciendo-n21882?utm_source=chatgpt.com",
+        },
       ],
     },
     endomarketing: true,

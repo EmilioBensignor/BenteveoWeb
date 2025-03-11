@@ -30,7 +30,7 @@ export const services = [
         description: "Un sitio web es el reflejo de un negocio. Es por eso que creamos diseños que reflejen la identidad de las marcas pero fundamentalmente pensados desde la experiencia del usuario.",
     },
     {
-        img: "Desarrollo-Web",
+        img: "Inteligencia-Artificial",
         alt: "Soluciones creativas con IA",
         title: "SOLUCIONES CON IA",
         description: "Incorporamos inteligencia artificial para optimizar procesos y mejorar la interacción con los usuarios: Agentes automatizados y herramientas inteligentes.",
