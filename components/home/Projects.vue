@@ -34,7 +34,7 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 3.5rem;
-    row-gap: 5rem;
+    row-gap: 0;
     padding-bottom: 5rem;
   }
 }

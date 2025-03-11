@@ -2,8 +2,8 @@
     <article class="column wow animate__animated animate__fadeInUp">
         <NuxtImg :src="`/images/blogs/${post.slug}.webp`" :alt="post.title" class="w-full" />
         <div class="author rowCenter">
-            <NuxtImg :src="`/images/blogs/${post.authorImg}.webp`" :alt="post.author" />
-            <p class="text-dark-gray">by <span class="font-medium">{{ post.author }}</span></p>
+            <NuxtImg :src="`/images/blogs/${author.image}.webp`" :alt="author.name" />
+            <p class="text-dark-gray">por <span class="font-medium">{{ author.name }}</span></p>
         </div>
         <h2>{{ post.title }}</h2>
         <p class="font-semibold">{{ post.date }}</p>
@@ -13,11 +13,21 @@
 </template>
 
 <script>
+import { writters } from '~/shared/writters';
+
 export default {
     props: {
         post: {
             type: Object,
             required: true
+        }
+    },
+    computed: {
+        author() {
+            return writters.find(writer => writer.id === this.post.authorId) || { 
+                name: 'Autor desconocido', 
+                image: 'author' 
+            };
         }
     }
 }

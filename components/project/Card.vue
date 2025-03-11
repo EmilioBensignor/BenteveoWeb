@@ -119,15 +119,15 @@ export default {
     }
 
     .projectsContainer .tiltProject:nth-child(1n) {
-        margin-top: 6rem;
+        margin-top: -4rem;
     }
 
     .projectsContainer .tiltProject:nth-child(2n) {
-        margin-top: -8rem;
+        margin-top: 16rem;
     }
 
     .projectsContainer .tiltProject:last-of-type {
-        margin-top: 0;
+        margin-top: 6rem;
     }
 
     .projectInfo {
@@ -156,6 +156,10 @@ export default {
     .projectsContainer>.tiltProject:nth-child(3n) {
         margin-top: -2rem;
     }
+
+    .projectsContainer .tiltProject:last-of-type {
+        margin-top: 2rem;
+    }
 }
 
 @media (width >=1440px) {
@@ -165,6 +169,12 @@ export default {
 
     .tiltProject h3 {
         font-size: 2rem;
+    }
+}
+
+@media (width >=1920px) {
+    .projectsContainer .tiltProject:last-of-type {
+        margin-top: 6rem;
     }
 }
 </style>
