@@ -1,17 +1,17 @@
 export const writters = [
     {
         id: 1,
-        name: "Jack Daniels",
-        image: "author",
+        name: "Cecilia Laprida",
+        image: "cecilia-laprida",
     },
     {
         id: 2,
-        name: "Maria Rodriguez",
-        image: "author",
+        name: "Gustavo Almiron",
+        image: "gustavo-almiron",
     },
     {
         id: 3,
-        name: "Carlos Mendoza",
-        image: "author",
+        name: "Juan Segundo Paladini",
+        image: "juan-segundo-paladini",
     }
 ];
