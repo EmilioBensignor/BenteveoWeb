@@ -1062,7 +1062,7 @@ export const projects = [
     description: "Una intervención en los baños del Shopping Alto Palermo para el día de la mujer.",
     brand: "fuca",
     altBrand: "Logo FUCA",
-    img: "mas_campanas_con_fuca",
+    img: "cuidate_a_tiempo",
     altImg: "Cuidate a tiempo",
     subtitle: "Para nuestra primera campaña con FUCA, en colaboración con IRSA, realizamos una intervención en los baños del Shopping Alto Palermo para el día de la mujer, con el objetivo de generar conciencia sobre la importancia de hacerse la mamografía una vez al año.",
     objective: "El cáncer de mama es una de las principales causas de muerte en mujeres, y la detección temprana es fundamental para aumentar las probabilidades de tratamiento exitoso. Por eso, el objetivo de la campaña era concientizar sobre la importancia de realizarse una mamografía anual, utilizando un espacio cotidiano para transmitir un mensaje claro y directo.",
@@ -1083,7 +1083,7 @@ export const projects = [
     description: "Participamos de la Argentina Fashion Week para comunicar el trabajo de la fundación en su lucha contra el cáncer.",
     brand: "fuca",
     altBrand: "Logo FUCA",
-    img: "mas_campanas_con_fuca",
+    img: "modelo_es_la_que_lucha",
     altImg: "Modelo es la que lucha",
     subtitle: "FUCA acostumbra participar cada año en Argentina Fashion Week, con el objetivo promocionar y comunicar el trabajo de la fundación en su lucha contra el cáncer.",
     objective: "El objetivo de la campaña era aprovechar la visibilidad de Argentina Fashion Week para transmitir un mensaje de concientización sobre el cáncer, destacando que las verdaderas modelos son aquellas personas que luchan día a día contra la enfermedad. Nos propusimos crear una campaña que aprovechara la masividad del evento y a los famosos que participaron de él, para realizar en conjunto una activación invitando a las celebridades a tomarse una foto en un stand que replica la portada de una revista de espectáculos… pero con un mensaje diferente: #ModeloEsLaQueLucha",
@@ -1098,7 +1098,7 @@ export const projects = [
     description: "El éxito de la primera activación en el desfile Argentina Fashion Week, nos abrió las puertas para lanzar una nueva campaña",
     brand: "fuca",
     altBrand: "Logo FUCA",
-    img: "mas_campanas_con_fuca",
+    img: "la_foto_del_anio",
     altImg: "FUCA: Foto del año",
     subtitle: "El éxito de la primera activación en el desfile Argentina Fashion Week, nos abrió las puertas para redoblar la apuesta y lanzar una nueva campaña, pero esta vez con un enfoque diferente. Muchas campañas promueven el auto examen de mama, pero FUCA sabe bien que tus manos nunca podrán remplazar una mamografía.",
     objective: 'La campaña tenía como objetivo destacar la importancia de realizarse una mamografía anual como método efectivo de detección temprana del cáncer de mama, utilizando un mensaje simple pero poderoso: la mamografía es "La Foto del Año".',
@@ -1142,7 +1142,7 @@ export const projects = [
     description: "Dicen que la vida es un juego. Entonces tiene que haber una VIDA EXTRA.",
     brand: "fuca",
     altBrand: "Logo FUCA",
-    img: "mas_campanas_con_fuca",
+    img: "una_vida_extra",
     altImg: "Una vida extra",
     subtitle: "Dicen que la vida es un juego. Entonces tiene que haber una VIDA EXTRA.",
     objective: "El objetivo de esta campaña fue sensibilizar al público joven sobre la importancia de la detección temprana y las donaciones para la investigación oncológica, utilizando un lenguaje y una estética inspirada en el mundo de los videojuegos.",
@@ -1161,7 +1161,7 @@ export const projects = [
     description: "Cada marzo FUCA lanza una nueva campaña para prevenir el cáncer de colon.",
     brand: "fuca",
     altBrand: "Logo FUCA",
-    img: "mas_campanas_con_fuca",
+    img: "marzo_azul",
     altImg: "Marzo Azul: Por más momentos así",
     subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
     objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
@@ -1274,8 +1274,20 @@ export const projects = [
     results: {
       videos: [
         {
-          id: "_YJeKPEy4Tw",
-          title: "EXPERTO REVEAR 2021 EN 1 MINUTO"
+          id: "4abYM7zgsWs",
+          title: "DESAFIO MAPEI: Profesionales Santa Fe"
+        },
+        {
+          id: "quvlpLhXtqk",
+          title: "DESAFIO MAPEI: Resumen PROFESIONALES TUCUMAN"
+        },
+        {
+          id: "AB15A2y6Ih4",
+          title: "DESAFIO MAPEI: Resumen PROFESIONALES CÓRDOBA"
+        },
+        {
+          id: "khIY4EEDIK8",
+          title: "DESAFIO MAPEI: Resumen PROFESIONALES Buenos Aires"
         },
       ],
     },
@@ -1285,7 +1297,7 @@ export const projects = [
     slug: "innovation-lab-red-link",
     title: "INNOVATION LAB (EVENTO VIRTUAL)",
     description: "Red Link lanza su primer evento interno 100% virtual, para presentar sus nuevos proyectos de ciberseguridad.",
-    brand: "mapei",
+    brand: "red_link",
     altBrand: "Logo Red Link",
     img: "mas_campanas_con_fuca",
     altImg: "Innovation Lab - Evento Virtual",
@@ -1295,8 +1307,8 @@ export const projects = [
     results: {
       videos: [
         {
-          id: "_YJeKPEy4Tw",
-          title: "EXPERTO REVEAR 2021 EN 1 MINUTO"
+          id: "eViz182k2YY",
+          title: "RED LINK: Innovation Lab"
         },
       ],
     },
@@ -1514,8 +1526,8 @@ export const projects = [
     slug: "comunidad-vietur",
     title: "COMUNIDAD VIETUR",
     description: "Una plataforma digital exclusiva dirigida a agentes de viajes para fomentar su capacitación.",
-    brand: "revear",
-    altBrand: "Logo Revear",
+    brand: "vietur",
+    altBrand: "Logo Vietur",
     img: "mas_campanas_con_fuca",
     altImg: "Comunidad Vietur",
     subtitle: "Para VIETUR, diseñamos una plataforma digital exclusiva dirigida a agentes de viajes, fomentando su capacitación continua y fortaleciendo su vínculo con la marca. A través de actividades interactivas y recompensas atractivas, buscamos potenciar su compromiso y desempeño profesional.",
