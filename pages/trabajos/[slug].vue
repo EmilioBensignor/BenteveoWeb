@@ -1,7 +1,7 @@
 <template>
     <main class="novedad">
-        <section class="heroContainer bgCover">
-            <!-- :style="{ backgroundImage: `url('/images/projects/${project.slug}.webp')` }" -->
+        <section class="heroContainer bgCover"
+            :style="{ backgroundImage: `url('/images/projects/${project.img}-campana-benteveo.webp')` }">
             <div class="hero column">
                 <div class="column">
                     <NuxtImg :src="`/images/brands/${project.brand}_logo.webp`" :alt="project.altBrand" class="brand" />
@@ -38,8 +38,7 @@
                         </div>
                         <div v-if="project.results.webs">
                             <a :href="item.link" v-for="(item, index) in project.results.webs" :key="index"
-                                target="_blank" class="website">{{
-                                    item.name }}</a>
+                                target="_blank" class="website">{{ item.name }}</a>
                         </div>
                         <div v-if="project.results.videos" class="videos">
                             <div v-for="(video, index) in project.results.videos" :key="index"
@@ -65,15 +64,14 @@
                             </div>
                         </div>
                     </div>
-                    <div v-if="project.instagramMedias" id="awards" class="w-full column">
+                    <div v-if="project.awards" id="awards" class="w-full column">
                         <h2>Premios</h2>
                         <div v-if="project.awards.texts">
                             <p v-for="(item, index) in project.awards.texts" :key="index">{{ item }}</p>
                         </div>
                         <div v-if="project.awards.press" class="columnGap column">
                             <a :href="item.link" v-for="(item, index) in project.awards.press" :key="index"
-                                target="_blank" class="award">{{
-                                    item.name }}</a>
+                                target="_blank" class="award">{{ item.name }}</a>
                         </div>
                     </div>
                 </div>
@@ -82,68 +80,112 @@
     </main>
 </template>
 
-<script>
+<script setup>
 import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 import { projects } from '~/shared/projects';
+// import { onMounted, computed, ref } from 'vue';
+// import { useRouter, useRoute } from 'vue-router';
 
-export default {
-    data() {
-        return {
-            project: null,
-            sections: [
-                { id: 'objective', name: 'Objetivo' },
-                { id: 'campain', name: 'Campaña' },
-                { id: 'results', name: 'Resultados' },
-                { id: 'awards', name: 'Premios' }
-            ]
-        }
-    },
-    created() {
-        this.project = projects.find(p => p.slug === this.$route.params.slug);
-    },
-    mounted() {
-        if (!this.project) {
-            this.$router.push(ROUTE_NAMES.PROJECTS);
-        }
+const router = useRouter();
+const route = useRoute();
 
-        if (!window.instgrm) {
-            const script = document.createElement('script');
-            script.async = true;
-            script.src = '//www.instagram.com/embed.js';
-            document.body.appendChild(script);
-        } else {
-            window.instgrm.Embeds.process();
-        }
-    },
-    computed: {
-        filteredSections() {
-            return this.sections.filter(section =>
-                section.id !== 'awards' || this.project?.awards
-            );
-        }
-    },
-    methods: {
-        scrollToSection(sectionId) {
-            const element = document.getElementById(sectionId);
-            if (element) {
-                const headerHeight = 78;
-                const navHeight = 72;
-                let offset = headerHeight + navHeight;
+// Obtener el proyecto basado en el slug
+const project = ref(projects.find(p => p.slug === route.params.slug));
 
-                if (window.innerWidth >= 660) offset = 88 + navHeight;
-                if (window.innerWidth >= 850) offset = 96 + navHeight;
-                if (window.innerWidth >= 992) offset = 96 + navHeight;
-                if (window.innerWidth >= 1080) offset = 96 + 100;
+// Definir secciones
+const sections = [
+    { id: 'objective', name: 'Objetivo' },
+    { id: 'campain', name: 'Campaña' },
+    { id: 'results', name: 'Resultados' },
+    { id: 'awards', name: 'Premios' }
+];
 
-                const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-                window.scrollTo({
-                    top: elementPosition - offset,
-                    behavior: 'smooth'
-                });
+// Filtrar secciones basado en la disponibilidad de datos
+const filteredSections = computed(() => {
+    return sections.filter(section =>
+        section.id !== 'awards' || project.value?.awards
+    );
+});
+
+onMounted(() => {
+    if (!project.value) {
+        router.push(ROUTE_NAMES.PROJECTS);
+    }
+
+    if (!window.instgrm) {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = '//www.instagram.com/embed.js';
+        document.body.appendChild(script);
+    } else {
+        window.instgrm.Embeds.process();
+    }
+});
+
+// Función para desplazamiento suave
+const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+        const headerHeight = 78;
+        const navHeight = 72;
+        let offset = headerHeight + navHeight;
+
+        if (window.innerWidth >= 660) offset = 88 + navHeight;
+        if (window.innerWidth >= 850) offset = 96 + navHeight;
+        if (window.innerWidth >= 992) offset = 96 + navHeight;
+        if (window.innerWidth >= 1080) offset = 96 + 100;
+
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth'
+        });
+    }
+};
+
+// Configuración SEO para la página
+useSeoMeta({
+    title: () => `${project.value?.title} | Benteveo - Trabajos`,
+    description: () => project.value?.description,
+    ogTitle: () => `${project.value?.title} | Benteveo - Trabajos`,
+    ogDescription: () => project.value?.description,
+    ogImage: () => `/images/projects/${project.value?.img}-campana-benteveo.webp`,
+    // ogUrl: () => `https://benteveo.com/trabajos/${project.value?.slug}`,
+    twitterTitle: () => `${project.value?.title} | Benteveo - Trabajos`,
+    twitterDescription: () => project.value?.description,
+    twitterImage: () => `/images/projects/${project.value?.img}-campana-benteveo.webp`,
+    twitterCard: 'summary_large_image',
+});
+
+// Configuración de Schema.org para proyecto creativo (work)
+useSchemaOrg([
+    defineWebPage({
+        name: () => project.value?.title,
+        description: () => project.value?.description,
+        image: () => `https://benteveo.com/images/projects/${project.value?.slug}.webp`,
+    }),
+    {
+        '@type': 'CreativeWork',
+        name: () => project.value?.title,
+        description: () => project.value?.description,
+        image: () => `https://benteveo.com/images/projects/${project.value?.slug}.webp`,
+        author: {
+            '@type': 'Organization',
+            name: 'Benteveo',
+            url: 'https://benteveo.com'
+        },
+        headline: () => project.value?.subtitle,
+        datePublished: new Date().toISOString(),
+        publisher: {
+            '@type': 'Organization',
+            name: 'Benteveo',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://benteveo.com/images/logo.png'
             }
         }
     }
-}
+]);
 </script>
 
 <style scoped>
