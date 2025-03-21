@@ -26,7 +26,7 @@ export default defineEventHandler(async (event) => {
 
         // Crear contenido HTML para el email
         const htmlContent = `
-            <h2>Nuevo mensaje de contacto</h2>
+            <h2>Alguien ha hecho una consulta a través del formulario de la página web de Benteveo</h2>
             <p><strong>Nombre:</strong> ${body.nombre}</p>
             <p><strong>Empresa:</strong> ${body.empresa}</p>
             <p><strong>Email:</strong> ${body.email}</p>
@@ -36,8 +36,8 @@ export default defineEventHandler(async (event) => {
         // Enviar email
         const info = await transporter.sendMail({
             from: 'hola@benteveo.com',
-            to: 'liobensignor@gmail.com',
-            subject: `Nuevo mensaje de contacto - ${body.nombre} de ${body.empresa}`,
+            to: 'ezequiel@benteveo.com',
+            subject: `Consulta desde la web de Benteveo - ${body.nombre} de ${body.empresa}`,
             text: `Nombre: ${body.nombre}\nEmpresa: ${body.empresa}\nEmail: ${body.email}\nMensaje: ${body.mensaje || 'No se proporcionó mensaje'}`,
             html: htmlContent,
         });
