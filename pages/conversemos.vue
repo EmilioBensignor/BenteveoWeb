@@ -15,8 +15,8 @@
 </template>
 
 <style>
-.p-overlay-mask {
-    background: rgba(0, 0, 0, 0.4);
+.p-dialog-mask {
+    background: rgba(0, 0, 0, 0.4) !important;
 }
 
 .p-dialog {
@@ -34,6 +34,15 @@
     position: absolute;
     top: 0.875rem;
     right: 0.875rem;
+}
+
+.p-dialog-header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none !important;
+    border: none !important;
+    cursor: pointer;
 }
 
 .p-dialog-header .p-icon {

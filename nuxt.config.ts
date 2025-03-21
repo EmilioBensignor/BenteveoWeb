@@ -17,6 +17,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     'nuxt-swiper',
   ],
+  primevue: {
+    components: {
+      include: []
+    }
+  },
   fonts: {
     defaults: {
       weights: [400, 500, 700, 900],

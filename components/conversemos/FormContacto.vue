@@ -29,7 +29,10 @@
                 <label for="mensaje">Tu mensaje</label>
                 <textarea rows="5" id="mensaje" v-model="formData.mensaje"></textarea>
             </div>
-            <button type="submit">ENVIAR</button>
+            <button type="submit" :disabled="isLoading">
+                <span v-if="isLoading" class="loader"></span>
+                <span v-else>ENVIAR</span>
+            </button>
         </div>
         <Dialog v-model:visible="showSuccessDialog" :modal="true" :closable="true" :closeOnEscape="true"
             :dismissableMask="true" @hide="closeDialog">
@@ -57,7 +60,8 @@ export default {
                 email: ''
             },
             isValid: false,
-            showSuccessDialog: false
+            isLoading: false,
+            showSuccessDialog: false,
         }
     },
     methods: {
@@ -103,7 +107,7 @@ export default {
             }
             return true
         },
-        handleSubmit() {
+        async handleSubmit() {
             Object.keys(this.errors).forEach(key => this.errors[key] = '')
             this.isValid = false
 
@@ -113,12 +117,32 @@ export default {
 
             if (nombreValid && empresaValid && emailValid) {
                 this.isValid = true
-                console.log('Formulario válido:', this.formData)
+                this.isLoading = true
+                try {
+                    // Llamar a la API para enviar el email
+                    const response = await fetch('/api/sendEmail', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(this.formData)
+                    });
 
-                this.showSuccessDialog = true
+                    const result = await response.json();
 
-                Object.keys(this.formData).forEach(key => this.formData[key] = '')
-                document.getElementById('formConversemos').reset()
+                    if (!response.ok) {
+                        throw new Error(result.message || 'Error al enviar el formulario');
+                    }
+
+                    this.showSuccessDialog = true;
+
+                    Object.keys(this.formData).forEach(key => this.formData[key] = '');
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Hubo un error al enviar el formulario. Por favor, intenta de nuevo.');
+                } finally {
+                    this.isLoading = false;
+                }
             }
         },
         closeDialog() {
@@ -163,6 +187,8 @@ label {
 }
 
 .formConversemos button {
+    min-width: 120px;
+    position: relative;
     background: none;
     border: 2px solid var(--color-black);
     font-size: 0.75rem;
@@ -171,9 +197,31 @@ label {
     cursor: pointer;
 }
 
+.formConversemos button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
 .formConversemos button:hover {
     background: var(--color-black);
     color: var(--color-white);
+}
+
+.loader {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-left-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .error {
