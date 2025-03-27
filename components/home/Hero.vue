@@ -20,13 +20,3 @@
 <script setup>
 import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 </script>
-
-<style scoped>
-.bgVideo {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  filter: brightness(0.5);
-}
-</style>

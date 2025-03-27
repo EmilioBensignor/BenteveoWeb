@@ -1,7 +1,9 @@
 <template>
     <main class="novedad">
-        <section class="heroContainer bgCover"
-            :style="{ backgroundImage: `url('/images/projects/${project.img}-campana-benteveo.webp')` }">
+        <section class="heroContainer">
+            <video autoplay muted loop playsinline class="bgVideo">
+                <source :src="`/videos/projects/${project.video}-publicidad-benteveo.mp4`" type="video/mp4">
+            </video>
             <div class="hero column">
                 <div class="column">
                     <NuxtImg :src="`/images/brands/${project.brand}_logo.webp`" :alt="project.altBrand" class="brand" />
