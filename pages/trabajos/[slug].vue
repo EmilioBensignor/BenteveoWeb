@@ -83,8 +83,6 @@
 <script setup>
 import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 import { projects } from '~/shared/projects';
-// import { onMounted, computed, ref } from 'vue';
-// import { useRouter, useRoute } from 'vue-router';
 
 const router = useRouter();
 const route = useRoute();
@@ -193,29 +191,12 @@ useSchemaOrg([
     width: 5.313rem;
 }
 
-.projectContent {
-    position: relative;
-}
-
 .projectContent nav {
-    position: sticky;
-    top: 4.875rem;
-    z-index: 1;
     background: var(--color-white);
-    overflow-x: scroll;
-    padding: 1.5rem 1rem;
-}
-
-nav ul {
-    min-width: max-content;
-    gap: 3.25rem;
 }
 
 nav ul li a {
     color: var(--color-black);
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .projectContent>div {
@@ -265,25 +246,9 @@ nav ul li a {
     width: calc(100% - 2px);
 }
 
-@media (width >=480px) {
-    .projectContent nav {
-        display: flex;
-        justify-content: center;
-        overflow-x: hidden;
-    }
-}
-
 @media (width >=660px) {
     .brand {
         width: 8rem;
-    }
-
-    .projectContent nav {
-        top: 5.5rem;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
     }
 
     .projectContent>div>div,
@@ -292,39 +257,15 @@ nav ul li a {
     }
 }
 
-@media (width >=850px) {
-    .projectContent nav {
-        top: 6rem;
-    }
-}
-
 @media (width >=992px) {
     .hero p {
         margin-right: 4rem;
-    }
-
-    .projectContent nav {
-        top: 6.25rem;
     }
 }
 
 @media (width >=1080px) {
     .brand {
         width: 10.625rem;
-    }
-
-    .projectContent nav {
-        top: 6.25rem;
-        padding: 2rem;
-    }
-
-    nav ul li a {
-        font-size: 1.25rem;
-        transition: all 0.3s;
-    }
-
-    nav ul li a:hover {
-        color: var(--color-primary);
     }
 
     .projectContent>div {
