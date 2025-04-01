@@ -348,7 +348,7 @@ export const projects = [
     altImg: "Sodimac - Nuevo Showroom de Pisos",
     subtitle: "Sodimac te invita a romper con lo viejo y encontrar un nuevo amor... en tus pisos. Descubrí su nuevo Showroom.",
     objective: "Sodimac lanzó su nuevo SHOWROOM DE PISOS, una sección especial dentro de las tiendas donde los clientes pueden encontrar más de 400 productos con las últimas tendencias en pisos y asesoramiento personalizado. El desafío era desarrollar una campaña disruptiva y original que promocionara este nuevo espacio, atrayendo a los clientes y destacando los beneficios del nuevo showroom.",
-    video: "corro-con-jonas",
+    video: "institucional-pisos-sodimac",
     campain: ["Cambiar el piso de tu casa no es algo que se haga todos los días. No es una renovación simple como pintar una pared; requiere mucha planificación y a menudo implica obras. Sodimac decidió facilitar este proceso y ayudar a sus clientes.", "Para promocionar el nuevo Showroom, lanzamos una serie de videos que hacían un paralelismo entre las relaciones de pareja y la relación con el piso de tu casa, bajo el concepto: “Renová el amor por tus pisos”. Esta propuesta rompía con el formato tradicional de promoción, utilizando humor e ingenio para conectar de manera original y divertida con nuestro público objetivo."],
     results: {
       texts: ["La campaña tuvo un gran recibimiento por parte de los usuarios, generando un amplio alcance en redes sociales e incrementando el número de visitas a los showrooms de las distintas tiendas Sodimac del país. La estrategia no solo aumentó la visibilidad del nuevo showroom, sino que también reforzó la conexión emocional de los clientes con la marca."],
@@ -1101,7 +1101,7 @@ export const projects = [
     altImg: "Cuidate a tiempo",
     subtitle: "Para nuestra primera campaña con FUCA, en colaboración con IRSA, realizamos una intervención en los baños del Shopping Alto Palermo para el día de la mujer, con el objetivo de generar conciencia sobre la importancia de hacerse la mamografía una vez al año.",
     objective: "El cáncer de mama es una de las principales causas de muerte en mujeres, y la detección temprana es fundamental para aumentar las probabilidades de tratamiento exitoso. Por eso, el objetivo de la campaña era concientizar sobre la importancia de realizarse una mamografía anual, utilizando un espacio cotidiano para transmitir un mensaje claro y directo.",
-    video: "corro-con-jonas",
+    video: "programa-tu-mamografia",
     campain: ["Llevamos a cabo una intervención en los baños del Shopping Alto Palermo, donde se instalaron espejos con mensajes que recordaban a las mujeres la importancia de realizarse una mamografía una vez al año. Además, la campaña incluía un CTA que invitaba a las mujeres a ingresar en www.cuidateatiempo.org, un sitio web donde podían encontrar información detallada sobre la prevención del cáncer de mama.", "En el sitio, las usuarias también podían acceder a un calendario virtual para registrar su última mamografía y recibir un recordatorio anual por correo electrónico. Para reforzar el mensaje, lanzamos un spot promocional protagonizado por Maru Botana, una de las voceras de la fundación."],
     results: {
       texts: ["La campaña logró captar la atención del público en un espacio de alto tránsito, generando un aumento significativo en las visitas al sitio web y en los registros del calendario virtual. El spot promocional tuvo una gran repercusión en medios digitales y redes sociales, ampliando el alcance del mensaje de prevención."],
@@ -1123,7 +1123,7 @@ export const projects = [
     altImg: "Modelo es la que lucha",
     subtitle: "FUCA acostumbra participar cada año en Argentina Fashion Week, con el objetivo promocionar y comunicar el trabajo de la fundación en su lucha contra el cáncer.",
     objective: "El objetivo de la campaña era aprovechar la visibilidad de Argentina Fashion Week para transmitir un mensaje de concientización sobre el cáncer, destacando que las verdaderas modelos son aquellas personas que luchan día a día contra la enfermedad. Nos propusimos crear una campaña que aprovechara la masividad del evento y a los famosos que participaron de él, para realizar en conjunto una activación invitando a las celebridades a tomarse una foto en un stand que replica la portada de una revista de espectáculos… pero con un mensaje diferente: #ModeloEsLaQueLucha",
-    video: "corro-con-jonas",
+    video: "institucional-fuca",
     campain: ["Instalamos un stand que replicaba la portada de una revista de espectáculos, donde celebridades y modelos podían tomarse una foto con el mensaje #ModeloEsLaQueLucha. Estas imágenes fueron compartidas en redes sociales para amplificar el mensaje y sumar voces a la causa."],
     results: {
       texts: ["La campaña tuvo una gran repercusión en redes sociales, alcanzando más de 2 millones de personas en Twitter en las primeras 24 horas del lanzamiento. La activación logró generar conversaciones en torno a la causa y reforzó el posicionamiento de FUCA en eventos de gran visibilidad."],
@@ -1139,7 +1139,7 @@ export const projects = [
     altImg: "FUCA: Foto del año",
     subtitle: "El éxito de la primera activación en el desfile Argentina Fashion Week, nos abrió las puertas para redoblar la apuesta y lanzar una nueva campaña, pero esta vez con un enfoque diferente. Muchas campañas promueven el auto examen de mama, pero FUCA sabe bien que tus manos nunca podrán remplazar una mamografía.",
     objective: 'La campaña tenía como objetivo destacar la importancia de realizarse una mamografía anual como método efectivo de detección temprana del cáncer de mama, utilizando un mensaje simple pero poderoso: la mamografía es "La Foto del Año".',
-    video: "corro-con-jonas",
+    video: "institucional-fuca",
     campain: ['Invitamos a las modelos del desfile a sumarse a la campaña y compartir en sus redes sociales su "FOTO DEL AÑO", utilizando una placa que simulaba ser una radiografía de mamas, con el mensaje: "PARA VERSE BIEN POR FUERA, HAY QUE CUIDARSE POR DENTRO".', "Además, instalamos una cabina fotográfica en el evento para que las asistentes pudieran sacarse su propia #LaFotoDelAño y compartirla en redes. Paralelamente, realizamos una convocatoria digital para que mujeres de todo el país participaran, subiendo una selfie con el hashtag como símbolo de su compromiso con la prevención."],
     results: {
       texts: ["La campaña generó una gran participación en redes sociales, con miles de mujeres sumándose al movimiento y compartiendo su compromiso con la detección temprana. La activación en el desfile consolidó la presencia de FUCA en eventos de alto perfil y amplificó el mensaje de la campaña."],
@@ -1205,7 +1205,7 @@ export const projects = [
     altImg: "Marzo Azul: Por más momentos así",
     subtitle: "Cada marzo FUCA lanza una nueva campaña de concientización sobre la importancia de realizarse una colonoscopia anual para prevenir el cáncer de colon.",
     objective: "La campaña tenía como objetivo sensibilizar a hombres mayores de 50 años sobre la importancia de realizarse controles anuales para la prevención del cáncer colorrectal, utilizando un enfoque emocional que destacara los momentos valiosos que se pueden preservar con el autocuidado.",
-    video: "corro-con-jonas",
+    video: "institucional-fuca",
     campain: ['Lanzamos una serie de piezas audiovisuales y gráficas con el mensaje: "Cuando te cuidás, estás cuidando todo eso que más te importa". La campaña se difundió en redes sociales y medios digitales, invitando al público a realizarse los estudios preventivos.'],
     results: {
       texts: ["La campaña logró un alto alcance en redes sociales y una significativa interacción del público, generando un incremento en las consultas médicas y reforzando el mensaje de prevención de FUCA."],
