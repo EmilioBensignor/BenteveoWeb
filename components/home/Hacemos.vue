@@ -6,7 +6,7 @@
         </video>
         <div class="column">
             <div class="gifContainer column">
-                <img src="/images/home/gif-creatividad.gif" alt="Creatividad Benteveo">
+                <img src="/images/home/branded-content.webp" alt="Creatividad Benteveo">
             </div>
             <div class="hacemosContent column">
                 <div class="column wow animate__animated animate__fadeInUp">
