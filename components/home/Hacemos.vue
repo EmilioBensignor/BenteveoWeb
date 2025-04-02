@@ -1,5 +1,9 @@
 <template>
-    <section class="w-full pensamosHacemos bgCover">
+    <section class="w-full pensamosHacemos">
+        <video autoplay muted loop class="backgroundVideo">
+            <source src="/videos/somos/video-nuestro-adn.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="column">
             <div class="gifContainer column">
                 <img src="/images/home/gif-creatividad.gif" alt="Creatividad Benteveo">
@@ -14,7 +18,8 @@
                     realidad. Las convertimos en acciones innovadoras, útiles e inteligentes orientadas a lograr
                     resultados.
                 </p>
-                <NuxtLink :to="ROUTE_NAMES.TRABAJOS" class="primaryButton wow animate__animated animate__fadeInUp">PASEN Y VEAN
+                <NuxtLink :to="ROUTE_NAMES.TRABAJOS" class="primaryButton wow animate__animated animate__fadeInUp">PASEN
+                    Y VEAN
                 </NuxtLink>
             </div>
         </div>
@@ -28,12 +33,28 @@ import { ROUTE_NAMES } from '~/constants/ROUTE_NAMES';
 
 <style scoped>
 .pensamosHacemos {
-    background-image: url('/images/home/Grupo-Creativo-Benteveo.webp');
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.backgroundVideo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
 }
 
 .pensamosHacemos>div {
     max-width: 100%;
     align-items: flex-end;
+    position: relative;
+    z-index: 2;
     padding: 0;
 }
 
