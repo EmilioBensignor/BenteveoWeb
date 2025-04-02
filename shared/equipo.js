@@ -2,25 +2,25 @@ export const equipo = [
     {
         img: "Eze-Director",
         alt: "Ezequiel Director",
-        name: "Ezequiel Crupnicoff",
+        name: "Ezequiel",
         role: "Director",
     },
     {
         img: "Mariano-Coordinacion-de-Cuentas",
         alt: "Mariano Coordinacion de Cuentas",
-        name: "Mariano Pipkin",
+        name: "Mariano",
         role: "Coordinación de Cuentas",
     },
     {
         img: "Mariana-Administracion",
         alt: "Mariana Administración",
-        name: "Mariana Auad",
+        name: "Mariana",
         role: "Administración",
     },
     {
         img: "Mateo-Coordinacion-Realizacion",
         alt: "Mateo Coordinacion de Realizacion",
-        name: "Mateo Auad",
+        name: "Mateo",
         role: "Coordinación de Realización",
     },
     {
@@ -38,7 +38,7 @@ export const equipo = [
     {
         img: "Leo-Coordinacion-Diseno",
         alt: "Leo Coordinación Diseño",
-        name: "Leo Ceballos",
+        name: "Leo",
         role: "Coordinación Diseño",
     },
     {
@@ -62,26 +62,20 @@ export const equipo = [
     {
         img: "Mariela-Moderacion-y-Contenidos",
         alt: "Mariela Moderación y Contenidos",
-        name: "Mariela Hernandez",
+        name: "Mariela",
         role: "Moderación de redes y contenidos",
     },
     {
         img: "Nahuel-Creatividad",
         alt: "Nahuel Creativo",
-        name: "Nahuel Benitez",
+        name: "Nahuel",
         role: "Creativo",
     },
     {
         img: "Tomi-Creatividad",
         alt: "Tomas Creativo",
-        name: "Tomás Grosz",
+        name: "Tomás",
         role: "Creativo",
-    },
-    {
-        img: "Eugenio-Maquetador",
-        alt: "Eugenio Maquetador",
-        name: "Eugenio",
-        role: "Maquetador Front End",
     },
     {
         img: "Joaquin-Perfomance-SEM",
