@@ -109,7 +109,7 @@ export default {
     opacity: 1;
 }
 
-.tiltProject:hover h3 {
+.tiltProject:hover p:first-child {
     text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.85);
 }
 
